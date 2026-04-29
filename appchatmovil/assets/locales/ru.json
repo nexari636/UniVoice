@@ -1,0 +1,484 @@
+{
+    "register": {
+        "logo": {
+            "accessibilityLabel": "Логотип приложения (AMIC)"
+        },
+        "form": {
+            "accessibilityLabel": "Форма регистрации"
+        },
+        "input_username": {
+            "placeholder": "Введите имя пользователя",
+            "accessibilityLabel": "Поле для ввода имени пользователя",
+            "max": "Максимум {{number}} символов",
+            "required": "Это поле обязательно"
+        },
+        "input_name": {
+            "placeholder": "Введите имя",
+            "accessibilityLabel": "Поле для ввода имени пользователя",
+            "max": "Максимум {{number}} символов",
+            "required": "Это поле обязательно"
+        },
+        "input_lastname": {
+            "placeholder": "Введите фамилию",
+            "accessibilityLabel": "Поле для ввода фамилии",
+            "max": "Максимум {{number}} символов",
+            "required": "Это поле обязательно"
+        },
+        "input_phone": {
+            "placeholder": "Введите номер телефона",
+            "accessibilityLabel": "Поле для ввода номера телефона",
+            "max": "Максимум {{number}} символов",
+            "required": "Это поле обязательно",
+            "matches": "Ошибка!! Разрешены только цифры"
+        },
+        "input_email": {
+            "placeholder": "Введите электронную почту",
+            "accessibilityLabel": "Поле для ввода электронной почты",
+            "max": "Максимум {{number}} символов",
+            "required": "Это поле обязательно",
+            "email": "Неверный адрес электронной почты"
+        },
+        "button_register": {
+            "text": "Зарегистрироваться",
+            "accessibilityLabel": "Кнопка регистрации"
+        }
+    },
+    "view_main": {
+        "logo": {
+            "accessibilityLabel": "Название приложения (AMIC)"
+        },
+        "optionsmenu": {
+            "accessibilityLabel": "Меню опций"
+        },
+        "search_users": {
+            "accessibilityLabel": "Строка поиска пользователей",
+            "placeholder": "Поиск пользователей",
+            "iconsearch": "Дважды нажмите для поиска пользователя",
+            "load_resource": "Ресурс загружается",
+            "button_mic": "Поиск пользователей через микрофон"
+        }
+    },
+    "item_user_chat": {
+        "container": {
+            "accessibilityLabel": "Элемент пользователя:"
+        },
+        "container_photo_user": {
+            "accessibilityLabel": "Фото профиля пользователя"
+        },
+        "name_user": {
+            "accessibilityLabel": "Имя пользователя:"
+        },
+        "message_preview": {
+            "accessibilityLabel": "Последнее полученное сообщение:"
+        },
+        "date_last_message": {
+            "accessibilityLabel": "Дата последнего полученного сообщения:"
+        },
+        "button_information": {
+            "accessibilityLabel": "Кнопка информации о пользователе",
+            "text": "Информация"
+        },
+        "button_chat_user": {
+            "accessibilityLabel": "Кнопка начала чата с пользователем: {{name_user}}"
+        },
+        "play_read_id_button": {
+            "accessibilityLabel": "Кнопка чтения идентификатора чата",
+            "SpeechText": "Идентификатор чата: {{id}}",
+            "Identity": "ID: {{id}}"
+        }
+    },
+    "view_profilechatuser": {
+        "logo": {
+            "accessibilityLabel": "Логотип пользователя"
+        },
+        "name_and_lastname": {
+            "accessibilityLabel": "Полное имя пользователя"
+        },
+        "username": {
+            "accessibilityLabel": "Имя пользователя:"
+        },
+        "disability": {
+            "accessibilityLabel": "Инвалидность:",
+            "text": "Инвалидность"
+        },
+        "phone": {
+            "accessibilityLabel": "Телефон:"
+        },
+        "email": {
+            "accessibilityLabel": "Электронная почта:"
+        },
+        "description": {
+            "accessibilityLabel": "Описание пользователя:",
+            "title_description": {
+                "accessibilityLabel": "Обо мне:",
+                "text": "Обо мне"
+            },
+            "descriptionuser": "Описание:"
+        }
+    },
+    "view_profile": {
+        "picture_profile_user": {
+            "accessibilityLabel": "Фото профиля пользователя"
+        },
+        "button_change_photo": {
+            "accessibilityLabel": "Кнопка смены фото",
+            "text": "Сменить фото"
+        },
+        "input_username": {
+            "placeholder": "Введите имя пользователя",
+            "accessibilityLabel": "Поле для ввода имени пользователя",
+            "max": "Максимум {{number}} символов",
+            "required": "Это поле обязательно"
+        },
+        "input_name": {
+            "placeholder": "Введите имена",
+            "accessibilityLabel": "Поле для ввода имён",
+            "max": "Максимум {{number}} символов",
+            "required": "Это поле обязательно"
+        },
+        "input_lastname": {
+            "placeholder": "Введите фамилии",
+            "accessibilityLabel": "Поле для ввода фамилий",
+            "max": "Максимум {{number}} символов",
+            "required": "Это поле обязательно"
+        },
+        "input_phone": {
+            "placeholder": "Введите номер телефона",
+            "accessibilityLabel": "Поле для ввода номера телефона",
+            "max": "Максимум {{number}} символов",
+            "required": "Это поле обязательно",
+            "matches": "Ошибка! Разрешены только цифры"
+        },
+        "input_email": {
+            "placeholder": "Введите электронную почту (не редактируется)",
+            "accessibilityLabel": "Поле для ввода электронной почты (не редактируется)",
+            "max": "Максимум {{number}} символов",
+            "required": "Это поле обязательно",
+            "email": "Неверный адрес электронной почты"
+        },
+        "input_description": {
+            "placeholder": "Введите описание",
+            "accessibilityLabel": "Поле для ввода описания",
+            "max": "Максимум {{number}} символов"
+        },
+        "select_disabilities": {
+            "labelmain": "Инвалидности",
+            "opcionNA": "Выберите......",
+            "accessibilityLabelmain": "Поле выбора инвалидности",
+            "accessibilityLabelselect": "Инвалидность",
+            "accessibilityLabeloptions": "Инвалидность"
+        },
+        "select_languages": {
+            "labelmain": "Языки",
+            "opcionNA": "Выберите......",
+            "accessibilityLabelmain": "Поле выбора языка",
+            "accessibilityLabelselect": "Язык",
+            "accessibilityLabeloptions": "Язык"
+        },
+        "button_save": {
+            "text": "Сохранить",
+            "accessibilityLabel": "Кнопка сохранения"
+        }
+    },
+    "message_chat_user": {
+        "picture_profile_user": {
+            "accessibilityLabel": "Фото профиля пользователя"
+        },
+        "name_user_chat": {
+            "accessibilityLabel": "Имя пользователя {{name}}"
+        },
+        "input_message": {
+            "accessibilityLabel": "Поле для написания текстового сообщения",
+            "placeholder": "Отправить сообщение...."
+        },
+        "attach_images_videos": {
+            "accessibilityLabel": "Управление для прикрепления фото или видео"
+        },
+        "capture_photo_video": {
+            "accessibilityLabel": "Управление для съёмки фото или видео в реальном времени"
+        },
+        "record_audio": {
+            "accessibilityLabel": "Управление для записи аудио"
+        },
+        "send_message": {
+            "accessibilityLabel": "Управление для отправки написанного текстового сообщения"
+        }
+    },
+    "item_chat_user": {
+        "item": {
+            "accessibilityLabel": "Элемент чата пользователя {{name}}"
+        },
+        "name_user": {
+            "accessibilityLabel": "Имя пользователя {{name}}"
+        },
+        "change_language": {
+            "accessibilityLabel": "Переключиться на язык {{language}}"
+        },
+        "resource_loading": {
+            "accessibilityLabel": "Ресурс загружается"
+        },
+        "message": {
+            "accessibilityLabel": "Текстовое сообщение"
+        },
+        "message_time": {
+            "accessibilityLabel": "Время прибытия сообщения: {{time}}"
+        },
+        "message_image": {
+            "accessibilityLabel": "Изображение, воспроизведите аудио для описания"
+        }
+    },
+    "item_photo_capture": {
+        "button_close": {
+            "accessibilityLabel": "Кнопка закрытия"
+        },
+        "name_user": {
+            "accessibilityLabel": "Имя пользователя: {{name_user}}"
+        },
+        "date_time": {
+            "accessibilityLabel": "Дата и время прибытия изображения: {{datetime}}"
+        },
+        "container_image": {
+            "accessibilityLabel": "Изображение: {{descripcion}}"
+        },
+        "send_image": {
+            "accessibilityLabel": "Отправить изображение"
+        }
+    },
+    "item_camera": {
+        "button_close": {
+            "accessibilityLabel": "Закрыть камеру"
+        },
+        "button_flash": {
+            "accessibilityLabelOn": "Включить вспышку",
+            "accessibilityLabelOff": "Выключить вспышку"
+        },
+        "change_camera": {
+            "accessibilityLabelLead": "Переключиться на фронтальную камеру",
+            "accessibilityLabelRear": "Переключиться на тыловую камеру"
+        },
+        "button_video": {
+            "accessibilityLabel": "Переключиться на видео",
+            "text": "Видео"
+        },
+        "button_photo": {
+            "accessibilityLabel": "Переключиться на фото",
+            "text": "Фото"
+        },
+        "action_camera": {
+            "photo": "сделать фото",
+            "video": "записать видео"
+        }
+    },
+    "item_video_capture": {
+        "back_button": {
+            "accessibilityLabel": "Назад"
+        },
+        "send_video": {
+            "accessibilityLabel": "Отправить видео"
+        },
+        "user_data": {
+            "name_user": "Имя пользователя: {{name_user}}",
+            "datetime": "Дата отправки: {{datetime}}"
+        },
+        "controls_video": {
+            "accessibilityLabelPress": "Дважды нажмите, чтобы показать элементы управления видео",
+            "back_video": "Перемотать на десять секунд назад",
+            "pass_video": "Перемотать на десять секунд вперёд",
+            "pause": "Пауза",
+            "play": "Воспроизвести",
+            "time_bar": "Шкала времени видео (ползунок)",
+            "current_video_time": "Текущее время видео: {{time}}",
+            "turn_off_sound": "Выключить звук",
+            "turn_on_sound": "Включить звук",
+            "button_caption_active": "Кнопка активации субтитров",
+            "button_caption_deactivate": "Кнопка деактивации субтитров",
+            "display_caption": "субтитры"
+        }
+    },
+    "item_audio": {
+        "container_audio": {
+            "accessibilityLabel": "Управление аудио"
+        },
+        "controls": {
+            "container_time_bar": "Контейнер шкалы времени аудио (ползунок) с текущим временем {{time}}",
+            "time_bar": "Шкала времени аудио (ползунок) с текущим временем {{time}}",
+            "button_audio_active": "Воспроизвести аудио",
+            "button_audio_deactivate": "Деактивировать аудио"
+        }
+    },
+    "item_video": {
+        "container_video": {
+            "accessibilityLabel": "Управление видео, дважды нажмите для доступа к плееру"
+        }
+    },
+    "load_splash_screen": {
+        "progressbar": {
+            "accessibilityLabel": "Загрузка"
+        }
+    },
+    "item_check": {
+        "accessibilityLabelText": "Элемент управления проверкой",
+        "texts": {
+            "text1": "Жирный текст",
+            "text2": "Голосовые уведомления"
+        },
+        "active": "Активный элемент управления",
+        "disabled": "Неактивный элемент управления"
+    },
+    "view_settings_app": {
+        "title": {
+            "accessibilityLabel": "Заголовок меню настроек",
+            "text": "Настройки"
+        },
+        "container_colors": {
+            "accessibilityLabel": "Ящик цветов"
+        },
+        "color_select": {
+            "accessibilityLabel": "Выбранный цвет"
+        },
+        "select_font_size": {
+            "labelmain": "Размер шрифта",
+            "opcionNA": "Выберите......",
+            "accessibilityLabelmain": "Поле выбора размера",
+            "accessibilityLabelselect": "Размер шрифта",
+            "accessibilityLabeloptions": "Размер шрифта"
+        },
+        "button_reset": {
+            "text": "Сбросить",
+            "accessibilityLabel": "Кнопка сброса стиля"
+        },
+        "button_save": {
+            "text": "Сохранить",
+            "accessibilityLabel": "Кнопка сохранения"
+        }
+    },
+    "notifications": {
+        "title_notifications": "Уведомление",
+        "title_information": "Информация",
+        "title_error": "Ошибка",
+        "messages": {
+            "load_resource": "Ресурс сообщения загружается",
+            "error_create_group": "Произошла ошибка при добавлении пользователя",
+            "error_get_chats": "Ошибка при получении чатов",
+            "empty_chats_user": "Нет доступных чатов",
+            "empty_chat": "Чат пуст",
+            "error_search_user": "Ошибка при поиске пользователей",
+            "notifications_search_user": "Пользователи не найдены",
+            "error_search_mic": "Ошибка при поиске пользователей через микрофон",
+            "error_contain_chat": "Нет записей чатов",
+            "error_send_message": "Ошибка при отправке сообщения",
+            "update_photo": "Фото успешно обновлено",
+            "error_update_photo": "Произошла ошибка при обновлении фото",
+            "new_message": "Пришло новое сообщение",
+            "error_load_disabilities": "Ошибка загрузки инвалидностей",
+            "error_load_languages": "Ошибка загрузки языков",
+            "error_load_user": "Ошибка при получении пользователя",
+            "update_user_success": "Пользователь успешно обновлён",
+            "error_update_user": "Ошибка при обновлении пользователя",
+            "load_data_profile_user": "Данные пользователя успешно загружены",
+            "error_load_data_profile_user": "Ошибка загрузки данных пользователя",
+            "register_user_success": "Пользователь успешно зарегистрирован",
+            "error_register_user_success": "Ошибка при регистрации пользователя",
+            "web_socket_error": "Ошибка подключения к серверу. Пожалуйста, попробуйте позже.",
+            "web_socket_error_reconexion": "Соединение Web Socket не удалось при переподключении....",
+            "web_socket_connected": "Соединение успешно установлено",
+            "web_socket_message_notification_text": "Вы успешно получили текстовое сообщение",
+            "web_socket_message_notification_image": "Вы успешно получили сообщение с изображением",
+            "web_socket_message_notification_video": "Вы успешно получили видеосообщение",
+            "web_socket_message_notification_audio": "Вы успешно получили аудиосообщение",
+            "web_socket_message_notification_unknown": "Вы получили сообщение неизвестного типа",
+            "web_socket_message_notification_user": "Сообщение получено от пользователя {{user}}",
+            "web_socket_message_notification_new_friend": "Контакт добавил вас в свой список друзей",
+            "web_socket_message_notification_add_friend": "Контакт успешно добавлен",
+            "command_processing": "Обработка вашей команды...",
+            "command_unrecognized": "Команда не распознана. Пожалуйста, попробуйте снова.",
+            "command_detection_error": "Произошла ошибка при обнаружении команды. Пожалуйста, попробуйте снова."
+        }
+    },
+    "data_screen_main": {
+        "0": "Название приложения (AMIC)",
+        "1": "Меню опций",
+        "2": "Элемент управления поиском",
+        "3": "Микрофон",
+        "4": "Поиск",
+        "5": "Контейнер пользователя"
+    },
+    "data_screen_profile_host_user": {
+        "0": "Фото профиля пользователя",
+        "1": "Кнопка смены фото",
+        "2": "Пользователь {{user}}",
+        "3": "Имя {{names}}",
+        "4": "Фамилия {{surnames}}",
+        "5": "Телефон {{phone_number}}",
+        "6": "Электронная почта {{email}}",
+        "7": "Описание {{descripcion}}",
+        "8": "Инвалидность {{disability}}",
+        "9": "Язык приложения {{language}}",
+        "10": "Кнопка сохранения данных"
+    },
+    "data_screen_configuration": {
+        "0": "Цветовая палитра",
+        "1": "Жирный текст {{active_bold}}",
+        "2": "Голосовые уведомления {{voice_notifications}}",
+        "3": "Размер шрифта {{source_number}}",
+        "4": "Кнопка сброса настроек",
+        "5": "Кнопка сохранения"
+    },
+    "data_screen_message_user": {
+        "0": "Фото профиля пользователя",
+        "1": "Имя пользователя {{name_user}}",
+        "2": "Контейнер сообщений",
+        "3": "Текстовое поле для написания сообщения",
+        "4": "Прикрепить фото или видео",
+        "5": "Сделать фото",
+        "6": "Записать аудио"
+    },
+    "data_screen_photo_user": {
+        "0": "Кнопка закрытия окна",
+        "1": "Имя пользователя {{name_user}}",
+        "2": "Дата и время отправки фото: {{datetime_photo}}",
+        "3": "Контейнер для фото"
+    },
+    "data_screen_photo_user_current": {
+        "0": "Кнопка закрытия окна",
+        "1": "Контейнер фото",
+        "2": "Отправить фото"
+    },
+    "data_screen_video_user": {
+        "0": "Кнопка закрытия окна",
+        "1": "Имя пользователя {{name_user}}",
+        "2": "Дата и время отправки видео: {{datetime_photo}}",
+        "3": "Контейнер для видео",
+        "4": "Временная шкала",
+        "5": "Длительность видео {{time}}",
+        "6": "Текущее время видео {{current_time}}",
+        "7": "Звук {{sound}}",
+        "8": "Субтитры {{caption}}"
+    },
+    "data_screen_video_user_current": {
+        "0": "Кнопка закрытия окна",
+        "1": "Отправить видео",
+        "2": "Контейнер для видео",
+        "3": "Шкала времени",
+        "4": "Длительность видео {{time}}",
+        "5": "Текущее время видео {{current_time}}",
+        "6": "Звук {{sound}}"
+    },
+    "data_screen_camera_and_video": {
+        "0": "Кнопка закрытия окна",
+        "1": "Кнопка вспышки {{flash}}",
+        "2": "Кнопка сделать фото или записать видео",
+        "3": "Камера {{camera}}",
+        "4": "{{video_or_photo}}"
+    },
+    "data_screen_profile_friend_user": {
+        "0": "Фото профиля пользователя",
+        "1": "Имена {{names}}",
+        "2": "Фамилии {{surnames}}",
+        "3": "Имя пользователя {{name_user}}",
+        "4": "Инвалидность {{disability}}",
+        "5": "Номер телефона {{phone_number}}",
+        "6": "Электронная почта {{email}}",
+        "7": "Описание {{description}}"
+    }
+}

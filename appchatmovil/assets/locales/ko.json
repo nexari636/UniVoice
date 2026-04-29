@@ -1,0 +1,484 @@
+{
+    "register": {
+        "logo": {
+            "accessibilityLabel": "애플리케이션 로고 (AMIC)"
+        },
+        "form": {
+            "accessibilityLabel": "등록 양식"
+        },
+        "input_username": {
+            "placeholder": "사용자 이름 입력",
+            "accessibilityLabel": "사용자 이름 입력 필드",
+            "max": "최대 {{number}}자 허용",
+            "required": "이 필드는 필수입니다"
+        },
+        "input_name": {
+            "placeholder": "이름 입력",
+            "accessibilityLabel": "사용자 이름 입력 필드",
+            "max": "최대 {{number}}자 허용",
+            "required": "이 필드는 필수입니다"
+        },
+        "input_lastname": {
+            "placeholder": "성 입력",
+            "accessibilityLabel": "성 입력 필드",
+            "max": "최대 {{number}}자 허용",
+            "required": "이 필드는 필수입니다"
+        },
+        "input_phone": {
+            "placeholder": "전화번호 입력",
+            "accessibilityLabel": "전화번호 입력 필드",
+            "max": "최대 {{number}}자 허용",
+            "required": "이 필드는 필수입니다",
+            "matches": "오류!! 숫자만 허용됩니다"
+        },
+        "input_email": {
+            "placeholder": "이메일 입력",
+            "accessibilityLabel": "이메일 입력 필드",
+            "max": "최대 {{number}}자 허용",
+            "required": "이 필드는 필수입니다",
+            "email": "잘못된 이메일"
+        },
+        "button_register": {
+            "text": "등록",
+            "accessibilityLabel": "등록 버튼"
+        }
+    },
+    "view_main": {
+        "logo": {
+            "accessibilityLabel": "애플리케이션 이름 (AMIC)"
+        },
+        "optionsmenu": {
+            "accessibilityLabel": "옵션 메뉴"
+        },
+        "search_users": {
+            "accessibilityLabel": "사용자 검색창",
+            "placeholder": "사용자 검색",
+            "iconsearch": "더블 탭하여 사용자 검색",
+            "load_resource": "리소스 로딩 중",
+            "button_mic": "마이크로 사용자 검색"
+        }
+    },
+    "item_user_chat": {
+        "container": {
+            "accessibilityLabel": "사용자 항목:"
+        },
+        "container_photo_user": {
+            "accessibilityLabel": "사용자 프로필 사진"
+        },
+        "name_user": {
+            "accessibilityLabel": "사용자 이름:"
+        },
+        "message_preview": {
+            "accessibilityLabel": "마지막으로 받은 메시지:"
+        },
+        "date_last_message": {
+            "accessibilityLabel": "마지막 메시지 날짜:"
+        },
+        "button_information": {
+            "accessibilityLabel": "사용자 정보 버튼",
+            "text": "정보"
+        },
+        "button_chat_user": {
+            "accessibilityLabel": "사용자 {{name_user}}와 채팅 시작 버튼"
+        },
+        "play_read_id_button": {
+            "accessibilityLabel": "채팅 식별자 읽기 버튼",
+            "SpeechText": "채팅 식별자는 {{id}}입니다",
+            "Identity": "ID: {{id}}"
+        }
+    },
+    "view_profilechatuser": {
+        "logo": {
+            "accessibilityLabel": "사용자 로고"
+        },
+        "name_and_lastname": {
+            "accessibilityLabel": "사용자 전체 이름"
+        },
+        "username": {
+            "accessibilityLabel": "사용자 이름:"
+        },
+        "disability": {
+            "accessibilityLabel": "장애:",
+            "text": "장애"
+        },
+        "phone": {
+            "accessibilityLabel": "전화:"
+        },
+        "email": {
+            "accessibilityLabel": "이메일:"
+        },
+        "description": {
+            "accessibilityLabel": "사용자 설명:",
+            "title_description": {
+                "accessibilityLabel": "자기소개:",
+                "text": "자기소개"
+            },
+            "descriptionuser": "설명:"
+        }
+    },
+    "view_profile": {
+        "picture_profile_user": {
+            "accessibilityLabel": "사용자 프로필 사진"
+        },
+        "button_change_photo": {
+            "accessibilityLabel": "사진 변경 버튼",
+            "text": "사진 변경"
+        },
+        "input_username": {
+            "placeholder": "사용자 이름 입력",
+            "accessibilityLabel": "사용자 이름 입력 필드",
+            "max": "최대 {{number}}자 허용",
+            "required": "이 필드는 필수입니다"
+        },
+        "input_name": {
+            "placeholder": "이름 입력",
+            "accessibilityLabel": "이름 입력 필드",
+            "max": "최대 {{number}}자 허용",
+            "required": "이 필드는 필수입니다"
+        },
+        "input_lastname": {
+            "placeholder": "성 입력",
+            "accessibilityLabel": "성 입력 필드",
+            "max": "최대 {{number}}자 허용",
+            "required": "이 필드는 필수입니다"
+        },
+        "input_phone": {
+            "placeholder": "전화번호 입력",
+            "accessibilityLabel": "전화번호 입력 필드",
+            "max": "최대 {{number}}자 허용",
+            "required": "이 필드는 필수입니다",
+            "matches": "오류! 숫자만 허용됩니다"
+        },
+        "input_email": {
+            "placeholder": "이메일 입력 (편집 불가)",
+            "accessibilityLabel": "이메일 입력 필드 (편집 불가)",
+            "max": "최대 {{number}}자 허용",
+            "required": "이 필드는 필수입니다",
+            "email": "잘못된 이메일"
+        },
+        "input_description": {
+            "placeholder": "설명 입력",
+            "accessibilityLabel": "설명 입력 필드",
+            "max": "최대 {{number}}자 허용"
+        },
+        "select_disabilities": {
+            "labelmain": "장애",
+            "opcionNA": "선택......",
+            "accessibilityLabelmain": "장애 선택 필드",
+            "accessibilityLabelselect": "장애",
+            "accessibilityLabeloptions": "장애"
+        },
+        "select_languages": {
+            "labelmain": "언어",
+            "opcionNA": "선택......",
+            "accessibilityLabelmain": "언어 선택 필드",
+            "accessibilityLabelselect": "언어",
+            "accessibilityLabeloptions": "언어"
+        },
+        "button_save": {
+            "text": "저장",
+            "accessibilityLabel": "저장 버튼"
+        }
+    },
+    "message_chat_user": {
+        "picture_profile_user": {
+            "accessibilityLabel": "사용자 프로필 사진"
+        },
+        "name_user_chat": {
+            "accessibilityLabel": "사용자 이름 {{name}}"
+        },
+        "input_message": {
+            "accessibilityLabel": "텍스트 메시지 작성 필드",
+            "placeholder": "메시지 보내기...."
+        },
+        "attach_images_videos": {
+            "accessibilityLabel": "사진 또는 비디오 첨부 컨트롤"
+        },
+        "capture_photo_video": {
+            "accessibilityLabel": "실시간 사진 또는 비디오 촬영 컨트롤"
+        },
+        "record_audio": {
+            "accessibilityLabel": "오디오 녹음 컨트롤"
+        },
+        "send_message": {
+            "accessibilityLabel": "작성된 텍스트 메시지 보내기 컨트롤"
+        }
+    },
+    "item_chat_user": {
+        "item": {
+            "accessibilityLabel": "사용자 채팅 항목 {{name}}"
+        },
+        "name_user": {
+            "accessibilityLabel": "사용자 이름 {{name}}"
+        },
+        "change_language": {
+            "accessibilityLabel": "{{language}} 언어로 전환"
+        },
+        "resource_loading": {
+            "accessibilityLabel": "리소스 로딩 중"
+        },
+        "message": {
+            "accessibilityLabel": "텍스트 메시지"
+        },
+        "message_time": {
+            "accessibilityLabel": "메시지 도착 시간: {{time}}"
+        },
+        "message_image": {
+            "accessibilityLabel": "이미지, 설명을 위해 오디오 재생"
+        }
+    },
+    "item_photo_capture": {
+        "button_close": {
+            "accessibilityLabel": "닫기 버튼"
+        },
+        "name_user": {
+            "accessibilityLabel": "사용자 이름: {{name_user}}"
+        },
+        "date_time": {
+            "accessibilityLabel": "이미지 도착 날짜 및 시간: {{datetime}}"
+        },
+        "container_image": {
+            "accessibilityLabel": "이미지: {{descripcion}}"
+        },
+        "send_image": {
+            "accessibilityLabel": "이미지 보내기"
+        }
+    },
+    "item_camera": {
+        "button_close": {
+            "accessibilityLabel": "카메라 닫기"
+        },
+        "button_flash": {
+            "accessibilityLabelOn": "플래시 켜기",
+            "accessibilityLabelOff": "플래시 끄기"
+        },
+        "change_camera": {
+            "accessibilityLabelLead": "전면 카메라로 전환",
+            "accessibilityLabelRear": "후면 카메라로 전환"
+        },
+        "button_video": {
+            "accessibilityLabel": "비디오로 전환",
+            "text": "비디오"
+        },
+        "button_photo": {
+            "accessibilityLabel": "사진으로 전환",
+            "text": "사진"
+        },
+        "action_camera": {
+            "photo": "사진 찍기",
+            "video": "비디오 녹화"
+        }
+    },
+    "item_video_capture": {
+        "back_button": {
+            "accessibilityLabel": "뒤로"
+        },
+        "send_video": {
+            "accessibilityLabel": "비디오 보내기"
+        },
+        "user_data": {
+            "name_user": "사용자 이름: {{name_user}}",
+            "datetime": "보낸 날짜: {{datetime}}"
+        },
+        "controls_video": {
+            "accessibilityLabelPress": "더블 탭하여 비디오 컨트롤 표시",
+            "back_video": "10초 뒤로 감기",
+            "pass_video": "10초 앞으로 감기",
+            "pause": "일시 정지",
+            "play": "재생",
+            "time_bar": "비디오 시간 막대 (슬라이더 컨트롤)",
+            "current_video_time": "현재 비디오 시간: {{time}}",
+            "turn_off_sound": "소리 끄기",
+            "turn_on_sound": "소리 켜기",
+            "button_caption_active": "자막 버튼 활성화",
+            "button_caption_deactivate": "자막 버튼 비활성화",
+            "display_caption": "자막"
+        }
+    },
+    "item_audio": {
+        "container_audio": {
+            "accessibilityLabel": "오디오 컨트롤"
+        },
+        "controls": {
+            "container_time_bar": "현재 시간 {{time}}의 오디오 시간 막대 컨테이너 (슬라이더 컨트롤)",
+            "time_bar": "현재 시간 {{time}}의 오디오 시간 막대 (슬라이더 컨트롤)",
+            "button_audio_active": "오디오 재생",
+            "button_audio_deactivate": "오디오 비활성화"
+        }
+    },
+    "item_video": {
+        "container_video": {
+            "accessibilityLabel": "비디오 컨트롤, 더블 탭하여 플레이어 접근"
+        }
+    },
+    "load_splash_screen": {
+        "progressbar": {
+            "accessibilityLabel": "로딩 중"
+        }
+    },
+    "item_check": {
+        "accessibilityLabelText": "체크 컨트롤",
+        "texts": {
+            "text1": "굵은 텍스트",
+            "text2": "음성 알림"
+        },
+        "active": "활성 컨트롤",
+        "disabled": "비활성 컨트롤"
+    },
+    "view_settings_app": {
+        "title": {
+            "accessibilityLabel": "설정 메뉴 제목",
+            "text": "설정"
+        },
+        "container_colors": {
+            "accessibilityLabel": "색상 서랍"
+        },
+        "color_select": {
+            "accessibilityLabel": "선택한 색상"
+        },
+        "select_font_size": {
+            "labelmain": "글꼴 크기",
+            "opcionNA": "선택......",
+            "accessibilityLabelmain": "크기 선택 필드",
+            "accessibilityLabelselect": "글꼴 크기",
+            "accessibilityLabeloptions": "글꼴 크기"
+        },
+        "button_reset": {
+            "text": "초기화",
+            "accessibilityLabel": "스타일 초기화 버튼"
+        },
+        "button_save": {
+            "text": "저장",
+            "accessibilityLabel": "저장 버튼"
+        }
+    },
+    "notifications": {
+        "title_notifications": "알림",
+        "title_information": "정보",
+        "title_error": "오류",
+        "messages": {
+            "load_resource": "메시지 리소스 로딩 중",
+            "error_create_group": "사용자 추가 중 오류 발생",
+            "error_get_chats": "채팅 검색 오류",
+            "empty_chats_user": "사용 가능한 채팅 없음",
+            "empty_chat": "채팅이 비어 있습니다",
+            "error_search_user": "사용자 검색 중 오류",
+            "notifications_search_user": "사용자를 찾을 수 없음",
+            "error_search_mic": "마이크를 통한 사용자 검색 중 오류",
+            "error_contain_chat": "채팅 기록이 없습니다",
+            "error_send_message": "메시지 전송 중 오류",
+            "update_photo": "사진이 성공적으로 업데이트되었습니다",
+            "error_update_photo": "사진 업데이트 중 오류 발생",
+            "new_message": "새 메시지가 도착했습니다",
+            "error_load_disabilities": "장애 로딩 중 오류",
+            "error_load_languages": "언어 로딩 중 오류",
+            "error_load_user": "사용자 검색 중 오류",
+            "update_user_success": "사용자가 성공적으로 업데이트되었습니다",
+            "error_update_user": "사용자 업데이트 중 오류",
+            "load_data_profile_user": "사용자 데이터가 성공적으로 로드되었습니다",
+            "error_load_data_profile_user": "사용자 데이터 로드 중 오류",
+            "register_user_success": "사용자가 성공적으로 등록되었습니다",
+            "error_register_user_success": "사용자 등록 중 오류",
+            "web_socket_error": "서버 연결 오류. 나중에 다시 시도하세요.",
+            "web_socket_error_reconexion": "재연결 중 WebSocket 연결 실패....",
+            "web_socket_connected": "연결이 성공적으로 설정되었습니다",
+            "web_socket_message_notification_text": "텍스트 메시지를 성공적으로 받았습니다",
+            "web_socket_message_notification_image": "이미지 메시지를 성공적으로 받았습니다",
+            "web_socket_message_notification_video": "비디오 메시지를 성공적으로 받았습니다",
+            "web_socket_message_notification_audio": "오디오 메시지를 성공적으로 받았습니다",
+            "web_socket_message_notification_unknown": "알 수 없는 유형의 메시지를 받았습니다",
+            "web_socket_message_notification_user": "사용자 {{user}}로부터 메시지 받음",
+            "web_socket_message_notification_new_friend": "연락처가 당신을 친구 목록에 추가했습니다",
+            "web_socket_message_notification_add_friend": "연락처가 성공적으로 추가되었습니다",
+            "command_processing": "명령 처리 중...",
+            "command_unrecognized": "명령을 인식할 수 없습니다. 다시 시도하세요.",
+            "command_detection_error": "명령 감지 중 오류가 발생했습니다. 다시 시도하세요."
+        }
+    },
+    "data_screen_main": {
+        "0": "애플리케이션 이름 (AMIC)",
+        "1": "옵션 메뉴",
+        "2": "검색 컨트롤",
+        "3": "마이크",
+        "4": "검색",
+        "5": "사용자 컨테이너"
+    },
+    "data_screen_profile_host_user": {
+        "0": "사용자 프로필 사진",
+        "1": "사진 변경 버튼",
+        "2": "사용자 {{user}}",
+        "3": "이름 {{names}}",
+        "4": "성 {{surnames}}",
+        "5": "전화 {{phone_number}}",
+        "6": "이메일 {{email}}",
+        "7": "설명 {{descripcion}}",
+        "8": "장애 {{disability}}",
+        "9": "애플리케이션 언어 {{language}}",
+        "10": "데이터 저장 버튼"
+    },
+    "data_screen_configuration": {
+        "0": "색상 팔레트",
+        "1": "굵은 텍스트 {{active_bold}}",
+        "2": "음성 알림 {{voice_notifications}}",
+        "3": "글꼴 크기 {{source_number}}",
+        "4": "설정 초기화 버튼",
+        "5": "저장 버튼"
+    },
+    "data_screen_message_user": {
+        "0": "사용자 프로필 사진",
+        "1": "사용자 이름 {{name_user}}",
+        "2": "메시지 컨테이너",
+        "3": "메시지 작성을 위한 텍스트 상자",
+        "4": "사진 또는 비디오 첨부",
+        "5": "사진 찍기",
+        "6": "오디오 녹음"
+    },
+    "data_screen_photo_user": {
+        "0": "창 닫기 버튼",
+        "1": "사용자 이름 {{name_user}}",
+        "2": "사진 보낸 날짜 및 시간: {{datetime_photo}}",
+        "3": "사진 컨테이너 상자"
+    },
+    "data_screen_photo_user_current": {
+        "0": "창 닫기 버튼",
+        "1": "사진 컨테이너",
+        "2": "사진 보내기"
+    },
+    "data_screen_video_user": {
+        "0": "창 닫기 버튼",
+        "1": "사용자 이름 {{name_user}}",
+        "2": "비디오 보낸 날짜 및 시간: {{datetime_photo}}",
+        "3": "비디오 컨테이너 상자",
+        "4": "타임라인",
+        "5": "비디오 길이 {{time}}",
+        "6": "현재 비디오 시간 {{current_time}}",
+        "7": "소리 {{sound}}",
+        "8": "자막 {{caption}}"
+    },
+    "data_screen_video_user_current": {
+        "0": "창 닫기 버튼",
+        "1": "비디오 보내기",
+        "2": "비디오 컨테이너 상자",
+        "3": "시간 막대",
+        "4": "비디오 길이 {{time}}",
+        "5": "현재 비디오 시간 {{current_time}}",
+        "6": "소리 {{sound}}"
+    },
+    "data_screen_camera_and_video": {
+        "0": "창 닫기 버튼",
+        "1": "플래시 버튼 {{flash}}",
+        "2": "사진 또는 비디오 촬영 버튼",
+        "3": "카메라 {{camera}}",
+        "4": "{{video_or_photo}}"
+    },
+    "data_screen_profile_friend_user": {
+        "0": "사용자 프로필 사진",
+        "1": "이름 {{names}}",
+        "2": "성 {{surnames}}",
+        "3": "사용자 이름 {{name_user}}",
+        "4": "장애 {{disability}}",
+        "5": "전화번호 {{phone_number}}",
+        "6": "이메일 {{email}}",
+        "7": "설명 {{description}}"
+    }
+}

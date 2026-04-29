@@ -1,0 +1,487 @@
+{
+    "register": {
+        "logo": {
+            "accessibilityLabel": "Application logo (AMIC)"
+        },
+        "form": {
+            "accessibilityLabel": "Registration form"
+        },
+        "input_username": {
+            "placeholder": "Enter username",
+            "accessibilityLabel": "Field to enter username",
+            "max": "A maximum of {{number}} characters is allowed",
+            "required": "This field is required"
+        },
+        "input_name": {
+            "placeholder": "Enter first name",
+            "accessibilityLabel": "Field to enter username",
+            "max": "A maximum of {{number}} characters is allowed",
+            "required": "This field is required"
+        },
+        "input_lastname": {
+            "placeholder": "Enter last name",
+            "accessibilityLabel": "Field to enter last name",
+            "max": "A maximum of {{number}} characters is allowed",
+            "required": "This field is required"
+        },
+        "input_phone": {
+            "placeholder": "Enter phone number",
+            "accessibilityLabel": "Field to enter phone number",
+            "max": "A maximum of {{number}} characters is allowed",
+            "required": "This field is required",
+            "matches": "Error!! Only numbers are allowed"
+        },
+        "input_email": {
+            "placeholder": "Enter email",
+            "accessibilityLabel": "Field to enter email",
+            "max": "A maximum of {{number}} characters is allowed",
+            "required": "This field is required",
+            "email": "Invalid email"
+        },
+        "button_register": {
+            "text": "Register",
+            "accessibilityLabel": "Button to register"
+        }
+    },
+    "view_main": {
+        "logo": {
+            "accessibilityLabel": "Application name (AMIC)"
+        },
+        "optionsmenu": {
+            "accessibilityLabel": "Options menu"
+        },
+        "search_users": {
+            "accessibilityLabel":"User search bar",
+            "placeholder":"Search users",
+            "iconsearch":"Double tap to search for the user",
+            "load_resource":"The resource is loading",
+            "button_mic":"Search users by microphone"
+
+        }
+    },
+    "item_user_chat": {
+        "container": {
+            "accessibilityLabel": "User item:"
+        },
+        "container_photo_user": {
+            "accessibilityLabel": "User profile photo"
+        },
+        "name_user": {
+            "accessibilityLabel": "Username:"
+        },
+        "message_preview": {
+            "accessibilityLabel": "Last message received:"
+        },
+        "date_last_message": {
+            "accessibilityLabel": "Date of last message received:"
+        },
+        "button_information": {
+            "accessibilityLabel": "User information button",
+            "text": "Information"
+        },
+        "button_chat_user": {
+            "accessibilityLabel": "Button to start chat with the user: {{name_user}}"
+        },
+        "play_read_id_button": {
+            "accessibilityLabel": "Chat identifier reading button",
+            "SpeechText": "The chat identifier is: {{id}}",
+            "Identity": "ID: {{id}}"
+        }
+    },
+    "view_profilechatuser": {
+        "logo": {
+            "accessibilityLabel": "User logo"
+        },
+        "name_and_lastname": {
+            "accessibilityLabel": "User's full name"
+        },
+        "username": {
+            "accessibilityLabel": "Username:"
+        },
+        "disability": {
+            "accessibilityLabel": "Disability:",
+            "text":"Disability"
+        },
+        "phone": {
+            "accessibilityLabel": "Phone:"
+        },
+        "email": {
+            "accessibilityLabel": "Email:"
+        },
+        "description": {
+            "accessibilityLabel": "User description:",
+            "title_description": {
+                "accessibilityLabel": "About me:",
+                "text": "About me"
+            },
+            "descriptionuser": "Description:"
+        }
+    },
+    "view_profile": {
+        "picture_profile_user": {
+            "accessibilityLabel": "User profile photo"
+        },
+        "button_change_photo": {
+            "accessibilityLabel": "Button to change photo",
+            "text": "Change Photo"
+        },
+        "input_username": {
+            "placeholder": "Enter username",
+            "accessibilityLabel": "Field to enter username",
+            "max": "A maximum of {{number}} characters is allowed",
+            "required": "This field is required"
+        },
+        "input_name": {
+            "placeholder": "Enter first names",
+            "accessibilityLabel": "Field to enter first names",
+            "max": "A maximum of {{number}} characters is allowed",
+            "required": "This field is required"
+        },
+        "input_lastname": {
+            "placeholder": "Enter last names",
+            "accessibilityLabel": "Field to enter last names",
+            "max": "A maximum of {{number}} characters is allowed",
+            "required": "This field is required"
+        },
+        "input_phone": {
+            "placeholder": "Enter phone number",
+            "accessibilityLabel": "Field to enter phone number",
+            "max": "A maximum of {{number}} characters is allowed",
+            "required": "This field is required",
+            "matches": "Error! Only numbers are allowed"
+        },
+        "input_email": {
+            "placeholder": "Enter email (not editable)",
+            "accessibilityLabel": "Field to enter email (not editable)",
+            "max": "A maximum of {{number}} characters is allowed",
+            "required": "This field is required",
+            "email": "Invalid email"
+        },
+        "input_description": {
+            "placeholder": "Enter description",
+            "accessibilityLabel": "Field to enter description",
+            "max": "A maximum of {{number}} characters is allowed"
+        },
+        "select_disabilities": {
+            "labelmain": "Disabilities",
+            "opcionNA": "Select......",
+            "accessibilityLabelmain": "Field to select disability",
+            "accessibilityLabelselect": "Disability",
+            "accessibilityLabeloptions": "Disability"
+        },
+        "select_languages": {
+            "labelmain": "Languages",
+            "opcionNA": "Select......",
+            "accessibilityLabelmain": "Field to select language",
+            "accessibilityLabelselect": "Language",
+            "accessibilityLabeloptions": "Language"
+        },
+        "button_save": {
+            "text": "Save",
+            "accessibilityLabel": "Save button"
+        }
+    },
+    "message_chat_user": {
+        "picture_profile_user": {
+            "accessibilityLabel": "User profile photo"
+        },
+        "name_user_chat": {
+            "accessibilityLabel": "Username {{name}}"
+        },
+        "input_message": {
+            "accessibilityLabel": "Field to write a text message",
+            "placeholder": "Send message...."
+        },
+        "attach_images_videos": {
+            "accessibilityLabel": "Control to attach photos or videos"
+        },
+        "capture_photo_video": {
+            "accessibilityLabel": "Control to take photos or videos in real time"
+        },
+        "record_audio": {
+            "accessibilityLabel": "Control to record audio"
+        },
+        "send_message": {
+            "accessibilityLabel": "Control to send the written text message"
+        }
+    },
+    "item_chat_user": {
+        "item": {
+            "accessibilityLabel": "User chat item {{name}}"
+        },
+        "name_user": {
+            "accessibilityLabel": "Username {{name}}"
+        },
+        "change_language": {
+            "accessibilityLabel": "Switch to {{language}} language"
+        },
+        "resource_loading": {
+            "accessibilityLabel": "The resource is loading"
+        },
+        "message": {
+            "accessibilityLabel": "Text message"
+        },
+        "message_time": {
+            "accessibilityLabel": "Message arrival time: {{time}}"
+        },
+        "message_image": {
+            "accessibilityLabel": "Image, play audio for description"
+        }
+    },
+    "item_photo_capture": {
+        "button_close": {
+            "accessibilityLabel": "Close button"
+        },
+        "name_user": {
+            "accessibilityLabel": "Username: {{name_user}}"
+        },
+        "date_time": {
+            "accessibilityLabel": "Image arrival date and time: {{datetime}}"
+        },
+        "container_image": {
+            "accessibilityLabel": "Image: {{descripcion}}"
+        },
+        "send_image": {
+            "accessibilityLabel": "Send image"
+        }
+    },
+    "item_camera": {
+        "button_close": {
+            "accessibilityLabel": "Close camera"
+        },
+        "button_flash": {
+            "accessibilityLabelOn": "Turn on flash",
+            "accessibilityLabelOff": "Turn off flash"
+        },
+        "change_camera": {
+            "accessibilityLabelLead": "Switch to front camera",
+            "accessibilityLabelRear": "Switch to rear camera"
+        },
+        "button_video": {
+            "accessibilityLabel": "Switch to video",
+            "text": "Video"
+        },
+        "button_photo": {
+            "accessibilityLabel": "Switch to photo",
+            "text": "Photo"
+        },
+        "action_camera": {
+            "photo": "take photo",
+            "video": "record video"
+        }
+    },
+    "item_video_capture": {
+        "back_button": {
+            "accessibilityLabel": "Go back"
+        },
+        "send_video": {
+            "accessibilityLabel": "Send video"
+        },
+        "user_data": {
+            "name_user": "Username: {{name_user}}",
+            "datetime": "Sent date: {{datetime}}"
+        },
+        "controls_video": {
+            "accessibilityLabelPress": "Double tap to show video controls",
+            "back_video": "Rewind ten seconds",
+            "pass_video": "Fast forward ten seconds",
+            "pause": "Pause",
+            "play": "Play",
+            "time_bar": "Video time bar (slider control)",
+            "current_video_time": "Current video time: {{time}}",
+            "turn_off_sound": "Turn off sound",
+            "turn_on_sound": "Turn on sound",
+            "button_caption_active": "Activate subtitles button",
+            "button_caption_deactivate": "Deactivate subtitles button",
+            "display_caption": "subtitles"
+        }
+    },
+    "item_audio": {
+        "container_audio": {
+            "accessibilityLabel": "Audio control"
+        },
+        "controls": {
+            "container_time_bar": "Audio time bar container (slider control) with current time {{time}}",
+            "time_bar": "Audio time bar (slider control) with current time {{time}}",
+            "button_audio_active": "Play audio",
+            "button_audio_deactivate": "Deactivate audio"
+        }
+    },
+    "item_video": {
+        "container_video": {
+            "accessibilityLabel": "Video control, double tap to access the player"
+        }
+    },
+    "load_splash_screen":{
+        "progressbar":{
+            "accessibilityLabel":"Charging"
+        }
+    },
+    "item_check": {
+        "accessibilityLabelText": "Check Control",
+        "texts": {
+            "text1": "Bold text",
+            "text2": " Voice notifications"
+        },
+        "active": "Active control",
+        "disabled": "Inactive control"
+    },
+    "view_settings_app": {
+        "title": {
+            "accessibilityLabel": "Settings menu title",
+            "text": "Settings"
+        },
+        "container_colors": {
+            "accessibilityLabel": "Colors drawer"
+        },
+        "color_select": {
+            "accessibilityLabel": "Selected color"
+        },
+        "select_font_size": {
+            "labelmain": "Font size",
+            "opcionNA": "Select......",
+            "accessibilityLabelmain": "Field to select size",
+            "accessibilityLabelselect": "Font size",
+            "accessibilityLabeloptions": "Font size"
+        },
+        "button_reset": {
+            "text": "Reset",
+            "accessibilityLabel": "Style reset button"
+        },
+        "button_save": {
+            "text": "Save",
+            "accessibilityLabel": "Save button"
+        }
+    },
+    "notifications": {
+        "title_notifications": "Notification",
+        "title_information": "Information",
+        "title_error": "Error",
+        "messages": {
+            "load_resource":"The message resource is loading",
+            "error_create_group":"An error occurred while adding the user",
+            "error_get_chats":"Error retrieving chats",
+            "empty_chats_user":"No chats available",
+            "empty_chat":"The chat is empty",
+            "error_search_user":"Error searching for users",
+            "notifications_search_user":"No users found",
+            "error_search_mic":"Error searching for users via microphone",
+            "error_contain_chat":"No chat records exist",
+            "error_send_message":"Error sending message",
+            "update_photo":"The photo has been updated successfully",
+            "error_update_photo":"An error occurred while updating the photo",
+            "new_message":"A new message has arrived",
+            "error_load_disabilities":"Error loading disabilities",
+            "error_load_languages":"Error loading languages",
+            "error_load_user":"Error retrieving user",
+            "update_user_success":"The user has been updated successfully",
+            "error_update_user":"Error updating the user",
+            "load_data_profile_user":"User data loaded successfully",
+            "error_load_data_profile_user":"Error loading user data",
+            "register_user_success":"User registered successfully",
+            "error_register_user_success":"Error registering the user",
+            "web_socket_error":"Error connecting to the server. Please try again later.",
+            "web_socket_error_reconexion":"The web socket connection failed while reconnecting....",
+            "web_socket_connected":"Connection established successfully",
+            "web_socket_message_notification_text":"You have received a text message successfully",
+            "web_socket_message_notification_image":"You have received an image message successfully",
+            "web_socket_message_notification_video":"You have received a video message successfully",
+            "web_socket_message_notification_audio":"You have received an audio message successfully",
+            "web_socket_message_notification_unknown":"You have received an unknown type of message",
+            "web_socket_message_notification_user":"Message received from user {{user}}",
+            "web_socket_message_notification_new_friend": "A contact has added you to their friends list",
+            "web_socket_message_notification_add_friend":"Contact added successfully",
+            "command_processing": "Processing your command...",
+            "command_unrecognized": "The command was not recognized. Please try again.",
+            "command_detection_error": "There was an error detecting the command. Please try again."
+        }
+    },
+    "data_screen_main": {
+        "0": "Application name (AMIC)",
+        "1": "Options menu",
+        "2": "Search control",
+        "3": "Microphone",
+        "4": "Search",
+        "5": "User container"
+    },
+    "data_screen_profile_host_user": {
+        "0": "User profile picture",
+        "1": "Change photo button",
+        "2": "User {{user}}",
+        "3": "First name {{names}}",
+        "4": "Last name {{surnames}}",
+        "5": "Phone {{phone_number}}",
+        "6": "Email {{email}}",
+        "7": "Description {{descripcion}}",
+        "8": "Disability {{disability}}",
+        "9": "Application language {{language}}",
+        "10": "Save data button"
+    },
+    "data_screen_configuration": {
+        "0": "Color palette",
+        "1": "Bold text {{active_bold}}",
+        "2": "Voice notifications {{voice_notifications}}",
+        "3": "Font size {{source_number}}",
+        "4": "Reset configurations button",
+        "5": "Save button"
+    },
+    "data_screen_message_user": {
+        "0": "User profile picture",
+        "1": "Username {{name_user}}",
+        "2": "Message container",
+        "3": "Text box for writing message",
+        "4": "Attach photos or videos",
+        "5": "Take photos",
+        "6": "Record audios"
+    },
+    "data_screen_photo_user": {
+        "0": "Close window button",
+        "1": "Username {{name_user}}",
+        "2": "Photo sent date and time: {{datetime_photo}}",
+        "3": "Photo container box"
+    },
+    "data_screen_photo_user_current": {
+        "0": "Close window button",
+        "1": "Photo container",
+        "2": "Send photo"
+    },
+    "data_screen_video_user": {
+        "0": "Close window button",
+        "1": "Username {{name_user}}",
+        "2": "Video sent date and time: {{datetime_photo}}",
+        "3": "Video container box",
+        "4": "Timeline",
+        "5": "Video duration {{time}}",
+        "6": "Current video time {{current_time}}",
+        "7": "Sound {{sound}}",
+        "8": "Captions {{caption}}"
+    },
+    "data_screen_video_user_current":{
+        "0": "Close window button",
+        "1": "Send video",
+        "2": "Video container box",
+        "3": "Time bar",
+        "4": "Video duration {{time}}",
+        "5": "Current video time {{current_time}}",
+        "6": "Sound {{sound}}"
+    },
+    "data_screen_camera_and_video": {
+        "0": "Close window button",
+        "1": "Flash button {{flash}}",
+        "2": "Take photo or video button",
+        "3": "Camera {{camera}}",
+        "4": "{{video_or_photo}}"
+    },
+    "data_screen_profile_friend_user": {
+        "0": "User profile photo",
+        "1": "First names {{names}}",
+        "2": "Last names {{surnames}}",
+        "3": "Username {{name_user}}",
+        "4": "Disability {{disability}}",
+        "5": "Phone number {{phone_number}}",
+        "6": "Email {{email}}",
+        "7": "Description {{description}}"
+    }
+
+
+}

@@ -1,0 +1,484 @@
+{
+    "register": {
+        "logo": {
+            "accessibilityLabel": "应用徽标 (AMIC)"
+        },
+        "form": {
+            "accessibilityLabel": "注册表单"
+        },
+        "input_username": {
+            "placeholder": "输入用户名",
+            "accessibilityLabel": "输入用户名字段",
+            "max": "最多允许 {{number}} 个字符",
+            "required": "此字段为必填项"
+        },
+        "input_name": {
+            "placeholder": "输入名字",
+            "accessibilityLabel": "输入用户名字段",
+            "max": "最多允许 {{number}} 个字符",
+            "required": "此字段为必填项"
+        },
+        "input_lastname": {
+            "placeholder": "输入姓氏",
+            "accessibilityLabel": "输入姓氏字段",
+            "max": "最多允许 {{number}} 个字符",
+            "required": "此字段为必填项"
+        },
+        "input_phone": {
+            "placeholder": "输入电话号码",
+            "accessibilityLabel": "输入电话号码字段",
+            "max": "最多允许 {{number}} 个字符",
+            "required": "此字段为必填项",
+            "matches": "错误！仅允许数字"
+        },
+        "input_email": {
+            "placeholder": "输入电子邮件",
+            "accessibilityLabel": "输入电子邮件字段",
+            "max": "最多允许 {{number}} 个字符",
+            "required": "此字段为必填项",
+            "email": "无效的电子邮件"
+        },
+        "button_register": {
+            "text": "注册",
+            "accessibilityLabel": "注册按钮"
+        }
+    },
+    "view_main": {
+        "logo": {
+            "accessibilityLabel": "应用名称 (AMIC)"
+        },
+        "optionsmenu": {
+            "accessibilityLabel": "选项菜单"
+        },
+        "search_users": {
+            "accessibilityLabel": "用户搜索栏",
+            "placeholder": "搜索用户",
+            "iconsearch": "双击搜索用户",
+            "load_resource": "资源正在加载",
+            "button_mic": "通过麦克风搜索用户"
+        }
+    },
+    "item_user_chat": {
+        "container": {
+            "accessibilityLabel": "用户项："
+        },
+        "container_photo_user": {
+            "accessibilityLabel": "用户个人资料照片"
+        },
+        "name_user": {
+            "accessibilityLabel": "用户名："
+        },
+        "message_preview": {
+            "accessibilityLabel": "最后收到的消息："
+        },
+        "date_last_message": {
+            "accessibilityLabel": "最后消息的日期："
+        },
+        "button_information": {
+            "accessibilityLabel": "用户信息按钮",
+            "text": "信息"
+        },
+        "button_chat_user": {
+            "accessibilityLabel": "与用户开始聊天的按钮：{{name_user}}"
+        },
+        "play_read_id_button": {
+            "accessibilityLabel": "聊天标识符朗读按钮",
+            "SpeechText": "聊天标识符是：{{id}}",
+            "Identity": "ID: {{id}}"
+        }
+    },
+    "view_profilechatuser": {
+        "logo": {
+            "accessibilityLabel": "用户徽标"
+        },
+        "name_and_lastname": {
+            "accessibilityLabel": "用户的全名"
+        },
+        "username": {
+            "accessibilityLabel": "用户名："
+        },
+        "disability": {
+            "accessibilityLabel": "残障情况：",
+            "text": "残障"
+        },
+        "phone": {
+            "accessibilityLabel": "电话："
+        },
+        "email": {
+            "accessibilityLabel": "电子邮件："
+        },
+        "description": {
+            "accessibilityLabel": "用户描述：",
+            "title_description": {
+                "accessibilityLabel": "关于我：",
+                "text": "关于我"
+            },
+            "descriptionuser": "描述："
+        }
+    },
+    "view_profile": {
+        "picture_profile_user": {
+            "accessibilityLabel": "用户个人资料照片"
+        },
+        "button_change_photo": {
+            "accessibilityLabel": "更换照片按钮",
+            "text": "更换照片"
+        },
+        "input_username": {
+            "placeholder": "输入用户名",
+            "accessibilityLabel": "输入用户名字段",
+            "max": "最多允许 {{number}} 个字符",
+            "required": "此字段为必填项"
+        },
+        "input_name": {
+            "placeholder": "输入名字",
+            "accessibilityLabel": "输入名字字段",
+            "max": "最多允许 {{number}} 个字符",
+            "required": "此字段为必填项"
+        },
+        "input_lastname": {
+            "placeholder": "输入姓氏",
+            "accessibilityLabel": "输入姓氏字段",
+            "max": "最多允许 {{number}} 个字符",
+            "required": "此字段为必填项"
+        },
+        "input_phone": {
+            "placeholder": "输入电话号码",
+            "accessibilityLabel": "输入电话号码字段",
+            "max": "最多允许 {{number}} 个字符",
+            "required": "此字段为必填项",
+            "matches": "错误！仅允许数字"
+        },
+        "input_email": {
+            "placeholder": "输入电子邮件（不可编辑）",
+            "accessibilityLabel": "输入电子邮件字段（不可编辑）",
+            "max": "最多允许 {{number}} 个字符",
+            "required": "此字段为必填项",
+            "email": "无效的电子邮件"
+        },
+        "input_description": {
+            "placeholder": "输入描述",
+            "accessibilityLabel": "输入描述字段",
+            "max": "最多允许 {{number}} 个字符"
+        },
+        "select_disabilities": {
+            "labelmain": "残障",
+            "opcionNA": "请选择......",
+            "accessibilityLabelmain": "选择残障字段",
+            "accessibilityLabelselect": "残障",
+            "accessibilityLabeloptions": "残障"
+        },
+        "select_languages": {
+            "labelmain": "语言",
+            "opcionNA": "请选择......",
+            "accessibilityLabelmain": "选择语言字段",
+            "accessibilityLabelselect": "语言",
+            "accessibilityLabeloptions": "语言"
+        },
+        "button_save": {
+            "text": "保存",
+            "accessibilityLabel": "保存按钮"
+        }
+    },
+    "message_chat_user": {
+        "picture_profile_user": {
+            "accessibilityLabel": "用户个人资料照片"
+        },
+        "name_user_chat": {
+            "accessibilityLabel": "用户名 {{name}}"
+        },
+        "input_message": {
+            "accessibilityLabel": "编写文本消息的字段",
+            "placeholder": "发送消息...."
+        },
+        "attach_images_videos": {
+            "accessibilityLabel": "附加照片或视频的控制"
+        },
+        "capture_photo_video": {
+            "accessibilityLabel": "实时拍摄照片或视频的控制"
+        },
+        "record_audio": {
+            "accessibilityLabel": "录制音频的控制"
+        },
+        "send_message": {
+            "accessibilityLabel": "发送所写文本消息的控制"
+        }
+    },
+    "item_chat_user": {
+        "item": {
+            "accessibilityLabel": "用户聊天项 {{name}}"
+        },
+        "name_user": {
+            "accessibilityLabel": "用户名 {{name}}"
+        },
+        "change_language": {
+            "accessibilityLabel": "切换到 {{language}} 语言"
+        },
+        "resource_loading": {
+            "accessibilityLabel": "资源正在加载"
+        },
+        "message": {
+            "accessibilityLabel": "文本消息"
+        },
+        "message_time": {
+            "accessibilityLabel": "消息到达时间：{{time}}"
+        },
+        "message_image": {
+            "accessibilityLabel": "图片，播放音频以获取描述"
+        }
+    },
+    "item_photo_capture": {
+        "button_close": {
+            "accessibilityLabel": "关闭按钮"
+        },
+        "name_user": {
+            "accessibilityLabel": "用户名：{{name_user}}"
+        },
+        "date_time": {
+            "accessibilityLabel": "图片到达日期和时间：{{datetime}}"
+        },
+        "container_image": {
+            "accessibilityLabel": "图片：{{descripcion}}"
+        },
+        "send_image": {
+            "accessibilityLabel": "发送图片"
+        }
+    },
+    "item_camera": {
+        "button_close": {
+            "accessibilityLabel": "关闭相机"
+        },
+        "button_flash": {
+            "accessibilityLabelOn": "打开闪光灯",
+            "accessibilityLabelOff": "关闭闪光灯"
+        },
+        "change_camera": {
+            "accessibilityLabelLead": "切换到前置摄像头",
+            "accessibilityLabelRear": "切换到后置摄像头"
+        },
+        "button_video": {
+            "accessibilityLabel": "切换到视频",
+            "text": "视频"
+        },
+        "button_photo": {
+            "accessibilityLabel": "切换到照片",
+            "text": "照片"
+        },
+        "action_camera": {
+            "photo": "拍照",
+            "video": "录制视频"
+        }
+    },
+    "item_video_capture": {
+        "back_button": {
+            "accessibilityLabel": "返回"
+        },
+        "send_video": {
+            "accessibilityLabel": "发送视频"
+        },
+        "user_data": {
+            "name_user": "用户名：{{name_user}}",
+            "datetime": "发送日期：{{datetime}}"
+        },
+        "controls_video": {
+            "accessibilityLabelPress": "双击显示视频控制",
+            "back_video": "后退十秒",
+            "pass_video": "前进十秒",
+            "pause": "暂停",
+            "play": "播放",
+            "time_bar": "视频时间轴（滑块控制）",
+            "current_video_time": "当前视频时间：{{time}}",
+            "turn_off_sound": "关闭声音",
+            "turn_on_sound": "打开声音",
+            "button_caption_active": "激活字幕按钮",
+            "button_caption_deactivate": "停用字幕按钮",
+            "display_caption": "字幕"
+        }
+    },
+    "item_audio": {
+        "container_audio": {
+            "accessibilityLabel": "音频控制"
+        },
+        "controls": {
+            "container_time_bar": "音频时间轴容器（滑块控制），当前时间 {{time}}",
+            "time_bar": "音频时间轴（滑块控制），当前时间 {{time}}",
+            "button_audio_active": "播放音频",
+            "button_audio_deactivate": "停用音频"
+        }
+    },
+    "item_video": {
+        "container_video": {
+            "accessibilityLabel": "视频控制，双击进入播放器"
+        }
+    },
+    "load_splash_screen": {
+        "progressbar": {
+            "accessibilityLabel": "加载中"
+        }
+    },
+    "item_check": {
+        "accessibilityLabelText": "检查控制",
+        "texts": {
+            "text1": "粗体文本",
+            "text2": "语音通知"
+        },
+        "active": "控制已激活",
+        "disabled": "控制未激活"
+    },
+    "view_settings_app": {
+        "title": {
+            "accessibilityLabel": "设置菜单标题",
+            "text": "设置"
+        },
+        "container_colors": {
+            "accessibilityLabel": "颜色抽屉"
+        },
+        "color_select": {
+            "accessibilityLabel": "所选颜色"
+        },
+        "select_font_size": {
+            "labelmain": "字体大小",
+            "opcionNA": "请选择......",
+            "accessibilityLabelmain": "选择大小字段",
+            "accessibilityLabelselect": "字体大小",
+            "accessibilityLabeloptions": "字体大小"
+        },
+        "button_reset": {
+            "text": "重置",
+            "accessibilityLabel": "样式重置按钮"
+        },
+        "button_save": {
+            "text": "保存",
+            "accessibilityLabel": "保存按钮"
+        }
+    },
+    "notifications": {
+        "title_notifications": "通知",
+        "title_information": "信息",
+        "title_error": "错误",
+        "messages": {
+            "load_resource": "消息资源正在加载",
+            "error_create_group": "添加用户时出错",
+            "error_get_chats": "检索聊天时出错",
+            "empty_chats_user": "没有可用的聊天",
+            "empty_chat": "聊天为空",
+            "error_search_user": "搜索用户时出错",
+            "notifications_search_user": "未找到用户",
+            "error_search_mic": "通过麦克风搜索用户时出错",
+            "error_contain_chat": "没有聊天记录",
+            "error_send_message": "发送消息时出错",
+            "update_photo": "照片已成功更新",
+            "error_update_photo": "更新照片时出错",
+            "new_message": "新消息已到达",
+            "error_load_disabilities": "加载残障选项时出错",
+            "error_load_languages": "加载语言时出错",
+            "error_load_user": "检索用户时出错",
+            "update_user_success": "用户已成功更新",
+            "error_update_user": "更新用户时出错",
+            "load_data_profile_user": "用户数据加载成功",
+            "error_load_data_profile_user": "加载用户数据时出错",
+            "register_user_success": "用户注册成功",
+            "error_register_user_success": "注册用户时出错",
+            "web_socket_error": "连接到服务器时出错。请稍后再试。",
+            "web_socket_error_reconexion": "重新连接时 Web Socket 连接失败……",
+            "web_socket_connected": "连接建立成功",
+            "web_socket_message_notification_text": "您已成功收到一条文本消息",
+            "web_socket_message_notification_image": "您已成功收到一条图片消息",
+            "web_socket_message_notification_video": "您已成功收到一条视频消息",
+            "web_socket_message_notification_audio": "您已成功收到一条音频消息",
+            "web_socket_message_notification_unknown": "您收到了一条未知类型的消息",
+            "web_socket_message_notification_user": "来自用户 {{user}} 的消息",
+            "web_socket_message_notification_new_friend": "有位联系人已将您添加到其好友列表",
+            "web_socket_message_notification_add_friend": "联系人添加成功",
+            "command_processing": "正在处理您的命令……",
+            "command_unrecognized": "无法识别该命令。请重试。",
+            "command_detection_error": "检测命令时出错。请重试。"
+        }
+    },
+    "data_screen_main": {
+        "0": "应用名称 (AMIC)",
+        "1": "选项菜单",
+        "2": "搜索控制",
+        "3": "麦克风",
+        "4": "搜索",
+        "5": "用户容器"
+    },
+    "data_screen_profile_host_user": {
+        "0": "用户个人资料图片",
+        "1": "更换照片按钮",
+        "2": "用户 {{user}}",
+        "3": "名字 {{names}}",
+        "4": "姓氏 {{surnames}}",
+        "5": "电话 {{phone_number}}",
+        "6": "电子邮件 {{email}}",
+        "7": "描述 {{descripcion}}",
+        "8": "残障 {{disability}}",
+        "9": "应用语言 {{language}}",
+        "10": "保存数据按钮"
+    },
+    "data_screen_configuration": {
+        "0": "调色板",
+        "1": "粗体文本 {{active_bold}}",
+        "2": "语音通知 {{voice_notifications}}",
+        "3": "字体大小 {{source_number}}",
+        "4": "重置配置按钮",
+        "5": "保存按钮"
+    },
+    "data_screen_message_user": {
+        "0": "用户个人资料图片",
+        "1": "用户名 {{name_user}}",
+        "2": "消息容器",
+        "3": "用于编写消息的文本框",
+        "4": "附加照片或视频",
+        "5": "拍照",
+        "6": "录制音频"
+    },
+    "data_screen_photo_user": {
+        "0": "关闭窗口按钮",
+        "1": "用户名 {{name_user}}",
+        "2": "照片发送日期和时间：{{datetime_photo}}",
+        "3": "照片容器框"
+    },
+    "data_screen_photo_user_current": {
+        "0": "关闭窗口按钮",
+        "1": "照片容器",
+        "2": "发送照片"
+    },
+    "data_screen_video_user": {
+        "0": "关闭窗口按钮",
+        "1": "用户名 {{name_user}}",
+        "2": "视频发送日期和时间：{{datetime_photo}}",
+        "3": "视频容器框",
+        "4": "时间轴",
+        "5": "视频时长 {{time}}",
+        "6": "当前视频时间 {{current_time}}",
+        "7": "声音 {{sound}}",
+        "8": "字幕 {{caption}}"
+    },
+    "data_screen_video_user_current": {
+        "0": "关闭窗口按钮",
+        "1": "发送视频",
+        "2": "视频容器框",
+        "3": "时间轴",
+        "4": "视频时长 {{time}}",
+        "5": "当前视频时间 {{current_time}}",
+        "6": "声音 {{sound}}"
+    },
+    "data_screen_camera_and_video": {
+        "0": "关闭窗口按钮",
+        "1": "闪光灯按钮 {{flash}}",
+        "2": "拍照或录制视频按钮",
+        "3": "相机 {{camera}}",
+        "4": "{{video_or_photo}}"
+    },
+    "data_screen_profile_friend_user": {
+        "0": "用户个人资料照片",
+        "1": "名字 {{names}}",
+        "2": "姓氏 {{surnames}}",
+        "3": "用户名 {{name_user}}",
+        "4": "残障 {{disability}}",
+        "5": "电话号码 {{phone_number}}",
+        "6": "电子邮件 {{email}}",
+        "7": "描述 {{description}}"
+    }
+}

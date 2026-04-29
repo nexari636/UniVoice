@@ -1,0 +1,484 @@
+{
+    "register": {
+        "logo": {
+            "accessibilityLabel": "Anwendungslogo (AMIC)"
+        },
+        "form": {
+            "accessibilityLabel": "Registrierungsformular"
+        },
+        "input_username": {
+            "placeholder": "Benutzername eingeben",
+            "accessibilityLabel": "Feld zur Eingabe des Benutzernamens",
+            "max": "Maximal {{number}} Zeichen erlaubt",
+            "required": "Dieses Feld ist erforderlich"
+        },
+        "input_name": {
+            "placeholder": "Vorname eingeben",
+            "accessibilityLabel": "Feld zur Eingabe des Benutzernamens",
+            "max": "Maximal {{number}} Zeichen erlaubt",
+            "required": "Dieses Feld ist erforderlich"
+        },
+        "input_lastname": {
+            "placeholder": "Nachname eingeben",
+            "accessibilityLabel": "Feld zur Eingabe des Nachnamens",
+            "max": "Maximal {{number}} Zeichen erlaubt",
+            "required": "Dieses Feld ist erforderlich"
+        },
+        "input_phone": {
+            "placeholder": "Telefonnummer eingeben",
+            "accessibilityLabel": "Feld zur Eingabe der Telefonnummer",
+            "max": "Maximal {{number}} Zeichen erlaubt",
+            "required": "Dieses Feld ist erforderlich",
+            "matches": "Fehler!! Nur Zahlen sind erlaubt"
+        },
+        "input_email": {
+            "placeholder": "E-Mail eingeben",
+            "accessibilityLabel": "Feld zur Eingabe der E-Mail",
+            "max": "Maximal {{number}} Zeichen erlaubt",
+            "required": "Dieses Feld ist erforderlich",
+            "email": "Ungültige E-Mail"
+        },
+        "button_register": {
+            "text": "Registrieren",
+            "accessibilityLabel": "Schaltfläche zum Registrieren"
+        }
+    },
+    "view_main": {
+        "logo": {
+            "accessibilityLabel": "Anwendungsname (AMIC)"
+        },
+        "optionsmenu": {
+            "accessibilityLabel": "Optionsmenü"
+        },
+        "search_users": {
+            "accessibilityLabel": "Benutzersuchleiste",
+            "placeholder": "Benutzer suchen",
+            "iconsearch": "Doppeltippen, um den Benutzer zu suchen",
+            "load_resource": "Die Ressource wird geladen",
+            "button_mic": "Benutzer per Mikrofon suchen"
+        }
+    },
+    "item_user_chat": {
+        "container": {
+            "accessibilityLabel": "Benutzerelement:"
+        },
+        "container_photo_user": {
+            "accessibilityLabel": "Benutzerprofilfoto"
+        },
+        "name_user": {
+            "accessibilityLabel": "Benutzername:"
+        },
+        "message_preview": {
+            "accessibilityLabel": "Letzte empfangene Nachricht:"
+        },
+        "date_last_message": {
+            "accessibilityLabel": "Datum der letzten empfangenen Nachricht:"
+        },
+        "button_information": {
+            "accessibilityLabel": "Schaltfläche für Benutzerinformationen",
+            "text": "Informationen"
+        },
+        "button_chat_user": {
+            "accessibilityLabel": "Schaltfläche zum Starten des Chats mit dem Benutzer: {{name_user}}"
+        },
+        "play_read_id_button": {
+            "accessibilityLabel": "Schaltfläche zum Vorlesen der Chat-Kennung",
+            "SpeechText": "Die Chat-Kennung lautet: {{id}}",
+            "Identity": "ID: {{id}}"
+        }
+    },
+    "view_profilechatuser": {
+        "logo": {
+            "accessibilityLabel": "Benutzerlogo"
+        },
+        "name_and_lastname": {
+            "accessibilityLabel": "Vollständiger Name des Benutzers"
+        },
+        "username": {
+            "accessibilityLabel": "Benutzername:"
+        },
+        "disability": {
+            "accessibilityLabel": "Behinderung:",
+            "text": "Behinderung"
+        },
+        "phone": {
+            "accessibilityLabel": "Telefon:"
+        },
+        "email": {
+            "accessibilityLabel": "E-Mail:"
+        },
+        "description": {
+            "accessibilityLabel": "Benutzerbeschreibung:",
+            "title_description": {
+                "accessibilityLabel": "Über mich:",
+                "text": "Über mich"
+            },
+            "descriptionuser": "Beschreibung:"
+        }
+    },
+    "view_profile": {
+        "picture_profile_user": {
+            "accessibilityLabel": "Benutzerprofilfoto"
+        },
+        "button_change_photo": {
+            "accessibilityLabel": "Schaltfläche zum Ändern des Fotos",
+            "text": "Foto ändern"
+        },
+        "input_username": {
+            "placeholder": "Benutzername eingeben",
+            "accessibilityLabel": "Feld zur Eingabe des Benutzernamens",
+            "max": "Maximal {{number}} Zeichen erlaubt",
+            "required": "Dieses Feld ist erforderlich"
+        },
+        "input_name": {
+            "placeholder": "Vornamen eingeben",
+            "accessibilityLabel": "Feld zur Eingabe der Vornamen",
+            "max": "Maximal {{number}} Zeichen erlaubt",
+            "required": "Dieses Feld ist erforderlich"
+        },
+        "input_lastname": {
+            "placeholder": "Nachnamen eingeben",
+            "accessibilityLabel": "Feld zur Eingabe der Nachnamen",
+            "max": "Maximal {{number}} Zeichen erlaubt",
+            "required": "Dieses Feld ist erforderlich"
+        },
+        "input_phone": {
+            "placeholder": "Telefonnummer eingeben",
+            "accessibilityLabel": "Feld zur Eingabe der Telefonnummer",
+            "max": "Maximal {{number}} Zeichen erlaubt",
+            "required": "Dieses Feld ist erforderlich",
+            "matches": "Fehler! Nur Zahlen sind erlaubt"
+        },
+        "input_email": {
+            "placeholder": "E-Mail eingeben (nicht bearbeitbar)",
+            "accessibilityLabel": "Feld zur Eingabe der E-Mail (nicht bearbeitbar)",
+            "max": "Maximal {{number}} Zeichen erlaubt",
+            "required": "Dieses Feld ist erforderlich",
+            "email": "Ungültige E-Mail"
+        },
+        "input_description": {
+            "placeholder": "Beschreibung eingeben",
+            "accessibilityLabel": "Feld zur Eingabe der Beschreibung",
+            "max": "Maximal {{number}} Zeichen erlaubt"
+        },
+        "select_disabilities": {
+            "labelmain": "Behinderungen",
+            "opcionNA": "Auswählen......",
+            "accessibilityLabelmain": "Feld zur Auswahl der Behinderung",
+            "accessibilityLabelselect": "Behinderung",
+            "accessibilityLabeloptions": "Behinderung"
+        },
+        "select_languages": {
+            "labelmain": "Sprachen",
+            "opcionNA": "Auswählen......",
+            "accessibilityLabelmain": "Feld zur Auswahl der Sprache",
+            "accessibilityLabelselect": "Sprache",
+            "accessibilityLabeloptions": "Sprache"
+        },
+        "button_save": {
+            "text": "Speichern",
+            "accessibilityLabel": "Speichern-Schaltfläche"
+        }
+    },
+    "message_chat_user": {
+        "picture_profile_user": {
+            "accessibilityLabel": "Benutzerprofilfoto"
+        },
+        "name_user_chat": {
+            "accessibilityLabel": "Benutzername {{name}}"
+        },
+        "input_message": {
+            "accessibilityLabel": "Feld zum Schreiben einer Textnachricht",
+            "placeholder": "Nachricht senden...."
+        },
+        "attach_images_videos": {
+            "accessibilityLabel": "Steuerung zum Anhängen von Fotos oder Videos"
+        },
+        "capture_photo_video": {
+            "accessibilityLabel": "Steuerung zum Aufnehmen von Fotos oder Videos in Echtzeit"
+        },
+        "record_audio": {
+            "accessibilityLabel": "Steuerung zum Aufnehmen von Audio"
+        },
+        "send_message": {
+            "accessibilityLabel": "Steuerung zum Senden der geschriebenen Textnachricht"
+        }
+    },
+    "item_chat_user": {
+        "item": {
+            "accessibilityLabel": "Benutzer-Chat-Element {{name}}"
+        },
+        "name_user": {
+            "accessibilityLabel": "Benutzername {{name}}"
+        },
+        "change_language": {
+            "accessibilityLabel": "Zur Sprache {{language}} wechseln"
+        },
+        "resource_loading": {
+            "accessibilityLabel": "Die Ressource wird geladen"
+        },
+        "message": {
+            "accessibilityLabel": "Textnachricht"
+        },
+        "message_time": {
+            "accessibilityLabel": "Ankunftszeit der Nachricht: {{time}}"
+        },
+        "message_image": {
+            "accessibilityLabel": "Bild, Audio zur Beschreibung abspielen"
+        }
+    },
+    "item_photo_capture": {
+        "button_close": {
+            "accessibilityLabel": "Schließen-Schaltfläche"
+        },
+        "name_user": {
+            "accessibilityLabel": "Benutzername: {{name_user}}"
+        },
+        "date_time": {
+            "accessibilityLabel": "Ankunftsdatum und -zeit des Bildes: {{datetime}}"
+        },
+        "container_image": {
+            "accessibilityLabel": "Bild: {{descripcion}}"
+        },
+        "send_image": {
+            "accessibilityLabel": "Bild senden"
+        }
+    },
+    "item_camera": {
+        "button_close": {
+            "accessibilityLabel": "Kamera schließen"
+        },
+        "button_flash": {
+            "accessibilityLabelOn": "Blitz einschalten",
+            "accessibilityLabelOff": "Blitz ausschalten"
+        },
+        "change_camera": {
+            "accessibilityLabelLead": "Zur Frontkamera wechseln",
+            "accessibilityLabelRear": "Zur Rückkamera wechseln"
+        },
+        "button_video": {
+            "accessibilityLabel": "Zu Video wechseln",
+            "text": "Video"
+        },
+        "button_photo": {
+            "accessibilityLabel": "Zu Foto wechseln",
+            "text": "Foto"
+        },
+        "action_camera": {
+            "photo": "Foto aufnehmen",
+            "video": "Video aufnehmen"
+        }
+    },
+    "item_video_capture": {
+        "back_button": {
+            "accessibilityLabel": "Zurück"
+        },
+        "send_video": {
+            "accessibilityLabel": "Video senden"
+        },
+        "user_data": {
+            "name_user": "Benutzername: {{name_user}}",
+            "datetime": "Sendedatum: {{datetime}}"
+        },
+        "controls_video": {
+            "accessibilityLabelPress": "Doppeltippen, um Videosteuerung anzuzeigen",
+            "back_video": "Zehn Sekunden zurückspulen",
+            "pass_video": "Zehn Sekunden vorspulen",
+            "pause": "Pause",
+            "play": "Abspielen",
+            "time_bar": "Videozeitleiste (Schieberegler)",
+            "current_video_time": "Aktuelle Videzeit: {{time}}",
+            "turn_off_sound": "Ton ausschalten",
+            "turn_on_sound": "Ton einschalten",
+            "button_caption_active": "Schaltfläche Untertitel aktivieren",
+            "button_caption_deactivate": "Schaltfläche Untertitel deaktivieren",
+            "display_caption": "Untertitel"
+        }
+    },
+    "item_audio": {
+        "container_audio": {
+            "accessibilityLabel": "Audiosteuerung"
+        },
+        "controls": {
+            "container_time_bar": "Container der Audiozeitleiste (Schieberegler) mit aktueller Zeit {{time}}",
+            "time_bar": "Audiozeitleiste (Schieberegler) mit aktueller Zeit {{time}}",
+            "button_audio_active": "Audio abspielen",
+            "button_audio_deactivate": "Audio deaktivieren"
+        }
+    },
+    "item_video": {
+        "container_video": {
+            "accessibilityLabel": "Videosteuerung, doppeltippen, um den Player zu öffnen"
+        }
+    },
+    "load_splash_screen": {
+        "progressbar": {
+            "accessibilityLabel": "Laden"
+        }
+    },
+    "item_check": {
+        "accessibilityLabelText": "Kontrollkästchen",
+        "texts": {
+            "text1": "Fetter Text",
+            "text2": "Sprachbenachrichtigungen"
+        },
+        "active": "Aktive Steuerung",
+        "disabled": "Inaktive Steuerung"
+    },
+    "view_settings_app": {
+        "title": {
+            "accessibilityLabel": "Titel des Einstellungsmenüs",
+            "text": "Einstellungen"
+        },
+        "container_colors": {
+            "accessibilityLabel": "Farbpalette"
+        },
+        "color_select": {
+            "accessibilityLabel": "Ausgewählte Farbe"
+        },
+        "select_font_size": {
+            "labelmain": "Schriftgröße",
+            "opcionNA": "Auswählen......",
+            "accessibilityLabelmain": "Feld zur Auswahl der Größe",
+            "accessibilityLabelselect": "Schriftgröße",
+            "accessibilityLabeloptions": "Schriftgröße"
+        },
+        "button_reset": {
+            "text": "Zurücksetzen",
+            "accessibilityLabel": "Schaltfläche zum Zurücksetzen des Stils"
+        },
+        "button_save": {
+            "text": "Speichern",
+            "accessibilityLabel": "Speichern-Schaltfläche"
+        }
+    },
+    "notifications": {
+        "title_notifications": "Benachrichtigung",
+        "title_information": "Information",
+        "title_error": "Fehler",
+        "messages": {
+            "load_resource": "Die Nachrichtenressource wird geladen",
+            "error_create_group": "Beim Hinzufügen des Benutzers ist ein Fehler aufgetreten",
+            "error_get_chats": "Fehler beim Abrufen der Chats",
+            "empty_chats_user": "Keine Chats verfügbar",
+            "empty_chat": "Der Chat ist leer",
+            "error_search_user": "Fehler bei der Suche nach Benutzern",
+            "notifications_search_user": "Keine Benutzer gefunden",
+            "error_search_mic": "Fehler bei der Suche nach Benutzern über Mikrofon",
+            "error_contain_chat": "Es sind keine Chat-Aufzeichnungen vorhanden",
+            "error_send_message": "Fehler beim Senden der Nachricht",
+            "update_photo": "Das Foto wurde erfolgreich aktualisiert",
+            "error_update_photo": "Beim Aktualisieren des Fotos ist ein Fehler aufgetreten",
+            "new_message": "Eine neue Nachricht ist eingetroffen",
+            "error_load_disabilities": "Fehler beim Laden der Behinderungen",
+            "error_load_languages": "Fehler beim Laden der Sprachen",
+            "error_load_user": "Fehler beim Abrufen des Benutzers",
+            "update_user_success": "Der Benutzer wurde erfolgreich aktualisiert",
+            "error_update_user": "Fehler beim Aktualisieren des Benutzers",
+            "load_data_profile_user": "Benutzerdaten erfolgreich geladen",
+            "error_load_data_profile_user": "Fehler beim Laden der Benutzerdaten",
+            "register_user_success": "Benutzer erfolgreich registriert",
+            "error_register_user_success": "Fehler beim Registrieren des Benutzers",
+            "web_socket_error": "Fehler beim Verbinden mit dem Server. Bitte versuchen Sie es später erneut.",
+            "web_socket_error_reconexion": "Die WebSocket-Verbindung ist beim erneuten Verbinden fehlgeschlagen....",
+            "web_socket_connected": "Verbindung erfolgreich hergestellt",
+            "web_socket_message_notification_text": "Sie haben erfolgreich eine Textnachricht erhalten",
+            "web_socket_message_notification_image": "Sie haben erfolgreich eine Bildnachricht erhalten",
+            "web_socket_message_notification_video": "Sie haben erfolgreich eine Videobotschaft erhalten",
+            "web_socket_message_notification_audio": "Sie haben erfolgreich eine Audionachricht erhalten",
+            "web_socket_message_notification_unknown": "Sie haben eine Nachricht unbekannten Typs erhalten",
+            "web_socket_message_notification_user": "Nachricht von Benutzer {{user}} erhalten",
+            "web_socket_message_notification_new_friend": "Ein Kontakt hat Sie zu seiner Freundesliste hinzugefügt",
+            "web_socket_message_notification_add_friend": "Kontakt erfolgreich hinzugefügt",
+            "command_processing": "Ihr Befehl wird verarbeitet...",
+            "command_unrecognized": "Der Befehl wurde nicht erkannt. Bitte versuchen Sie es erneut.",
+            "command_detection_error": "Es gab einen Fehler bei der Erkennung des Befehls. Bitte versuchen Sie es erneut."
+        }
+    },
+    "data_screen_main": {
+        "0": "Anwendungsname (AMIC)",
+        "1": "Optionsmenü",
+        "2": "Suchsteuerung",
+        "3": "Mikrofon",
+        "4": "Suchen",
+        "5": "Benutzercontainer"
+    },
+    "data_screen_profile_host_user": {
+        "0": "Benutzerprofilbild",
+        "1": "Schaltfläche zum Ändern des Fotos",
+        "2": "Benutzer {{user}}",
+        "3": "Vorname {{names}}",
+        "4": "Nachname {{surnames}}",
+        "5": "Telefon {{phone_number}}",
+        "6": "E-Mail {{email}}",
+        "7": "Beschreibung {{descripcion}}",
+        "8": "Behinderung {{disability}}",
+        "9": "Anwendungssprache {{language}}",
+        "10": "Schaltfläche zum Speichern der Daten"
+    },
+    "data_screen_configuration": {
+        "0": "Farbpalette",
+        "1": "Fetter Text {{active_bold}}",
+        "2": "Sprachbenachrichtigungen {{voice_notifications}}",
+        "3": "Schriftgröße {{source_number}}",
+        "4": "Schaltfläche zum Zurücksetzen der Konfigurationen",
+        "5": "Speichern-Schaltfläche"
+    },
+    "data_screen_message_user": {
+        "0": "Benutzerprofilbild",
+        "1": "Benutzername {{name_user}}",
+        "2": "Nachrichtencontainer",
+        "3": "Textfeld zum Schreiben einer Nachricht",
+        "4": "Fotos oder Videos anhängen",
+        "5": "Fotos aufnehmen",
+        "6": "Audios aufnehmen"
+    },
+    "data_screen_photo_user": {
+        "0": "Schaltfläche zum Schließen des Fensters",
+        "1": "Benutzername {{name_user}}",
+        "2": "Datum und Uhrzeit des Sendens des Fotos: {{datetime_photo}}",
+        "3": "Fotocontainer-Box"
+    },
+    "data_screen_photo_user_current": {
+        "0": "Schaltfläche zum Schließen des Fensters",
+        "1": "Fotocontainer",
+        "2": "Foto senden"
+    },
+    "data_screen_video_user": {
+        "0": "Schaltfläche zum Schließen des Fensters",
+        "1": "Benutzername {{name_user}}",
+        "2": "Datum und Uhrzeit des Sendens des Videos: {{datetime_photo}}",
+        "3": "Videocontainer-Box",
+        "4": "Zeitleiste",
+        "5": "Videodauer {{time}}",
+        "6": "Aktuelle Videzeit {{current_time}}",
+        "7": "Ton {{sound}}",
+        "8": "Untertitel {{caption}}"
+    },
+    "data_screen_video_user_current": {
+        "0": "Schaltfläche zum Schließen des Fensters",
+        "1": "Video senden",
+        "2": "Videocontainer-Box",
+        "3": "Zeitleiste",
+        "4": "Videodauer {{time}}",
+        "5": "Aktuelle Videzeit {{current_time}}",
+        "6": "Ton {{sound}}"
+    },
+    "data_screen_camera_and_video": {
+        "0": "Schaltfläche zum Schließen des Fensters",
+        "1": "Blitzschaltfläche {{flash}}",
+        "2": "Schaltfläche zum Aufnehmen eines Fotos oder Videos",
+        "3": "Kamera {{camera}}",
+        "4": "{{video_or_photo}}"
+    },
+    "data_screen_profile_friend_user": {
+        "0": "Benutzerprofilbild",
+        "1": "Vornamen {{names}}",
+        "2": "Nachnamen {{surnames}}",
+        "3": "Benutzername {{name_user}}",
+        "4": "Behinderung {{disability}}",
+        "5": "Telefonnummer {{phone_number}}",
+        "6": "E-Mail {{email}}",
+        "7": "Beschreibung {{description}}"
+    }
+}

@@ -1,0 +1,31 @@
+version: "3.9"
+
+services: 
+  rabbit:
+    image: rabbitmq:4.0-rc-management
+    container_name: rabbit
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+      - "15678:61613"   #puerto por defecto para stomp
+      - "15674:15674"   #WebSocket-STOMP
+    command: >
+      bash -c "
+        rabbitmq-plugins enable rabbitmq_management &&
+        rabbitmq-plugins enable rabbitmq_stomp &&
+        rabbitmq-plugins enable rabbitmq_web_stomp && 
+        rabbitmq-server
+      "
+    restart: always
+    environment:
+      - RABBITMQ_DEFAULT_USER=jhon
+      - RABBITMQ_DEFAULT_PASS=123
+    volumes:
+      - ./rabbitmq/data:/var/lib/rabbitmq/
+      - ./rabbitmq/log:/var/log/rabbitmq
+    networks:
+      - rabbitmq_network
+
+networks:
+  rabbitmq_network:
+    driver: bridge

@@ -1,0 +1,484 @@
+{
+    "register": {
+        "logo": {
+            "accessibilityLabel": "Logo aplikasi (AMIC)"
+        },
+        "form": {
+            "accessibilityLabel": "Formulir pendaftaran"
+        },
+        "input_username": {
+            "placeholder": "Masukkan nama pengguna",
+            "accessibilityLabel": "Kolom untuk memasukkan nama pengguna",
+            "max": "Maksimal {{number}} karakter diperbolehkan",
+            "required": "Kolom ini wajib diisi"
+        },
+        "input_name": {
+            "placeholder": "Masukkan nama depan",
+            "accessibilityLabel": "Kolom untuk memasukkan nama pengguna",
+            "max": "Maksimal {{number}} karakter diperbolehkan",
+            "required": "Kolom ini wajib diisi"
+        },
+        "input_lastname": {
+            "placeholder": "Masukkan nama belakang",
+            "accessibilityLabel": "Kolom untuk memasukkan nama belakang",
+            "max": "Maksimal {{number}} karakter diperbolehkan",
+            "required": "Kolom ini wajib diisi"
+        },
+        "input_phone": {
+            "placeholder": "Masukkan nomor telepon",
+            "accessibilityLabel": "Kolom untuk memasukkan nomor telepon",
+            "max": "Maksimal {{number}} karakter diperbolehkan",
+            "required": "Kolom ini wajib diisi",
+            "matches": "Error!! Hanya angka yang diperbolehkan"
+        },
+        "input_email": {
+            "placeholder": "Masukkan email",
+            "accessibilityLabel": "Kolom untuk memasukkan email",
+            "max": "Maksimal {{number}} karakter diperbolehkan",
+            "required": "Kolom ini wajib diisi",
+            "email": "Email tidak valid"
+        },
+        "button_register": {
+            "text": "Daftar",
+            "accessibilityLabel": "Tombol untuk mendaftar"
+        }
+    },
+    "view_main": {
+        "logo": {
+            "accessibilityLabel": "Nama aplikasi (AMIC)"
+        },
+        "optionsmenu": {
+            "accessibilityLabel": "Menu opsi"
+        },
+        "search_users": {
+            "accessibilityLabel": "Bilah pencarian pengguna",
+            "placeholder": "Cari pengguna",
+            "iconsearch": "Ketuk dua kali untuk mencari pengguna",
+            "load_resource": "Sumber daya sedang dimuat",
+            "button_mic": "Cari pengguna melalui mikrofon"
+        }
+    },
+    "item_user_chat": {
+        "container": {
+            "accessibilityLabel": "Item pengguna:"
+        },
+        "container_photo_user": {
+            "accessibilityLabel": "Foto profil pengguna"
+        },
+        "name_user": {
+            "accessibilityLabel": "Nama pengguna:"
+        },
+        "message_preview": {
+            "accessibilityLabel": "Pesan terakhir yang diterima:"
+        },
+        "date_last_message": {
+            "accessibilityLabel": "Tanggal pesan terakhir yang diterima:"
+        },
+        "button_information": {
+            "accessibilityLabel": "Tombol informasi pengguna",
+            "text": "Informasi"
+        },
+        "button_chat_user": {
+            "accessibilityLabel": "Tombol untuk memulai chat dengan pengguna: {{name_user}}"
+        },
+        "play_read_id_button": {
+            "accessibilityLabel": "Tombol pembaca pengenal chat",
+            "SpeechText": "Pengenal chat adalah: {{id}}",
+            "Identity": "ID: {{id}}"
+        }
+    },
+    "view_profilechatuser": {
+        "logo": {
+            "accessibilityLabel": "Logo pengguna"
+        },
+        "name_and_lastname": {
+            "accessibilityLabel": "Nama lengkap pengguna"
+        },
+        "username": {
+            "accessibilityLabel": "Nama pengguna:"
+        },
+        "disability": {
+            "accessibilityLabel": "Disabilitas:",
+            "text": "Disabilitas"
+        },
+        "phone": {
+            "accessibilityLabel": "Telepon:"
+        },
+        "email": {
+            "accessibilityLabel": "Email:"
+        },
+        "description": {
+            "accessibilityLabel": "Deskripsi pengguna:",
+            "title_description": {
+                "accessibilityLabel": "Tentang saya:",
+                "text": "Tentang saya"
+            },
+            "descriptionuser": "Deskripsi:"
+        }
+    },
+    "view_profile": {
+        "picture_profile_user": {
+            "accessibilityLabel": "Foto profil pengguna"
+        },
+        "button_change_photo": {
+            "accessibilityLabel": "Tombol ganti foto",
+            "text": "Ganti Foto"
+        },
+        "input_username": {
+            "placeholder": "Masukkan nama pengguna",
+            "accessibilityLabel": "Kolom untuk memasukkan nama pengguna",
+            "max": "Maksimal {{number}} karakter diperbolehkan",
+            "required": "Kolom ini wajib diisi"
+        },
+        "input_name": {
+            "placeholder": "Masukkan nama depan",
+            "accessibilityLabel": "Kolom untuk memasukkan nama depan",
+            "max": "Maksimal {{number}} karakter diperbolehkan",
+            "required": "Kolom ini wajib diisi"
+        },
+        "input_lastname": {
+            "placeholder": "Masukkan nama belakang",
+            "accessibilityLabel": "Kolom untuk memasukkan nama belakang",
+            "max": "Maksimal {{number}} karakter diperbolehkan",
+            "required": "Kolom ini wajib diisi"
+        },
+        "input_phone": {
+            "placeholder": "Masukkan nomor telepon",
+            "accessibilityLabel": "Kolom untuk memasukkan nomor telepon",
+            "max": "Maksimal {{number}} karakter diperbolehkan",
+            "required": "Kolom ini wajib diisi",
+            "matches": "Error! Hanya angka yang diperbolehkan"
+        },
+        "input_email": {
+            "placeholder": "Masukkan email (tidak dapat diedit)",
+            "accessibilityLabel": "Kolom untuk memasukkan email (tidak dapat diedit)",
+            "max": "Maksimal {{number}} karakter diperbolehkan",
+            "required": "Kolom ini wajib diisi",
+            "email": "Email tidak valid"
+        },
+        "input_description": {
+            "placeholder": "Masukkan deskripsi",
+            "accessibilityLabel": "Kolom untuk memasukkan deskripsi",
+            "max": "Maksimal {{number}} karakter diperbolehkan"
+        },
+        "select_disabilities": {
+            "labelmain": "Disabilitas",
+            "opcionNA": "Pilih......",
+            "accessibilityLabelmain": "Kolom untuk memilih disabilitas",
+            "accessibilityLabelselect": "Disabilitas",
+            "accessibilityLabeloptions": "Disabilitas"
+        },
+        "select_languages": {
+            "labelmain": "Bahasa",
+            "opcionNA": "Pilih......",
+            "accessibilityLabelmain": "Kolom untuk memilih bahasa",
+            "accessibilityLabelselect": "Bahasa",
+            "accessibilityLabeloptions": "Bahasa"
+        },
+        "button_save": {
+            "text": "Simpan",
+            "accessibilityLabel": "Tombol simpan"
+        }
+    },
+    "message_chat_user": {
+        "picture_profile_user": {
+            "accessibilityLabel": "Foto profil pengguna"
+        },
+        "name_user_chat": {
+            "accessibilityLabel": "Nama pengguna {{name}}"
+        },
+        "input_message": {
+            "accessibilityLabel": "Kolom untuk menulis pesan teks",
+            "placeholder": "Kirim pesan...."
+        },
+        "attach_images_videos": {
+            "accessibilityLabel": "Kontrol untuk melampirkan foto atau video"
+        },
+        "capture_photo_video": {
+            "accessibilityLabel": "Kontrol untuk mengambil foto atau video secara real-time"
+        },
+        "record_audio": {
+            "accessibilityLabel": "Kontrol untuk merekam audio"
+        },
+        "send_message": {
+            "accessibilityLabel": "Kontrol untuk mengirim pesan teks yang ditulis"
+        }
+    },
+    "item_chat_user": {
+        "item": {
+            "accessibilityLabel": "Item chat pengguna {{name}}"
+        },
+        "name_user": {
+            "accessibilityLabel": "Nama pengguna {{name}}"
+        },
+        "change_language": {
+            "accessibilityLabel": "Beralih ke bahasa {{language}}"
+        },
+        "resource_loading": {
+            "accessibilityLabel": "Sumber daya sedang dimuat"
+        },
+        "message": {
+            "accessibilityLabel": "Pesan teks"
+        },
+        "message_time": {
+            "accessibilityLabel": "Waktu kedatangan pesan: {{time}}"
+        },
+        "message_image": {
+            "accessibilityLabel": "Gambar, putar audio untuk deskripsi"
+        }
+    },
+    "item_photo_capture": {
+        "button_close": {
+            "accessibilityLabel": "Tombol tutup"
+        },
+        "name_user": {
+            "accessibilityLabel": "Nama pengguna: {{name_user}}"
+        },
+        "date_time": {
+            "accessibilityLabel": "Tanggal dan waktu kedatangan gambar: {{datetime}}"
+        },
+        "container_image": {
+            "accessibilityLabel": "Gambar: {{descripcion}}"
+        },
+        "send_image": {
+            "accessibilityLabel": "Kirim gambar"
+        }
+    },
+    "item_camera": {
+        "button_close": {
+            "accessibilityLabel": "Tutup kamera"
+        },
+        "button_flash": {
+            "accessibilityLabelOn": "Nyalakan lampu kilat",
+            "accessibilityLabelOff": "Matikan lampu kilat"
+        },
+        "change_camera": {
+            "accessibilityLabelLead": "Beralih ke kamera depan",
+            "accessibilityLabelRear": "Beralih ke kamera belakang"
+        },
+        "button_video": {
+            "accessibilityLabel": "Beralih ke video",
+            "text": "Video"
+        },
+        "button_photo": {
+            "accessibilityLabel": "Beralih ke foto",
+            "text": "Foto"
+        },
+        "action_camera": {
+            "photo": "ambil foto",
+            "video": "rekam video"
+        }
+    },
+    "item_video_capture": {
+        "back_button": {
+            "accessibilityLabel": "Kembali"
+        },
+        "send_video": {
+            "accessibilityLabel": "Kirim video"
+        },
+        "user_data": {
+            "name_user": "Nama pengguna: {{name_user}}",
+            "datetime": "Tanggal pengiriman: {{datetime}}"
+        },
+        "controls_video": {
+            "accessibilityLabelPress": "Ketuk dua kali untuk menampilkan kontrol video",
+            "back_video": "Mundur sepuluh detik",
+            "pass_video": "Maju sepuluh detik",
+            "pause": "Jeda",
+            "play": "Putar",
+            "time_bar": "Bilah waktu video (kontrol penggeser)",
+            "current_video_time": "Waktu video saat ini: {{time}}",
+            "turn_off_sound": "Matikan suara",
+            "turn_on_sound": "Nyalakan suara",
+            "button_caption_active": "Tombol aktifkan teks",
+            "button_caption_deactivate": "Tombol nonaktifkan teks",
+            "display_caption": "teks"
+        }
+    },
+    "item_audio": {
+        "container_audio": {
+            "accessibilityLabel": "Kontrol audio"
+        },
+        "controls": {
+            "container_time_bar": "Wadah bilah waktu audio (kontrol penggeser) dengan waktu saat ini {{time}}",
+            "time_bar": "Bilah waktu audio (kontrol penggeser) dengan waktu saat ini {{time}}",
+            "button_audio_active": "Putar audio",
+            "button_audio_deactivate": "Nonaktifkan audio"
+        }
+    },
+    "item_video": {
+        "container_video": {
+            "accessibilityLabel": "Kontrol video, ketuk dua kali untuk mengakses pemutar"
+        }
+    },
+    "load_splash_screen": {
+        "progressbar": {
+            "accessibilityLabel": "Memuat"
+        }
+    },
+    "item_check": {
+        "accessibilityLabelText": "Kontrol centang",
+        "texts": {
+            "text1": "Teks tebal",
+            "text2": "Notifikasi suara"
+        },
+        "active": "Kontrol aktif",
+        "disabled": "Kontrol tidak aktif"
+    },
+    "view_settings_app": {
+        "title": {
+            "accessibilityLabel": "Judul menu pengaturan",
+            "text": "Pengaturan"
+        },
+        "container_colors": {
+            "accessibilityLabel": "Laci warna"
+        },
+        "color_select": {
+            "accessibilityLabel": "Warna yang dipilih"
+        },
+        "select_font_size": {
+            "labelmain": "Ukuran font",
+            "opcionNA": "Pilih......",
+            "accessibilityLabelmain": "Kolom untuk memilih ukuran",
+            "accessibilityLabelselect": "Ukuran font",
+            "accessibilityLabeloptions": "Ukuran font"
+        },
+        "button_reset": {
+            "text": "Atur Ulang",
+            "accessibilityLabel": "Tombol reset gaya"
+        },
+        "button_save": {
+            "text": "Simpan",
+            "accessibilityLabel": "Tombol simpan"
+        }
+    },
+    "notifications": {
+        "title_notifications": "Notifikasi",
+        "title_information": "Informasi",
+        "title_error": "Kesalahan",
+        "messages": {
+            "load_resource": "Sumber daya pesan sedang dimuat",
+            "error_create_group": "Terjadi kesalahan saat menambahkan pengguna",
+            "error_get_chats": "Kesalahan saat mengambil chat",
+            "empty_chats_user": "Tidak ada chat yang tersedia",
+            "empty_chat": "Chat kosong",
+            "error_search_user": "Kesalahan saat mencari pengguna",
+            "notifications_search_user": "Tidak ada pengguna ditemukan",
+            "error_search_mic": "Kesalahan saat mencari pengguna melalui mikrofon",
+            "error_contain_chat": "Tidak ada riwayat chat",
+            "error_send_message": "Kesalahan saat mengirim pesan",
+            "update_photo": "Foto berhasil diperbarui",
+            "error_update_photo": "Terjadi kesalahan saat memperbarui foto",
+            "new_message": "Pesan baru telah tiba",
+            "error_load_disabilities": "Kesalahan saat memuat disabilitas",
+            "error_load_languages": "Kesalahan saat memuat bahasa",
+            "error_load_user": "Kesalahan saat mengambil pengguna",
+            "update_user_success": "Pengguna berhasil diperbarui",
+            "error_update_user": "Kesalahan saat memperbarui pengguna",
+            "load_data_profile_user": "Data pengguna berhasil dimuat",
+            "error_load_data_profile_user": "Kesalahan saat memuat data pengguna",
+            "register_user_success": "Pengguna berhasil didaftarkan",
+            "error_register_user_success": "Kesalahan saat mendaftarkan pengguna",
+            "web_socket_error": "Kesalahan menghubungkan ke server. Silakan coba lagi nanti.",
+            "web_socket_error_reconexion": "Koneksi Web Socket gagal saat menyambung ulang....",
+            "web_socket_connected": "Koneksi berhasil dibuat",
+            "web_socket_message_notification_text": "Anda telah menerima pesan teks dengan sukses",
+            "web_socket_message_notification_image": "Anda telah menerima pesan gambar dengan sukses",
+            "web_socket_message_notification_video": "Anda telah menerima pesan video dengan sukses",
+            "web_socket_message_notification_audio": "Anda telah menerima pesan audio dengan sukses",
+            "web_socket_message_notification_unknown": "Anda menerima pesan jenis tidak dikenal",
+            "web_socket_message_notification_user": "Pesan diterima dari pengguna {{user}}",
+            "web_socket_message_notification_new_friend": "Seorang kontak telah menambahkan Anda ke daftar teman mereka",
+            "web_socket_message_notification_add_friend": "Kontak berhasil ditambahkan",
+            "command_processing": "Memproses perintah Anda...",
+            "command_unrecognized": "Perintah tidak dikenali. Silakan coba lagi.",
+            "command_detection_error": "Terjadi kesalahan saat mendeteksi perintah. Silakan coba lagi."
+        }
+    },
+    "data_screen_main": {
+        "0": "Nama aplikasi (AMIC)",
+        "1": "Menu opsi",
+        "2": "Kontrol pencarian",
+        "3": "Mikrofon",
+        "4": "Cari",
+        "5": "Wadah pengguna"
+    },
+    "data_screen_profile_host_user": {
+        "0": "Foto profil pengguna",
+        "1": "Tombol ganti foto",
+        "2": "Pengguna {{user}}",
+        "3": "Nama depan {{names}}",
+        "4": "Nama belakang {{surnames}}",
+        "5": "Telepon {{phone_number}}",
+        "6": "Email {{email}}",
+        "7": "Deskripsi {{descripcion}}",
+        "8": "Disabilitas {{disability}}",
+        "9": "Bahasa aplikasi {{language}}",
+        "10": "Tombol simpan data"
+    },
+    "data_screen_configuration": {
+        "0": "Palet warna",
+        "1": "Teks tebal {{active_bold}}",
+        "2": "Notifikasi suara {{voice_notifications}}",
+        "3": "Ukuran font {{source_number}}",
+        "4": "Tombol reset konfigurasi",
+        "5": "Tombol simpan"
+    },
+    "data_screen_message_user": {
+        "0": "Foto profil pengguna",
+        "1": "Nama pengguna {{name_user}}",
+        "2": "Wadah pesan",
+        "3": "Kotak teks untuk menulis pesan",
+        "4": "Lampirkan foto atau video",
+        "5": "Ambil foto",
+        "6": "Rekam audio"
+    },
+    "data_screen_photo_user": {
+        "0": "Tombol tutup jendela",
+        "1": "Nama pengguna {{name_user}}",
+        "2": "Tanggal dan waktu pengiriman foto: {{datetime_photo}}",
+        "3": "Kotak wadah foto"
+    },
+    "data_screen_photo_user_current": {
+        "0": "Tombol tutup jendela",
+        "1": "Wadah foto",
+        "2": "Kirim foto"
+    },
+    "data_screen_video_user": {
+        "0": "Tombol tutup jendela",
+        "1": "Nama pengguna {{name_user}}",
+        "2": "Tanggal dan waktu pengiriman video: {{datetime_photo}}",
+        "3": "Kotak wadah video",
+        "4": "Garis waktu",
+        "5": "Durasi video {{time}}",
+        "6": "Waktu video saat ini {{current_time}}",
+        "7": "Suara {{sound}}",
+        "8": "Teks {{caption}}"
+    },
+    "data_screen_video_user_current": {
+        "0": "Tombol tutup jendela",
+        "1": "Kirim video",
+        "2": "Kotak wadah video",
+        "3": "Bilah waktu",
+        "4": "Durasi video {{time}}",
+        "5": "Waktu video saat ini {{current_time}}",
+        "6": "Suara {{sound}}"
+    },
+    "data_screen_camera_and_video": {
+        "0": "Tombol tutup jendela",
+        "1": "Tombol lampu kilat {{flash}}",
+        "2": "Tombol ambil foto atau rekam video",
+        "3": "Kamera {{camera}}",
+        "4": "{{video_or_photo}}"
+    },
+    "data_screen_profile_friend_user": {
+        "0": "Foto profil pengguna",
+        "1": "Nama depan {{names}}",
+        "2": "Nama belakang {{surnames}}",
+        "3": "Nama pengguna {{name_user}}",
+        "4": "Disabilitas {{disability}}",
+        "5": "Nomor telepon {{phone_number}}",
+        "6": "Email {{email}}",
+        "7": "Deskripsi {{description}}"
+    }
+}

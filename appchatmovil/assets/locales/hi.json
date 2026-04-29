@@ -1,0 +1,484 @@
+{
+    "register": {
+        "logo": {
+            "accessibilityLabel": "एप्लिकेशन लोगो (AMIC)"
+        },
+        "form": {
+            "accessibilityLabel": "पंजीकरण फॉर्म"
+        },
+        "input_username": {
+            "placeholder": "उपयोगकर्ता नाम दर्ज करें",
+            "accessibilityLabel": "उपयोगकर्ता नाम दर्ज करने का फ़ील्ड",
+            "max": "अधिकतम {{number}} अक्षरों की अनुमति है",
+            "required": "यह फ़ील्ड आवश्यक है"
+        },
+        "input_name": {
+            "placeholder": "पहला नाम दर्ज करें",
+            "accessibilityLabel": "उपयोगकर्ता नाम दर्ज करने का फ़ील्ड",
+            "max": "अधिकतम {{number}} अक्षरों की अनुमति है",
+            "required": "यह फ़ील्ड आवश्यक है"
+        },
+        "input_lastname": {
+            "placeholder": "अंतिम नाम दर्ज करें",
+            "accessibilityLabel": "अंतिम नाम दर्ज करने का फ़ील्ड",
+            "max": "अधिकतम {{number}} अक्षरों की अनुमति है",
+            "required": "यह फ़ील्ड आवश्यक है"
+        },
+        "input_phone": {
+            "placeholder": "फ़ोन नंबर दर्ज करें",
+            "accessibilityLabel": "फ़ोन नंबर दर्ज करने का फ़ील्ड",
+            "max": "अधिकतम {{number}} अक्षरों की अनुमति है",
+            "required": "यह फ़ील्ड आवश्यक है",
+            "matches": "त्रुटि!! केवल संख्याओं की अनुमति है"
+        },
+        "input_email": {
+            "placeholder": "ईमेल दर्ज करें",
+            "accessibilityLabel": "ईमेल दर्ज करने का फ़ील्ड",
+            "max": "अधिकतम {{number}} अक्षरों की अनुमति है",
+            "required": "यह फ़ील्ड आवश्यक है",
+            "email": "अमान्य ईमेल"
+        },
+        "button_register": {
+            "text": "पंजीकरण करें",
+            "accessibilityLabel": "पंजीकरण बटन"
+        }
+    },
+    "view_main": {
+        "logo": {
+            "accessibilityLabel": "एप्लिकेशन नाम (AMIC)"
+        },
+        "optionsmenu": {
+            "accessibilityLabel": "विकल्प मेनू"
+        },
+        "search_users": {
+            "accessibilityLabel": "उपयोगकर्ता खोज पट्टी",
+            "placeholder": "उपयोगकर्ता खोजें",
+            "iconsearch": "उपयोगकर्ता खोजने के लिए डबल टैप करें",
+            "load_resource": "संसाधन लोड हो रहा है",
+            "button_mic": "माइक्रोफ़ोन द्वारा उपयोगकर्ता खोजें"
+        }
+    },
+    "item_user_chat": {
+        "container": {
+            "accessibilityLabel": "उपयोगकर्ता आइटम:"
+        },
+        "container_photo_user": {
+            "accessibilityLabel": "उपयोगकर्ता प्रोफ़ाइल फ़ोटो"
+        },
+        "name_user": {
+            "accessibilityLabel": "उपयोगकर्ता नाम:"
+        },
+        "message_preview": {
+            "accessibilityLabel": "अंतिम प्राप्त संदेश:"
+        },
+        "date_last_message": {
+            "accessibilityLabel": "अंतिम संदेश की तारीख:"
+        },
+        "button_information": {
+            "accessibilityLabel": "उपयोगकर्ता सूचना बटन",
+            "text": "जानकारी"
+        },
+        "button_chat_user": {
+            "accessibilityLabel": "उपयोगकर्ता {{name_user}} के साथ चैट शुरू करने का बटन"
+        },
+        "play_read_id_button": {
+            "accessibilityLabel": "चैट पहचानकर्ता पढ़ने का बटन",
+            "SpeechText": "चैट पहचानकर्ता है: {{id}}",
+            "Identity": "ID: {{id}}"
+        }
+    },
+    "view_profilechatuser": {
+        "logo": {
+            "accessibilityLabel": "उपयोगकर्ता लोगो"
+        },
+        "name_and_lastname": {
+            "accessibilityLabel": "उपयोगकर्ता का पूरा नाम"
+        },
+        "username": {
+            "accessibilityLabel": "उपयोगकर्ता नाम:"
+        },
+        "disability": {
+            "accessibilityLabel": "विकलांगता:",
+            "text": "विकलांगता"
+        },
+        "phone": {
+            "accessibilityLabel": "फ़ोन:"
+        },
+        "email": {
+            "accessibilityLabel": "ईमेल:"
+        },
+        "description": {
+            "accessibilityLabel": "उपयोगकर्ता विवरण:",
+            "title_description": {
+                "accessibilityLabel": "मेरे बारे में:",
+                "text": "मेरे बारे में"
+            },
+            "descriptionuser": "विवरण:"
+        }
+    },
+    "view_profile": {
+        "picture_profile_user": {
+            "accessibilityLabel": "उपयोगकर्ता प्रोफ़ाइल फ़ोटो"
+        },
+        "button_change_photo": {
+            "accessibilityLabel": "फ़ोटो बदलने का बटन",
+            "text": "फ़ोटो बदलें"
+        },
+        "input_username": {
+            "placeholder": "उपयोगकर्ता नाम दर्ज करें",
+            "accessibilityLabel": "उपयोगकर्ता नाम दर्ज करने का फ़ील्ड",
+            "max": "अधिकतम {{number}} अक्षरों की अनुमति है",
+            "required": "यह फ़ील्ड आवश्यक है"
+        },
+        "input_name": {
+            "placeholder": "पहला नाम दर्ज करें",
+            "accessibilityLabel": "पहला नाम दर्ज करने का फ़ील्ड",
+            "max": "अधिकतम {{number}} अक्षरों की अनुमति है",
+            "required": "यह फ़ील्ड आवश्यक है"
+        },
+        "input_lastname": {
+            "placeholder": "अंतिम नाम दर्ज करें",
+            "accessibilityLabel": "अंतिम नाम दर्ज करने का फ़ील्ड",
+            "max": "अधिकतम {{number}} अक्षरों की अनुमति है",
+            "required": "यह फ़ील्ड आवश्यक है"
+        },
+        "input_phone": {
+            "placeholder": "फ़ोन नंबर दर्ज करें",
+            "accessibilityLabel": "फ़ोन नंबर दर्ज करने का फ़ील्ड",
+            "max": "अधिकतम {{number}} अक्षरों की अनुमति है",
+            "required": "यह फ़ील्ड आवश्यक है",
+            "matches": "त्रुटि! केवल संख्याओं की अनुमति है"
+        },
+        "input_email": {
+            "placeholder": "ईमेल दर्ज करें (संपादन योग्य नहीं)",
+            "accessibilityLabel": "ईमेल दर्ज करने का फ़ील्ड (संपादन योग्य नहीं)",
+            "max": "अधिकतम {{number}} अक्षरों की अनुमति है",
+            "required": "यह फ़ील्ड आवश्यक है",
+            "email": "अमान्य ईमेल"
+        },
+        "input_description": {
+            "placeholder": "विवरण दर्ज करें",
+            "accessibilityLabel": "विवरण दर्ज करने का फ़ील्ड",
+            "max": "अधिकतम {{number}} अक्षरों की अनुमति है"
+        },
+        "select_disabilities": {
+            "labelmain": "विकलांगताएँ",
+            "opcionNA": "चुनें......",
+            "accessibilityLabelmain": "विकलांगता चुनने का फ़ील्ड",
+            "accessibilityLabelselect": "विकलांगता",
+            "accessibilityLabeloptions": "विकलांगता"
+        },
+        "select_languages": {
+            "labelmain": "भाषाएँ",
+            "opcionNA": "चुनें......",
+            "accessibilityLabelmain": "भाषा चुनने का फ़ील्ड",
+            "accessibilityLabelselect": "भाषा",
+            "accessibilityLabeloptions": "भाषा"
+        },
+        "button_save": {
+            "text": "सहेजें",
+            "accessibilityLabel": "सहेजें बटन"
+        }
+    },
+    "message_chat_user": {
+        "picture_profile_user": {
+            "accessibilityLabel": "उपयोगकर्ता प्रोफ़ाइल फ़ोटो"
+        },
+        "name_user_chat": {
+            "accessibilityLabel": "उपयोगकर्ता नाम {{name}}"
+        },
+        "input_message": {
+            "accessibilityLabel": "पाठ संदेश लिखने का फ़ील्ड",
+            "placeholder": "संदेश भेजें...."
+        },
+        "attach_images_videos": {
+            "accessibilityLabel": "फ़ोटो या वीडियो संलग्न करने का नियंत्रण"
+        },
+        "capture_photo_video": {
+            "accessibilityLabel": "वास्तविक समय में फ़ोटो या वीडियो लेने का नियंत्रण"
+        },
+        "record_audio": {
+            "accessibilityLabel": "ऑडियो रिकॉर्ड करने का नियंत्रण"
+        },
+        "send_message": {
+            "accessibilityLabel": "लिखित पाठ संदेश भेजने का नियंत्रण"
+        }
+    },
+    "item_chat_user": {
+        "item": {
+            "accessibilityLabel": "उपयोगकर्ता चैट आइटम {{name}}"
+        },
+        "name_user": {
+            "accessibilityLabel": "उपयोगकर्ता नाम {{name}}"
+        },
+        "change_language": {
+            "accessibilityLabel": "{{language}} भाषा में स्विच करें"
+        },
+        "resource_loading": {
+            "accessibilityLabel": "संसाधन लोड हो रहा है"
+        },
+        "message": {
+            "accessibilityLabel": "पाठ संदेश"
+        },
+        "message_time": {
+            "accessibilityLabel": "संदेश आगमन का समय: {{time}}"
+        },
+        "message_image": {
+            "accessibilityLabel": "छवि, विवरण के लिए ऑडियो चलाएँ"
+        }
+    },
+    "item_photo_capture": {
+        "button_close": {
+            "accessibilityLabel": "बंद करें बटन"
+        },
+        "name_user": {
+            "accessibilityLabel": "उपयोगकर्ता नाम: {{name_user}}"
+        },
+        "date_time": {
+            "accessibilityLabel": "छवि आगमन की तारीख और समय: {{datetime}}"
+        },
+        "container_image": {
+            "accessibilityLabel": "छवि: {{descripcion}}"
+        },
+        "send_image": {
+            "accessibilityLabel": "छवि भेजें"
+        }
+    },
+    "item_camera": {
+        "button_close": {
+            "accessibilityLabel": "कैमरा बंद करें"
+        },
+        "button_flash": {
+            "accessibilityLabelOn": "फ्लैश चालू करें",
+            "accessibilityLabelOff": "फ्लैश बंद करें"
+        },
+        "change_camera": {
+            "accessibilityLabelLead": "फ्रंट कैमरा पर स्विच करें",
+            "accessibilityLabelRear": "रियर कैमरा पर स्विच करें"
+        },
+        "button_video": {
+            "accessibilityLabel": "वीडियो पर स्विच करें",
+            "text": "वीडियो"
+        },
+        "button_photo": {
+            "accessibilityLabel": "फ़ोटो पर स्विच करें",
+            "text": "फ़ोटो"
+        },
+        "action_camera": {
+            "photo": "फ़ोटो लें",
+            "video": "वीडियो रिकॉर्ड करें"
+        }
+    },
+    "item_video_capture": {
+        "back_button": {
+            "accessibilityLabel": "वापस जाएँ"
+        },
+        "send_video": {
+            "accessibilityLabel": "वीडियो भेजें"
+        },
+        "user_data": {
+            "name_user": "उपयोगकर्ता नाम: {{name_user}}",
+            "datetime": "भेजने की तारीख: {{datetime}}"
+        },
+        "controls_video": {
+            "accessibilityLabelPress": "वीडियो नियंत्रण दिखाने के लिए डबल टैप करें",
+            "back_video": "दस सेकंड पीछे जाएँ",
+            "pass_video": "दस सेकंड आगे जाएँ",
+            "pause": "रोकें",
+            "play": "चलाएँ",
+            "time_bar": "वीडियो समय पट्टी (स्लाइडर नियंत्रण)",
+            "current_video_time": "वर्तमान वीडियो समय: {{time}}",
+            "turn_off_sound": "ध्वनि बंद करें",
+            "turn_on_sound": "ध्वनि चालू करें",
+            "button_caption_active": "उपशीर्षक बटन सक्रिय करें",
+            "button_caption_deactivate": "उपशीर्षक बटन निष्क्रिय करें",
+            "display_caption": "उपशीर्षक"
+        }
+    },
+    "item_audio": {
+        "container_audio": {
+            "accessibilityLabel": "ऑडियो नियंत्रण"
+        },
+        "controls": {
+            "container_time_bar": "ऑडियो समय पट्टी कंटेनर (स्लाइडर नियंत्रण) वर्तमान समय {{time}}",
+            "time_bar": "ऑडियो समय पट्टी (स्लाइडर नियंत्रण) वर्तमान समय {{time}}",
+            "button_audio_active": "ऑडियो चलाएँ",
+            "button_audio_deactivate": "ऑडियो निष्क्रिय करें"
+        }
+    },
+    "item_video": {
+        "container_video": {
+            "accessibilityLabel": "वीडियो नियंत्रण, प्लेयर तक पहुँचने के लिए डबल टैप करें"
+        }
+    },
+    "load_splash_screen": {
+        "progressbar": {
+            "accessibilityLabel": "लोड हो रहा है"
+        }
+    },
+    "item_check": {
+        "accessibilityLabelText": "जाँच नियंत्रण",
+        "texts": {
+            "text1": "बोल्ड टेक्स्ट",
+            "text2": "ध्वनि सूचनाएँ"
+        },
+        "active": "सक्रिय नियंत्रण",
+        "disabled": "निष्क्रिय नियंत्रण"
+    },
+    "view_settings_app": {
+        "title": {
+            "accessibilityLabel": "सेटिंग्स मेनू शीर्षक",
+            "text": "सेटिंग्स"
+        },
+        "container_colors": {
+            "accessibilityLabel": "रंग दराज"
+        },
+        "color_select": {
+            "accessibilityLabel": "चयनित रंग"
+        },
+        "select_font_size": {
+            "labelmain": "फ़ॉन्ट आकार",
+            "opcionNA": "चुनें......",
+            "accessibilityLabelmain": "आकार चुनने का फ़ील्ड",
+            "accessibilityLabelselect": "फ़ॉन्ट आकार",
+            "accessibilityLabeloptions": "फ़ॉन्ट आकार"
+        },
+        "button_reset": {
+            "text": "रीसेट करें",
+            "accessibilityLabel": "शैली रीसेट बटन"
+        },
+        "button_save": {
+            "text": "सहेजें",
+            "accessibilityLabel": "सहेजें बटन"
+        }
+    },
+    "notifications": {
+        "title_notifications": "सूचना",
+        "title_information": "जानकारी",
+        "title_error": "त्रुटि",
+        "messages": {
+            "load_resource": "संदेश संसाधन लोड हो रहा है",
+            "error_create_group": "उपयोगकर्ता को जोड़ते समय एक त्रुटि हुई",
+            "error_get_chats": "चैट पुनर्प्राप्त करते समय त्रुटि",
+            "empty_chats_user": "कोई चैट उपलब्ध नहीं है",
+            "empty_chat": "चैट खाली है",
+            "error_search_user": "उपयोगकर्ताओं को खोजते समय त्रुटि",
+            "notifications_search_user": "कोई उपयोगकर्ता नहीं मिला",
+            "error_search_mic": "माइक्रोफ़ोन के माध्यम से उपयोगकर्ताओं को खोजते समय त्रुटि",
+            "error_contain_chat": "कोई चैट रिकॉर्ड मौजूद नहीं है",
+            "error_send_message": "संदेश भेजते समय त्रुटि",
+            "update_photo": "फ़ोटो सफलतापूर्वक अपडेट हो गई है",
+            "error_update_photo": "फ़ोटो अपडेट करते समय एक त्रुटि हुई",
+            "new_message": "एक नया संदेश आ गया है",
+            "error_load_disabilities": "विकलांगताएँ लोड करते समय त्रुटि",
+            "error_load_languages": "भाषाएँ लोड करते समय त्रुटि",
+            "error_load_user": "उपयोगकर्ता पुनर्प्राप्त करते समय त्रुटि",
+            "update_user_success": "उपयोगकर्ता सफलतापूर्वक अपडेट हो गया है",
+            "error_update_user": "उपयोगकर्ता अपडेट करते समय त्रुटि",
+            "load_data_profile_user": "उपयोगकर्ता डेटा सफलतापूर्वक लोड हो गया",
+            "error_load_data_profile_user": "उपयोगकर्ता डेटा लोड करते समय त्रुटि",
+            "register_user_success": "उपयोगकर्ता सफलतापूर्वक पंजीकृत हो गया",
+            "error_register_user_success": "उपयोगकर्ता पंजीकृत करते समय त्रुटि",
+            "web_socket_error": "सर्वर से कनेक्ट करने में त्रुटि। कृपया बाद में पुनः प्रयास करें।",
+            "web_socket_error_reconexion": "पुनः कनेक्ट करते समय वेब सॉकेट कनेक्शन विफल रहा....",
+            "web_socket_connected": "कनेक्शन सफलतापूर्वक स्थापित हो गया",
+            "web_socket_message_notification_text": "आपको सफलतापूर्वक एक पाठ संदेश प्राप्त हुआ है",
+            "web_socket_message_notification_image": "आपको सफलतापूर्वक एक छवि संदेश प्राप्त हुआ है",
+            "web_socket_message_notification_video": "आपको सफलतापूर्वक एक वीडियो संदेश प्राप्त हुआ है",
+            "web_socket_message_notification_audio": "आपको सफलतापूर्वक एक ऑडियो संदेश प्राप्त हुआ है",
+            "web_socket_message_notification_unknown": "आपको अज्ञात प्रकार का एक संदेश प्राप्त हुआ है",
+            "web_socket_message_notification_user": "उपयोगकर्ता {{user}} से प्राप्त संदेश",
+            "web_socket_message_notification_new_friend": "एक संपर्क ने आपको अपनी मित्र सूची में जोड़ दिया है",
+            "web_socket_message_notification_add_friend": "संपर्क सफलतापूर्वक जोड़ा गया",
+            "command_processing": "आपके कमांड को संसाधित किया जा रहा है...",
+            "command_unrecognized": "कमांड पहचाना नहीं गया। कृपया पुनः प्रयास करें।",
+            "command_detection_error": "कमांड का पता लगाने में त्रुटि हुई। कृपया पुनः प्रयास करें।"
+        }
+    },
+    "data_screen_main": {
+        "0": "एप्लिकेशन नाम (AMIC)",
+        "1": "विकल्प मेनू",
+        "2": "खोज नियंत्रण",
+        "3": "माइक्रोफ़ोन",
+        "4": "खोजें",
+        "5": "उपयोगकर्ता कंटेनर"
+    },
+    "data_screen_profile_host_user": {
+        "0": "उपयोगकर्ता प्रोफ़ाइल चित्र",
+        "1": "फ़ोटो बदलें बटन",
+        "2": "उपयोगकर्ता {{user}}",
+        "3": "पहला नाम {{names}}",
+        "4": "अंतिम नाम {{surnames}}",
+        "5": "फ़ोन {{phone_number}}",
+        "6": "ईमेल {{email}}",
+        "7": "विवरण {{descripcion}}",
+        "8": "विकलांगता {{disability}}",
+        "9": "एप्लिकेशन भाषा {{language}}",
+        "10": "डेटा सहेजें बटन"
+    },
+    "data_screen_configuration": {
+        "0": "रंग पैलेट",
+        "1": "बोल्ड टेक्स्ट {{active_bold}}",
+        "2": "ध्वनि सूचनाएँ {{voice_notifications}}",
+        "3": "फ़ॉन्ट आकार {{source_number}}",
+        "4": "कॉन्फ़िगरेशन रीसेट बटन",
+        "5": "सहेजें बटन"
+    },
+    "data_screen_message_user": {
+        "0": "उपयोगकर्ता प्रोफ़ाइल चित्र",
+        "1": "उपयोगकर्ता नाम {{name_user}}",
+        "2": "संदेश कंटेनर",
+        "3": "संदेश लिखने के लिए टेक्स्ट बॉक्स",
+        "4": "फ़ोटो या वीडियो संलग्न करें",
+        "5": "फ़ोटो लें",
+        "6": "ऑडियो रिकॉर्ड करें"
+    },
+    "data_screen_photo_user": {
+        "0": "विंडो बंद करें बटन",
+        "1": "उपयोगकर्ता नाम {{name_user}}",
+        "2": "फ़ोटो भेजने की तारीख और समय: {{datetime_photo}}",
+        "3": "फ़ोटो कंटेनर बॉक्स"
+    },
+    "data_screen_photo_user_current": {
+        "0": "विंडो बंद करें बटन",
+        "1": "फ़ोटो कंटेनर",
+        "2": "फ़ोटो भेजें"
+    },
+    "data_screen_video_user": {
+        "0": "विंडो बंद करें बटन",
+        "1": "उपयोगकर्ता नाम {{name_user}}",
+        "2": "वीडियो भेजने की तारीख और समय: {{datetime_photo}}",
+        "3": "वीडियो कंटेनर बॉक्स",
+        "4": "समय रेखा",
+        "5": "वीडियो अवधि {{time}}",
+        "6": "वर्तमान वीडियो समय {{current_time}}",
+        "7": "ध्वनि {{sound}}",
+        "8": "उपशीर्षक {{caption}}"
+    },
+    "data_screen_video_user_current": {
+        "0": "विंडो बंद करें बटन",
+        "1": "वीडियो भेजें",
+        "2": "वीडियो कंटेनर बॉक्स",
+        "3": "समय पट्टी",
+        "4": "वीडियो अवधि {{time}}",
+        "5": "वर्तमान वीडियो समय {{current_time}}",
+        "6": "ध्वनि {{sound}}"
+    },
+    "data_screen_camera_and_video": {
+        "0": "विंडो बंद करें बटन",
+        "1": "फ्लैश बटन {{flash}}",
+        "2": "फ़ोटो या वीडियो लेने का बटन",
+        "3": "कैमरा {{camera}}",
+        "4": "{{video_or_photo}}"
+    },
+    "data_screen_profile_friend_user": {
+        "0": "उपयोगकर्ता प्रोफ़ाइल चित्र",
+        "1": "पहला नाम {{names}}",
+        "2": "अंतिम नाम {{surnames}}",
+        "3": "उपयोगकर्ता नाम {{name_user}}",
+        "4": "विकलांगता {{disability}}",
+        "5": "फ़ोन नंबर {{phone_number}}",
+        "6": "ईमेल {{email}}",
+        "7": "विवरण {{description}}"
+    }
+}

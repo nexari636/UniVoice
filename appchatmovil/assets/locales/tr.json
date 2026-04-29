@@ -1,0 +1,484 @@
+{
+    "register": {
+        "logo": {
+            "accessibilityLabel": "Uygulama logosu (AMIC)"
+        },
+        "form": {
+            "accessibilityLabel": "Kayıt formu"
+        },
+        "input_username": {
+            "placeholder": "Kullanıcı adını girin",
+            "accessibilityLabel": "Kullanıcı adı giriş alanı",
+            "max": "En fazla {{number}} karaktere izin verilir",
+            "required": "Bu alan zorunludur"
+        },
+        "input_name": {
+            "placeholder": "Adınızı girin",
+            "accessibilityLabel": "Kullanıcı adı giriş alanı",
+            "max": "En fazla {{number}} karaktere izin verilir",
+            "required": "Bu alan zorunludur"
+        },
+        "input_lastname": {
+            "placeholder": "Soyadınızı girin",
+            "accessibilityLabel": "Soyadı giriş alanı",
+            "max": "En fazla {{number}} karaktere izin verilir",
+            "required": "Bu alan zorunludur"
+        },
+        "input_phone": {
+            "placeholder": "Telefon numarasını girin",
+            "accessibilityLabel": "Telefon numarası giriş alanı",
+            "max": "En fazla {{number}} karaktere izin verilir",
+            "required": "Bu alan zorunludur",
+            "matches": "Hata!! Sadece sayılara izin verilir"
+        },
+        "input_email": {
+            "placeholder": "E-posta adresini girin",
+            "accessibilityLabel": "E-posta giriş alanı",
+            "max": "En fazla {{number}} karaktere izin verilir",
+            "required": "Bu alan zorunludur",
+            "email": "Geçersiz e-posta"
+        },
+        "button_register": {
+            "text": "Kaydol",
+            "accessibilityLabel": "Kaydolma düğmesi"
+        }
+    },
+    "view_main": {
+        "logo": {
+            "accessibilityLabel": "Uygulama adı (AMIC)"
+        },
+        "optionsmenu": {
+            "accessibilityLabel": "Seçenekler menüsü"
+        },
+        "search_users": {
+            "accessibilityLabel": "Kullanıcı arama çubuğu",
+            "placeholder": "Kullanıcıları ara",
+            "iconsearch": "Kullanıcıyı aramak için çift dokunun",
+            "load_resource": "Kaynak yükleniyor",
+            "button_mic": "Mikrofonla kullanıcı ara"
+        }
+    },
+    "item_user_chat": {
+        "container": {
+            "accessibilityLabel": "Kullanıcı öğesi:"
+        },
+        "container_photo_user": {
+            "accessibilityLabel": "Kullanıcı profil fotoğrafı"
+        },
+        "name_user": {
+            "accessibilityLabel": "Kullanıcı adı:"
+        },
+        "message_preview": {
+            "accessibilityLabel": "Alınan son mesaj:"
+        },
+        "date_last_message": {
+            "accessibilityLabel": "Alınan son mesajın tarihi:"
+        },
+        "button_information": {
+            "accessibilityLabel": "Kullanıcı bilgisi düğmesi",
+            "text": "Bilgi"
+        },
+        "button_chat_user": {
+            "accessibilityLabel": "{{name_user}} kullanıcısıyla sohbet başlatma düğmesi"
+        },
+        "play_read_id_button": {
+            "accessibilityLabel": "Sohbet tanımlayıcısı okuma düğmesi",
+            "SpeechText": "Sohbet tanımlayıcısı: {{id}}",
+            "Identity": "ID: {{id}}"
+        }
+    },
+    "view_profilechatuser": {
+        "logo": {
+            "accessibilityLabel": "Kullanıcı logosu"
+        },
+        "name_and_lastname": {
+            "accessibilityLabel": "Kullanıcının tam adı"
+        },
+        "username": {
+            "accessibilityLabel": "Kullanıcı adı:"
+        },
+        "disability": {
+            "accessibilityLabel": "Engellilik:",
+            "text": "Engellilik"
+        },
+        "phone": {
+            "accessibilityLabel": "Telefon:"
+        },
+        "email": {
+            "accessibilityLabel": "E-posta:"
+        },
+        "description": {
+            "accessibilityLabel": "Kullanıcı açıklaması:",
+            "title_description": {
+                "accessibilityLabel": "Hakkımda:",
+                "text": "Hakkımda"
+            },
+            "descriptionuser": "Açıklama:"
+        }
+    },
+    "view_profile": {
+        "picture_profile_user": {
+            "accessibilityLabel": "Kullanıcı profil fotoğrafı"
+        },
+        "button_change_photo": {
+            "accessibilityLabel": "Fotoğraf değiştirme düğmesi",
+            "text": "Fotoğrafı değiştir"
+        },
+        "input_username": {
+            "placeholder": "Kullanıcı adını girin",
+            "accessibilityLabel": "Kullanıcı adı giriş alanı",
+            "max": "En fazla {{number}} karaktere izin verilir",
+            "required": "Bu alan zorunludur"
+        },
+        "input_name": {
+            "placeholder": "Adları girin",
+            "accessibilityLabel": "Ad giriş alanı",
+            "max": "En fazla {{number}} karaktere izin verilir",
+            "required": "Bu alan zorunludur"
+        },
+        "input_lastname": {
+            "placeholder": "Soyadları girin",
+            "accessibilityLabel": "Soyadı giriş alanı",
+            "max": "En fazla {{number}} karaktere izin verilir",
+            "required": "Bu alan zorunludur"
+        },
+        "input_phone": {
+            "placeholder": "Telefon numarasını girin",
+            "accessibilityLabel": "Telefon numarası giriş alanı",
+            "max": "En fazla {{number}} karaktere izin verilir",
+            "required": "Bu alan zorunludur",
+            "matches": "Hata! Sadece sayılara izin verilir"
+        },
+        "input_email": {
+            "placeholder": "E-posta adresini girin (düzenlenemez)",
+            "accessibilityLabel": "E-posta giriş alanı (düzenlenemez)",
+            "max": "En fazla {{number}} karaktere izin verilir",
+            "required": "Bu alan zorunludur",
+            "email": "Geçersiz e-posta"
+        },
+        "input_description": {
+            "placeholder": "Açıklama girin",
+            "accessibilityLabel": "Açıklama giriş alanı",
+            "max": "En fazla {{number}} karaktere izin verilir"
+        },
+        "select_disabilities": {
+            "labelmain": "Engellilikler",
+            "opcionNA": "Seçin......",
+            "accessibilityLabelmain": "Engellilik seçim alanı",
+            "accessibilityLabelselect": "Engellilik",
+            "accessibilityLabeloptions": "Engellilik"
+        },
+        "select_languages": {
+            "labelmain": "Diller",
+            "opcionNA": "Seçin......",
+            "accessibilityLabelmain": "Dil seçim alanı",
+            "accessibilityLabelselect": "Dil",
+            "accessibilityLabeloptions": "Dil"
+        },
+        "button_save": {
+            "text": "Kaydet",
+            "accessibilityLabel": "Kaydet düğmesi"
+        }
+    },
+    "message_chat_user": {
+        "picture_profile_user": {
+            "accessibilityLabel": "Kullanıcı profil fotoğrafı"
+        },
+        "name_user_chat": {
+            "accessibilityLabel": "Kullanıcı adı {{name}}"
+        },
+        "input_message": {
+            "accessibilityLabel": "Metin mesajı yazma alanı",
+            "placeholder": "Mesaj gönder...."
+        },
+        "attach_images_videos": {
+            "accessibilityLabel": "Fotoğraf veya video ekleme kontrolü"
+        },
+        "capture_photo_video": {
+            "accessibilityLabel": "Gerçek zamanlı fotoğraf veya video çekme kontrolü"
+        },
+        "record_audio": {
+            "accessibilityLabel": "Ses kaydetme kontrolü"
+        },
+        "send_message": {
+            "accessibilityLabel": "Yazılan metin mesajını gönderme kontrolü"
+        }
+    },
+    "item_chat_user": {
+        "item": {
+            "accessibilityLabel": "Kullanıcı sohbet öğesi {{name}}"
+        },
+        "name_user": {
+            "accessibilityLabel": "Kullanıcı adı {{name}}"
+        },
+        "change_language": {
+            "accessibilityLabel": "{{language}} diline geç"
+        },
+        "resource_loading": {
+            "accessibilityLabel": "Kaynak yükleniyor"
+        },
+        "message": {
+            "accessibilityLabel": "Metin mesajı"
+        },
+        "message_time": {
+            "accessibilityLabel": "Mesaj geliş zamanı: {{time}}"
+        },
+        "message_image": {
+            "accessibilityLabel": "Görsel, açıklama için sesi oynatın"
+        }
+    },
+    "item_photo_capture": {
+        "button_close": {
+            "accessibilityLabel": "Kapat düğmesi"
+        },
+        "name_user": {
+            "accessibilityLabel": "Kullanıcı adı: {{name_user}}"
+        },
+        "date_time": {
+            "accessibilityLabel": "Görsel geliş tarihi ve saati: {{datetime}}"
+        },
+        "container_image": {
+            "accessibilityLabel": "Görsel: {{descripcion}}"
+        },
+        "send_image": {
+            "accessibilityLabel": "Görsel gönder"
+        }
+    },
+    "item_camera": {
+        "button_close": {
+            "accessibilityLabel": "Kamerayı kapat"
+        },
+        "button_flash": {
+            "accessibilityLabelOn": "Flaşı aç",
+            "accessibilityLabelOff": "Flaşı kapat"
+        },
+        "change_camera": {
+            "accessibilityLabelLead": "Ön kameraya geç",
+            "accessibilityLabelRear": "Arka kameraya geç"
+        },
+        "button_video": {
+            "accessibilityLabel": "Videoya geç",
+            "text": "Video"
+        },
+        "button_photo": {
+            "accessibilityLabel": "Fotoğrafa geç",
+            "text": "Fotoğraf"
+        },
+        "action_camera": {
+            "photo": "fotoğraf çek",
+            "video": "video kaydet"
+        }
+    },
+    "item_video_capture": {
+        "back_button": {
+            "accessibilityLabel": "Geri"
+        },
+        "send_video": {
+            "accessibilityLabel": "Video gönder"
+        },
+        "user_data": {
+            "name_user": "Kullanıcı adı: {{name_user}}",
+            "datetime": "Gönderim tarihi: {{datetime}}"
+        },
+        "controls_video": {
+            "accessibilityLabelPress": "Video kontrollerini göstermek için çift dokunun",
+            "back_video": "On saniye geri sar",
+            "pass_video": "On saniye ileri sar",
+            "pause": "Duraklat",
+            "play": "Oynat",
+            "time_bar": "Video zaman çubuğu (kaydırma kontrolü)",
+            "current_video_time": "Geçerli video zamanı: {{time}}",
+            "turn_off_sound": "Sesi kapat",
+            "turn_on_sound": "Sesi aç",
+            "button_caption_active": "Altyazı düğmesini etkinleştir",
+            "button_caption_deactivate": "Altyazı düğmesini devre dışı bırak",
+            "display_caption": "altyazılar"
+        }
+    },
+    "item_audio": {
+        "container_audio": {
+            "accessibilityLabel": "Ses kontrolü"
+        },
+        "controls": {
+            "container_time_bar": "Geçerli zaman {{time}} ile ses zaman çubuğu kabı (kaydırma kontrolü)",
+            "time_bar": "Geçerli zaman {{time}} ile ses zaman çubuğu (kaydırma kontrolü)",
+            "button_audio_active": "Sesi oynat",
+            "button_audio_deactivate": "Sesi devre dışı bırak"
+        }
+    },
+    "item_video": {
+        "container_video": {
+            "accessibilityLabel": "Video kontrolü, oynatıcıya erişmek için çift dokunun"
+        }
+    },
+    "load_splash_screen": {
+        "progressbar": {
+            "accessibilityLabel": "Yükleniyor"
+        }
+    },
+    "item_check": {
+        "accessibilityLabelText": "Kontrol kutusu",
+        "texts": {
+            "text1": "Kalın metin",
+            "text2": "Sesli bildirimler"
+        },
+        "active": "Aktif kontrol",
+        "disabled": "Devre dışı kontrol"
+    },
+    "view_settings_app": {
+        "title": {
+            "accessibilityLabel": "Ayarlar menü başlığı",
+            "text": "Ayarlar"
+        },
+        "container_colors": {
+            "accessibilityLabel": "Renk çekmecesi"
+        },
+        "color_select": {
+            "accessibilityLabel": "Seçilen renk"
+        },
+        "select_font_size": {
+            "labelmain": "Yazı tipi boyutu",
+            "opcionNA": "Seçin......",
+            "accessibilityLabelmain": "Boyut seçim alanı",
+            "accessibilityLabelselect": "Yazı tipi boyutu",
+            "accessibilityLabeloptions": "Yazı tipi boyutu"
+        },
+        "button_reset": {
+            "text": "Sıfırla",
+            "accessibilityLabel": "Stil sıfırlama düğmesi"
+        },
+        "button_save": {
+            "text": "Kaydet",
+            "accessibilityLabel": "Kaydet düğmesi"
+        }
+    },
+    "notifications": {
+        "title_notifications": "Bildirim",
+        "title_information": "Bilgi",
+        "title_error": "Hata",
+        "messages": {
+            "load_resource": "Mesaj kaynağı yükleniyor",
+            "error_create_group": "Kullanıcı eklenirken bir hata oluştu",
+            "error_get_chats": "Sohbetler alınırken hata",
+            "empty_chats_user": "Kullanılabilir sohbet yok",
+            "empty_chat": "Sohbet boş",
+            "error_search_user": "Kullanıcı aranırken hata",
+            "notifications_search_user": "Kullanıcı bulunamadı",
+            "error_search_mic": "Mikrofonla kullanıcı aranırken hata",
+            "error_contain_chat": "Sohbet kaydı yok",
+            "error_send_message": "Mesaj gönderilirken hata",
+            "update_photo": "Fotoğraf başarıyla güncellendi",
+            "error_update_photo": "Fotoğraf güncellenirken bir hata oluştu",
+            "new_message": "Yeni bir mesaj geldi",
+            "error_load_disabilities": "Engellilikler yüklenirken hata",
+            "error_load_languages": "Diller yüklenirken hata",
+            "error_load_user": "Kullanıcı alınırken hata",
+            "update_user_success": "Kullanıcı başarıyla güncellendi",
+            "error_update_user": "Kullanıcı güncellenirken hata",
+            "load_data_profile_user": "Kullanıcı verileri başarıyla yüklendi",
+            "error_load_data_profile_user": "Kullanıcı verileri yüklenirken hata",
+            "register_user_success": "Kullanıcı başarıyla kaydedildi",
+            "error_register_user_success": "Kullanıcı kaydedilirken hata",
+            "web_socket_error": "Sunucuya bağlanırken hata. Lütfen daha sonra tekrar deneyin.",
+            "web_socket_error_reconexion": "Yeniden bağlanırken Web Socket bağlantısı başarısız oldu....",
+            "web_socket_connected": "Bağlantı başarıyla kuruldu",
+            "web_socket_message_notification_text": "Başarıyla bir metin mesajı aldınız",
+            "web_socket_message_notification_image": "Başarıyla bir görsel mesajı aldınız",
+            "web_socket_message_notification_video": "Başarıyla bir video mesajı aldınız",
+            "web_socket_message_notification_audio": "Başarıyla bir ses mesajı aldınız",
+            "web_socket_message_notification_unknown": "Bilinmeyen türde bir mesaj aldınız",
+            "web_socket_message_notification_user": "{{user}} kullanıcısından mesaj alındı",
+            "web_socket_message_notification_new_friend": "Bir kişi sizi arkadaş listesine ekledi",
+            "web_socket_message_notification_add_friend": "Kişi başarıyla eklendi",
+            "command_processing": "Komut işleniyor...",
+            "command_unrecognized": "Komut tanınmadı. Lütfen tekrar deneyin.",
+            "command_detection_error": "Komut algılama hatası oluştu. Lütfen tekrar deneyin."
+        }
+    },
+    "data_screen_main": {
+        "0": "Uygulama adı (AMIC)",
+        "1": "Seçenekler menüsü",
+        "2": "Arama kontrolü",
+        "3": "Mikrofon",
+        "4": "Ara",
+        "5": "Kullanıcı kabı"
+    },
+    "data_screen_profile_host_user": {
+        "0": "Kullanıcı profil resmi",
+        "1": "Fotoğraf değiştirme düğmesi",
+        "2": "Kullanıcı {{user}}",
+        "3": "Ad {{names}}",
+        "4": "Soyad {{surnames}}",
+        "5": "Telefon {{phone_number}}",
+        "6": "E-posta {{email}}",
+        "7": "Açıklama {{descripcion}}",
+        "8": "Engellilik {{disability}}",
+        "9": "Uygulama dili {{language}}",
+        "10": "Veri kaydetme düğmesi"
+    },
+    "data_screen_configuration": {
+        "0": "Renk paleti",
+        "1": "Kalın metin {{active_bold}}",
+        "2": "Sesli bildirimler {{voice_notifications}}",
+        "3": "Yazı tipi boyutu {{source_number}}",
+        "4": "Yapılandırmaları sıfırlama düğmesi",
+        "5": "Kaydet düğmesi"
+    },
+    "data_screen_message_user": {
+        "0": "Kullanıcı profil resmi",
+        "1": "Kullanıcı adı {{name_user}}",
+        "2": "Mesaj kabı",
+        "3": "Mesaj yazmak için metin kutusu",
+        "4": "Fotoğraf veya video ekle",
+        "5": "Fotoğraf çek",
+        "6": "Ses kaydet"
+    },
+    "data_screen_photo_user": {
+        "0": "Pencereyi kapat düğmesi",
+        "1": "Kullanıcı adı {{name_user}}",
+        "2": "Fotoğraf gönderim tarihi ve saati: {{datetime_photo}}",
+        "3": "Fotoğraf kabı kutusu"
+    },
+    "data_screen_photo_user_current": {
+        "0": "Pencereyi kapat düğmesi",
+        "1": "Fotoğraf kabı",
+        "2": "Fotoğraf gönder"
+    },
+    "data_screen_video_user": {
+        "0": "Pencereyi kapat düğmesi",
+        "1": "Kullanıcı adı {{name_user}}",
+        "2": "Video gönderim tarihi ve saati: {{datetime_photo}}",
+        "3": "Video kabı kutusu",
+        "4": "Zaman çizelgesi",
+        "5": "Video süresi {{time}}",
+        "6": "Geçerli video zamanı {{current_time}}",
+        "7": "Ses {{sound}}",
+        "8": "Altyazılar {{caption}}"
+    },
+    "data_screen_video_user_current": {
+        "0": "Pencereyi kapat düğmesi",
+        "1": "Video gönder",
+        "2": "Video kabı kutusu",
+        "3": "Zaman çubuğu",
+        "4": "Video süresi {{time}}",
+        "5": "Geçerli video zamanı {{current_time}}",
+        "6": "Ses {{sound}}"
+    },
+    "data_screen_camera_and_video": {
+        "0": "Pencereyi kapat düğmesi",
+        "1": "Flaş düğmesi {{flash}}",
+        "2": "Fotoğraf çek veya video kaydet düğmesi",
+        "3": "Kamera {{camera}}",
+        "4": "{{video_or_photo}}"
+    },
+    "data_screen_profile_friend_user": {
+        "0": "Kullanıcı profil resmi",
+        "1": "Adlar {{names}}",
+        "2": "Soyadlar {{surnames}}",
+        "3": "Kullanıcı adı {{name_user}}",
+        "4": "Engellilik {{disability}}",
+        "5": "Telefon numarası {{phone_number}}",
+        "6": "E-posta {{email}}",
+        "7": "Açıklama {{description}}"
+    }
+}

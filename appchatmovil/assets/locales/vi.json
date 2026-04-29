@@ -1,0 +1,484 @@
+{
+    "register": {
+        "logo": {
+            "accessibilityLabel": "Biểu trưng ứng dụng (AMIC)"
+        },
+        "form": {
+            "accessibilityLabel": "Mẫu đăng ký"
+        },
+        "input_username": {
+            "placeholder": "Nhập tên người dùng",
+            "accessibilityLabel": "Trường nhập tên người dùng",
+            "max": "Tối đa {{number}} ký tự được phép",
+            "required": "Trường này là bắt buộc"
+        },
+        "input_name": {
+            "placeholder": "Nhập tên",
+            "accessibilityLabel": "Trường nhập tên người dùng",
+            "max": "Tối đa {{number}} ký tự được phép",
+            "required": "Trường này là bắt buộc"
+        },
+        "input_lastname": {
+            "placeholder": "Nhập họ",
+            "accessibilityLabel": "Trường nhập họ",
+            "max": "Tối đa {{number}} ký tự được phép",
+            "required": "Trường này là bắt buộc"
+        },
+        "input_phone": {
+            "placeholder": "Nhập số điện thoại",
+            "accessibilityLabel": "Trường nhập số điện thoại",
+            "max": "Tối đa {{number}} ký tự được phép",
+            "required": "Trường này là bắt buộc",
+            "matches": "Lỗi!! Chỉ được phép nhập số"
+        },
+        "input_email": {
+            "placeholder": "Nhập email",
+            "accessibilityLabel": "Trường nhập email",
+            "max": "Tối đa {{number}} ký tự được phép",
+            "required": "Trường này là bắt buộc",
+            "email": "Email không hợp lệ"
+        },
+        "button_register": {
+            "text": "Đăng ký",
+            "accessibilityLabel": "Nút đăng ký"
+        }
+    },
+    "view_main": {
+        "logo": {
+            "accessibilityLabel": "Tên ứng dụng (AMIC)"
+        },
+        "optionsmenu": {
+            "accessibilityLabel": "Menu tùy chọn"
+        },
+        "search_users": {
+            "accessibilityLabel": "Thanh tìm kiếm người dùng",
+            "placeholder": "Tìm kiếm người dùng",
+            "iconsearch": "Nhấn đúp để tìm kiếm người dùng",
+            "load_resource": "Tài nguyên đang tải",
+            "button_mic": "Tìm kiếm người dùng bằng micrô"
+        }
+    },
+    "item_user_chat": {
+        "container": {
+            "accessibilityLabel": "Mục người dùng:"
+        },
+        "container_photo_user": {
+            "accessibilityLabel": "Ảnh hồ sơ người dùng"
+        },
+        "name_user": {
+            "accessibilityLabel": "Tên người dùng:"
+        },
+        "message_preview": {
+            "accessibilityLabel": "Tin nhắn cuối cùng đã nhận:"
+        },
+        "date_last_message": {
+            "accessibilityLabel": "Ngày của tin nhắn cuối cùng:"
+        },
+        "button_information": {
+            "accessibilityLabel": "Nút thông tin người dùng",
+            "text": "Thông tin"
+        },
+        "button_chat_user": {
+            "accessibilityLabel": "Nút bắt đầu trò chuyện với người dùng: {{name_user}}"
+        },
+        "play_read_id_button": {
+            "accessibilityLabel": "Nút đọc mã định danh cuộc trò chuyện",
+            "SpeechText": "Mã định danh cuộc trò chuyện là: {{id}}",
+            "Identity": "ID: {{id}}"
+        }
+    },
+    "view_profilechatuser": {
+        "logo": {
+            "accessibilityLabel": "Biểu trưng người dùng"
+        },
+        "name_and_lastname": {
+            "accessibilityLabel": "Họ và tên đầy đủ của người dùng"
+        },
+        "username": {
+            "accessibilityLabel": "Tên người dùng:"
+        },
+        "disability": {
+            "accessibilityLabel": "Khuyết tật:",
+            "text": "Khuyết tật"
+        },
+        "phone": {
+            "accessibilityLabel": "Điện thoại:"
+        },
+        "email": {
+            "accessibilityLabel": "Email:"
+        },
+        "description": {
+            "accessibilityLabel": "Mô tả người dùng:",
+            "title_description": {
+                "accessibilityLabel": "Về tôi:",
+                "text": "Về tôi"
+            },
+            "descriptionuser": "Mô tả:"
+        }
+    },
+    "view_profile": {
+        "picture_profile_user": {
+            "accessibilityLabel": "Ảnh hồ sơ người dùng"
+        },
+        "button_change_photo": {
+            "accessibilityLabel": "Nút thay đổi ảnh",
+            "text": "Thay đổi ảnh"
+        },
+        "input_username": {
+            "placeholder": "Nhập tên người dùng",
+            "accessibilityLabel": "Trường nhập tên người dùng",
+            "max": "Tối đa {{number}} ký tự được phép",
+            "required": "Trường này là bắt buộc"
+        },
+        "input_name": {
+            "placeholder": "Nhập tên",
+            "accessibilityLabel": "Trường nhập tên",
+            "max": "Tối đa {{number}} ký tự được phép",
+            "required": "Trường này là bắt buộc"
+        },
+        "input_lastname": {
+            "placeholder": "Nhập họ",
+            "accessibilityLabel": "Trường nhập họ",
+            "max": "Tối đa {{number}} ký tự được phép",
+            "required": "Trường này là bắt buộc"
+        },
+        "input_phone": {
+            "placeholder": "Nhập số điện thoại",
+            "accessibilityLabel": "Trường nhập số điện thoại",
+            "max": "Tối đa {{number}} ký tự được phép",
+            "required": "Trường này là bắt buộc",
+            "matches": "Lỗi! Chỉ được phép nhập số"
+        },
+        "input_email": {
+            "placeholder": "Nhập email (không thể chỉnh sửa)",
+            "accessibilityLabel": "Trường nhập email (không thể chỉnh sửa)",
+            "max": "Tối đa {{number}} ký tự được phép",
+            "required": "Trường này là bắt buộc",
+            "email": "Email không hợp lệ"
+        },
+        "input_description": {
+            "placeholder": "Nhập mô tả",
+            "accessibilityLabel": "Trường nhập mô tả",
+            "max": "Tối đa {{number}} ký tự được phép"
+        },
+        "select_disabilities": {
+            "labelmain": "Khuyết tật",
+            "opcionNA": "Chọn......",
+            "accessibilityLabelmain": "Trường chọn khuyết tật",
+            "accessibilityLabelselect": "Khuyết tật",
+            "accessibilityLabeloptions": "Khuyết tật"
+        },
+        "select_languages": {
+            "labelmain": "Ngôn ngữ",
+            "opcionNA": "Chọn......",
+            "accessibilityLabelmain": "Trường chọn ngôn ngữ",
+            "accessibilityLabelselect": "Ngôn ngữ",
+            "accessibilityLabeloptions": "Ngôn ngữ"
+        },
+        "button_save": {
+            "text": "Lưu",
+            "accessibilityLabel": "Nút lưu"
+        }
+    },
+    "message_chat_user": {
+        "picture_profile_user": {
+            "accessibilityLabel": "Ảnh hồ sơ người dùng"
+        },
+        "name_user_chat": {
+            "accessibilityLabel": "Tên người dùng {{name}}"
+        },
+        "input_message": {
+            "accessibilityLabel": "Trường để viết tin nhắn văn bản",
+            "placeholder": "Gửi tin nhắn...."
+        },
+        "attach_images_videos": {
+            "accessibilityLabel": "Điều khiển để đính kèm ảnh hoặc video"
+        },
+        "capture_photo_video": {
+            "accessibilityLabel": "Điều khiển để chụp ảnh hoặc video theo thời gian thực"
+        },
+        "record_audio": {
+            "accessibilityLabel": "Điều khiển để ghi âm"
+        },
+        "send_message": {
+            "accessibilityLabel": "Điều khiển để gửi tin nhắn văn bản đã viết"
+        }
+    },
+    "item_chat_user": {
+        "item": {
+            "accessibilityLabel": "Mục trò chuyện người dùng {{name}}"
+        },
+        "name_user": {
+            "accessibilityLabel": "Tên người dùng {{name}}"
+        },
+        "change_language": {
+            "accessibilityLabel": "Chuyển sang ngôn ngữ {{language}}"
+        },
+        "resource_loading": {
+            "accessibilityLabel": "Tài nguyên đang tải"
+        },
+        "message": {
+            "accessibilityLabel": "Tin nhắn văn bản"
+        },
+        "message_time": {
+            "accessibilityLabel": "Thời gian tin nhắn đến: {{time}}"
+        },
+        "message_image": {
+            "accessibilityLabel": "Hình ảnh, phát âm thanh để mô tả"
+        }
+    },
+    "item_photo_capture": {
+        "button_close": {
+            "accessibilityLabel": "Nút đóng"
+        },
+        "name_user": {
+            "accessibilityLabel": "Tên người dùng: {{name_user}}"
+        },
+        "date_time": {
+            "accessibilityLabel": "Ngày và giờ ảnh đến: {{datetime}}"
+        },
+        "container_image": {
+            "accessibilityLabel": "Hình ảnh: {{descripcion}}"
+        },
+        "send_image": {
+            "accessibilityLabel": "Gửi ảnh"
+        }
+    },
+    "item_camera": {
+        "button_close": {
+            "accessibilityLabel": "Đóng máy ảnh"
+        },
+        "button_flash": {
+            "accessibilityLabelOn": "Bật đèn flash",
+            "accessibilityLabelOff": "Tắt đèn flash"
+        },
+        "change_camera": {
+            "accessibilityLabelLead": "Chuyển sang camera trước",
+            "accessibilityLabelRear": "Chuyển sang camera sau"
+        },
+        "button_video": {
+            "accessibilityLabel": "Chuyển sang video",
+            "text": "Video"
+        },
+        "button_photo": {
+            "accessibilityLabel": "Chuyển sang ảnh",
+            "text": "Ảnh"
+        },
+        "action_camera": {
+            "photo": "chụp ảnh",
+            "video": "quay video"
+        }
+    },
+    "item_video_capture": {
+        "back_button": {
+            "accessibilityLabel": "Quay lại"
+        },
+        "send_video": {
+            "accessibilityLabel": "Gửi video"
+        },
+        "user_data": {
+            "name_user": "Tên người dùng: {{name_user}}",
+            "datetime": "Ngày gửi: {{datetime}}"
+        },
+        "controls_video": {
+            "accessibilityLabelPress": "Nhấn đúp để hiển thị điều khiển video",
+            "back_video": "Lùi lại mười giây",
+            "pass_video": "Tiến lên mười giây",
+            "pause": "Tạm dừng",
+            "play": "Phát",
+            "time_bar": "Thanh thời gian video (điều khiển thanh trượt)",
+            "current_video_time": "Thời gian video hiện tại: {{time}}",
+            "turn_off_sound": "Tắt âm thanh",
+            "turn_on_sound": "Bật âm thanh",
+            "button_caption_active": "Nút kích hoạt phụ đề",
+            "button_caption_deactivate": "Nút hủy kích hoạt phụ đề",
+            "display_caption": "phụ đề"
+        }
+    },
+    "item_audio": {
+        "container_audio": {
+            "accessibilityLabel": "Điều khiển âm thanh"
+        },
+        "controls": {
+            "container_time_bar": "Vùng chứa thanh thời gian âm thanh (điều khiển thanh trượt) với thời gian hiện tại {{time}}",
+            "time_bar": "Thanh thời gian âm thanh (điều khiển thanh trượt) với thời gian hiện tại {{time}}",
+            "button_audio_active": "Phát âm thanh",
+            "button_audio_deactivate": "Hủy kích hoạt âm thanh"
+        }
+    },
+    "item_video": {
+        "container_video": {
+            "accessibilityLabel": "Điều khiển video, nhấn đúp để truy cập trình phát"
+        }
+    },
+    "load_splash_screen": {
+        "progressbar": {
+            "accessibilityLabel": "Đang tải"
+        }
+    },
+    "item_check": {
+        "accessibilityLabelText": "Điều khiển kiểm tra",
+        "texts": {
+            "text1": "Văn bản in đậm",
+            "text2": "Thông báo bằng giọng nói"
+        },
+        "active": "Điều khiển đang hoạt động",
+        "disabled": "Điều khiển không hoạt động"
+    },
+    "view_settings_app": {
+        "title": {
+            "accessibilityLabel": "Tiêu đề menu cài đặt",
+            "text": "Cài đặt"
+        },
+        "container_colors": {
+            "accessibilityLabel": "Ngăn kéo màu sắc"
+        },
+        "color_select": {
+            "accessibilityLabel": "Màu đã chọn"
+        },
+        "select_font_size": {
+            "labelmain": "Kích thước phông chữ",
+            "opcionNA": "Chọn......",
+            "accessibilityLabelmain": "Trường chọn kích thước",
+            "accessibilityLabelselect": "Kích thước phông chữ",
+            "accessibilityLabeloptions": "Kích thước phông chữ"
+        },
+        "button_reset": {
+            "text": "Đặt lại",
+            "accessibilityLabel": "Nút đặt lại kiểu"
+        },
+        "button_save": {
+            "text": "Lưu",
+            "accessibilityLabel": "Nút lưu"
+        }
+    },
+    "notifications": {
+        "title_notifications": "Thông báo",
+        "title_information": "Thông tin",
+        "title_error": "Lỗi",
+        "messages": {
+            "load_resource": "Tài nguyên tin nhắn đang tải",
+            "error_create_group": "Đã xảy ra lỗi khi thêm người dùng",
+            "error_get_chats": "Lỗi khi truy xuất cuộc trò chuyện",
+            "empty_chats_user": "Không có cuộc trò chuyện nào",
+            "empty_chat": "Cuộc trò chuyện trống",
+            "error_search_user": "Lỗi khi tìm kiếm người dùng",
+            "notifications_search_user": "Không tìm thấy người dùng",
+            "error_search_mic": "Lỗi khi tìm kiếm người dùng qua micrô",
+            "error_contain_chat": "Không có bản ghi trò chuyện nào tồn tại",
+            "error_send_message": "Lỗi khi gửi tin nhắn",
+            "update_photo": "Ảnh đã được cập nhật thành công",
+            "error_update_photo": "Đã xảy ra lỗi khi cập nhật ảnh",
+            "new_message": "Một tin nhắn mới đã đến",
+            "error_load_disabilities": "Lỗi khi tải danh sách khuyết tật",
+            "error_load_languages": "Lỗi khi tải ngôn ngữ",
+            "error_load_user": "Lỗi khi truy xuất người dùng",
+            "update_user_success": "Người dùng đã được cập nhật thành công",
+            "error_update_user": "Lỗi khi cập nhật người dùng",
+            "load_data_profile_user": "Dữ liệu người dùng đã tải thành công",
+            "error_load_data_profile_user": "Lỗi khi tải dữ liệu người dùng",
+            "register_user_success": "Người dùng đã đăng ký thành công",
+            "error_register_user_success": "Lỗi khi đăng ký người dùng",
+            "web_socket_error": "Lỗi kết nối đến máy chủ. Vui lòng thử lại sau.",
+            "web_socket_error_reconexion": "Kết nối Web Socket thất bại khi đang kết nối lại....",
+            "web_socket_connected": "Kết nối được thiết lập thành công",
+            "web_socket_message_notification_text": "Bạn đã nhận được một tin nhắn văn bản thành công",
+            "web_socket_message_notification_image": "Bạn đã nhận được một tin nhắn hình ảnh thành công",
+            "web_socket_message_notification_video": "Bạn đã nhận được một tin nhắn video thành công",
+            "web_socket_message_notification_audio": "Bạn đã nhận được một tin nhắn âm thanh thành công",
+            "web_socket_message_notification_unknown": "Bạn đã nhận được một tin nhắn không xác định",
+            "web_socket_message_notification_user": "Tin nhắn nhận được từ người dùng {{user}}",
+            "web_socket_message_notification_new_friend": "Một liên hệ đã thêm bạn vào danh sách bạn bè của họ",
+            "web_socket_message_notification_add_friend": "Đã thêm liên hệ thành công",
+            "command_processing": "Đang xử lý lệnh của bạn...",
+            "command_unrecognized": "Lệnh không được nhận dạng. Vui lòng thử lại.",
+            "command_detection_error": "Đã xảy ra lỗi khi phát hiện lệnh. Vui lòng thử lại."
+        }
+    },
+    "data_screen_main": {
+        "0": "Tên ứng dụng (AMIC)",
+        "1": "Menu tùy chọn",
+        "2": "Điều khiển tìm kiếm",
+        "3": "Micrô",
+        "4": "Tìm kiếm",
+        "5": "Vùng chứa người dùng"
+    },
+    "data_screen_profile_host_user": {
+        "0": "Ảnh hồ sơ người dùng",
+        "1": "Nút thay đổi ảnh",
+        "2": "Người dùng {{user}}",
+        "3": "Tên {{names}}",
+        "4": "Họ {{surnames}}",
+        "5": "Điện thoại {{phone_number}}",
+        "6": "Email {{email}}",
+        "7": "Mô tả {{descripcion}}",
+        "8": "Khuyết tật {{disability}}",
+        "9": "Ngôn ngữ ứng dụng {{language}}",
+        "10": "Nút lưu dữ liệu"
+    },
+    "data_screen_configuration": {
+        "0": "Bảng màu",
+        "1": "Văn bản in đậm {{active_bold}}",
+        "2": "Thông báo bằng giọng nói {{voice_notifications}}",
+        "3": "Kích thước phông chữ {{source_number}}",
+        "4": "Nút đặt lại cấu hình",
+        "5": "Nút lưu"
+    },
+    "data_screen_message_user": {
+        "0": "Ảnh hồ sơ người dùng",
+        "1": "Tên người dùng {{name_user}}",
+        "2": "Vùng chứa tin nhắn",
+        "3": "Hộp văn bản để viết tin nhắn",
+        "4": "Đính kèm ảnh hoặc video",
+        "5": "Chụp ảnh",
+        "6": "Ghi âm"
+    },
+    "data_screen_photo_user": {
+        "0": "Nút đóng cửa sổ",
+        "1": "Tên người dùng {{name_user}}",
+        "2": "Ngày và giờ gửi ảnh: {{datetime_photo}}",
+        "3": "Hộp chứa ảnh"
+    },
+    "data_screen_photo_user_current": {
+        "0": "Nút đóng cửa sổ",
+        "1": "Vùng chứa ảnh",
+        "2": "Gửi ảnh"
+    },
+    "data_screen_video_user": {
+        "0": "Nút đóng cửa sổ",
+        "1": "Tên người dùng {{name_user}}",
+        "2": "Ngày và giờ gửi video: {{datetime_photo}}",
+        "3": "Hộp chứa video",
+        "4": "Dòng thời gian",
+        "5": "Thời lượng video {{time}}",
+        "6": "Thời gian video hiện tại {{current_time}}",
+        "7": "Âm thanh {{sound}}",
+        "8": "Phụ đề {{caption}}"
+    },
+    "data_screen_video_user_current": {
+        "0": "Nút đóng cửa sổ",
+        "1": "Gửi video",
+        "2": "Hộp chứa video",
+        "3": "Thanh thời gian",
+        "4": "Thời lượng video {{time}}",
+        "5": "Thời gian video hiện tại {{current_time}}",
+        "6": "Âm thanh {{sound}}"
+    },
+    "data_screen_camera_and_video": {
+        "0": "Nút đóng cửa sổ",
+        "1": "Nút đèn flash {{flash}}",
+        "2": "Nút chụp ảnh hoặc quay video",
+        "3": "Máy ảnh {{camera}}",
+        "4": "{{video_or_photo}}"
+    },
+    "data_screen_profile_friend_user": {
+        "0": "Ảnh hồ sơ người dùng",
+        "1": "Tên {{names}}",
+        "2": "Họ {{surnames}}",
+        "3": "Tên người dùng {{name_user}}",
+        "4": "Khuyết tật {{disability}}",
+        "5": "Số điện thoại {{phone_number}}",
+        "6": "Email {{email}}",
+        "7": "Mô tả {{description}}"
+    }
+}

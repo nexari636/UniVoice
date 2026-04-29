@@ -1,0 +1,484 @@
+{
+    "register": {
+        "logo": {
+            "accessibilityLabel": "アプリケーションロゴ (AMIC)"
+        },
+        "form": {
+            "accessibilityLabel": "登録フォーム"
+        },
+        "input_username": {
+            "placeholder": "ユーザー名を入力",
+            "accessibilityLabel": "ユーザー名入力フィールド",
+            "max": "最大 {{number}} 文字まで許可",
+            "required": "このフィールドは必須です"
+        },
+        "input_name": {
+            "placeholder": "名を入力",
+            "accessibilityLabel": "ユーザー名入力フィールド",
+            "max": "最大 {{number}} 文字まで許可",
+            "required": "このフィールドは必須です"
+        },
+        "input_lastname": {
+            "placeholder": "姓を入力",
+            "accessibilityLabel": "姓入力フィールド",
+            "max": "最大 {{number}} 文字まで許可",
+            "required": "このフィールドは必須です"
+        },
+        "input_phone": {
+            "placeholder": "電話番号を入力",
+            "accessibilityLabel": "電話番号入力フィールド",
+            "max": "最大 {{number}} 文字まで許可",
+            "required": "このフィールドは必須です",
+            "matches": "エラー!! 数字のみ許可"
+        },
+        "input_email": {
+            "placeholder": "メールアドレスを入力",
+            "accessibilityLabel": "メールアドレス入力フィールド",
+            "max": "最大 {{number}} 文字まで許可",
+            "required": "このフィールドは必須です",
+            "email": "無効なメールアドレス"
+        },
+        "button_register": {
+            "text": "登録",
+            "accessibilityLabel": "登録ボタン"
+        }
+    },
+    "view_main": {
+        "logo": {
+            "accessibilityLabel": "アプリケーション名 (AMIC)"
+        },
+        "optionsmenu": {
+            "accessibilityLabel": "オプションメニュー"
+        },
+        "search_users": {
+            "accessibilityLabel": "ユーザー検索バー",
+            "placeholder": "ユーザーを検索",
+            "iconsearch": "ダブルタップでユーザーを検索",
+            "load_resource": "リソースを読み込み中",
+            "button_mic": "マイクでユーザーを検索"
+        }
+    },
+    "item_user_chat": {
+        "container": {
+            "accessibilityLabel": "ユーザー項目："
+        },
+        "container_photo_user": {
+            "accessibilityLabel": "ユーザーのプロフィール写真"
+        },
+        "name_user": {
+            "accessibilityLabel": "ユーザー名："
+        },
+        "message_preview": {
+            "accessibilityLabel": "最後に受信したメッセージ："
+        },
+        "date_last_message": {
+            "accessibilityLabel": "最後のメッセージの日付："
+        },
+        "button_information": {
+            "accessibilityLabel": "ユーザー情報ボタン",
+            "text": "情報"
+        },
+        "button_chat_user": {
+            "accessibilityLabel": "ユーザー {{name_user}} とのチャットを開始するボタン"
+        },
+        "play_read_id_button": {
+            "accessibilityLabel": "チャット識別子読み上げボタン",
+            "SpeechText": "チャット識別子は {{id}} です",
+            "Identity": "ID： {{id}}"
+        }
+    },
+    "view_profilechatuser": {
+        "logo": {
+            "accessibilityLabel": "ユーザーロゴ"
+        },
+        "name_and_lastname": {
+            "accessibilityLabel": "ユーザーのフルネーム"
+        },
+        "username": {
+            "accessibilityLabel": "ユーザー名："
+        },
+        "disability": {
+            "accessibilityLabel": "障害：",
+            "text": "障害"
+        },
+        "phone": {
+            "accessibilityLabel": "電話："
+        },
+        "email": {
+            "accessibilityLabel": "メール："
+        },
+        "description": {
+            "accessibilityLabel": "ユーザーの説明：",
+            "title_description": {
+                "accessibilityLabel": "自己紹介：",
+                "text": "自己紹介"
+            },
+            "descriptionuser": "説明："
+        }
+    },
+    "view_profile": {
+        "picture_profile_user": {
+            "accessibilityLabel": "ユーザーのプロフィール写真"
+        },
+        "button_change_photo": {
+            "accessibilityLabel": "写真変更ボタン",
+            "text": "写真を変更"
+        },
+        "input_username": {
+            "placeholder": "ユーザー名を入力",
+            "accessibilityLabel": "ユーザー名入力フィールド",
+            "max": "最大 {{number}} 文字まで許可",
+            "required": "このフィールドは必須です"
+        },
+        "input_name": {
+            "placeholder": "名前を入力",
+            "accessibilityLabel": "名前入力フィールド",
+            "max": "最大 {{number}} 文字まで許可",
+            "required": "このフィールドは必須です"
+        },
+        "input_lastname": {
+            "placeholder": "姓を入力",
+            "accessibilityLabel": "姓入力フィールド",
+            "max": "最大 {{number}} 文字まで許可",
+            "required": "このフィールドは必須です"
+        },
+        "input_phone": {
+            "placeholder": "電話番号を入力",
+            "accessibilityLabel": "電話番号入力フィールド",
+            "max": "最大 {{number}} 文字まで許可",
+            "required": "このフィールドは必須です",
+            "matches": "エラー！数字のみ許可"
+        },
+        "input_email": {
+            "placeholder": "メールアドレスを入力（編集不可）",
+            "accessibilityLabel": "メールアドレス入力フィールド（編集不可）",
+            "max": "最大 {{number}} 文字まで許可",
+            "required": "このフィールドは必須です",
+            "email": "無効なメールアドレス"
+        },
+        "input_description": {
+            "placeholder": "説明を入力",
+            "accessibilityLabel": "説明入力フィールド",
+            "max": "最大 {{number}} 文字まで許可"
+        },
+        "select_disabilities": {
+            "labelmain": "障害",
+            "opcionNA": "選択......",
+            "accessibilityLabelmain": "障害選択フィールド",
+            "accessibilityLabelselect": "障害",
+            "accessibilityLabeloptions": "障害"
+        },
+        "select_languages": {
+            "labelmain": "言語",
+            "opcionNA": "選択......",
+            "accessibilityLabelmain": "言語選択フィールド",
+            "accessibilityLabelselect": "言語",
+            "accessibilityLabeloptions": "言語"
+        },
+        "button_save": {
+            "text": "保存",
+            "accessibilityLabel": "保存ボタン"
+        }
+    },
+    "message_chat_user": {
+        "picture_profile_user": {
+            "accessibilityLabel": "ユーザーのプロフィール写真"
+        },
+        "name_user_chat": {
+            "accessibilityLabel": "ユーザー名 {{name}}"
+        },
+        "input_message": {
+            "accessibilityLabel": "テキストメッセージを書くフィールド",
+            "placeholder": "メッセージを送信...."
+        },
+        "attach_images_videos": {
+            "accessibilityLabel": "写真やビデオを添付するコントロール"
+        },
+        "capture_photo_video": {
+            "accessibilityLabel": "リアルタイムで写真やビデオを撮影するコントロール"
+        },
+        "record_audio": {
+            "accessibilityLabel": "音声を録音するコントロール"
+        },
+        "send_message": {
+            "accessibilityLabel": "書かれたテキストメッセージを送信するコントロール"
+        }
+    },
+    "item_chat_user": {
+        "item": {
+            "accessibilityLabel": "ユーザーチャット項目 {{name}}"
+        },
+        "name_user": {
+            "accessibilityLabel": "ユーザー名 {{name}}"
+        },
+        "change_language": {
+            "accessibilityLabel": "{{language}} 言語に切り替え"
+        },
+        "resource_loading": {
+            "accessibilityLabel": "リソースを読み込み中"
+        },
+        "message": {
+            "accessibilityLabel": "テキストメッセージ"
+        },
+        "message_time": {
+            "accessibilityLabel": "メッセージ到着時間： {{time}}"
+        },
+        "message_image": {
+            "accessibilityLabel": "画像、説明のために音声を再生"
+        }
+    },
+    "item_photo_capture": {
+        "button_close": {
+            "accessibilityLabel": "閉じるボタン"
+        },
+        "name_user": {
+            "accessibilityLabel": "ユーザー名： {{name_user}}"
+        },
+        "date_time": {
+            "accessibilityLabel": "画像の到着日時： {{datetime}}"
+        },
+        "container_image": {
+            "accessibilityLabel": "画像： {{descripcion}}"
+        },
+        "send_image": {
+            "accessibilityLabel": "画像を送信"
+        }
+    },
+    "item_camera": {
+        "button_close": {
+            "accessibilityLabel": "カメラを閉じる"
+        },
+        "button_flash": {
+            "accessibilityLabelOn": "フラッシュをオン",
+            "accessibilityLabelOff": "フラッシュをオフ"
+        },
+        "change_camera": {
+            "accessibilityLabelLead": "フロントカメラに切り替え",
+            "accessibilityLabelRear": "リアカメラに切り替え"
+        },
+        "button_video": {
+            "accessibilityLabel": "ビデオに切り替え",
+            "text": "ビデオ"
+        },
+        "button_photo": {
+            "accessibilityLabel": "写真に切り替え",
+            "text": "写真"
+        },
+        "action_camera": {
+            "photo": "写真を撮る",
+            "video": "ビデオを録画"
+        }
+    },
+    "item_video_capture": {
+        "back_button": {
+            "accessibilityLabel": "戻る"
+        },
+        "send_video": {
+            "accessibilityLabel": "ビデオを送信"
+        },
+        "user_data": {
+            "name_user": "ユーザー名： {{name_user}}",
+            "datetime": "送信日時： {{datetime}}"
+        },
+        "controls_video": {
+            "accessibilityLabelPress": "ダブルタップでビデオコントロールを表示",
+            "back_video": "10秒巻き戻し",
+            "pass_video": "10秒早送り",
+            "pause": "一時停止",
+            "play": "再生",
+            "time_bar": "ビデオタイムバー（スライダーコントロール）",
+            "current_video_time": "現在のビデオ時間： {{time}}",
+            "turn_off_sound": "音をオフ",
+            "turn_on_sound": "音をオン",
+            "button_caption_active": "字幕ボタンを有効化",
+            "button_caption_deactivate": "字幕ボタンを無効化",
+            "display_caption": "字幕"
+        }
+    },
+    "item_audio": {
+        "container_audio": {
+            "accessibilityLabel": "オーディオコントロール"
+        },
+        "controls": {
+            "container_time_bar": "現在の時刻 {{time}} のオーディオタイムバーコンテナ（スライダーコントロール）",
+            "time_bar": "現在の時刻 {{time}} のオーディオタイムバー（スライダーコントロール）",
+            "button_audio_active": "オーディオを再生",
+            "button_audio_deactivate": "オーディオを無効化"
+        }
+    },
+    "item_video": {
+        "container_video": {
+            "accessibilityLabel": "ビデオコントロール、ダブルタップでプレーヤーにアクセス"
+        }
+    },
+    "load_splash_screen": {
+        "progressbar": {
+            "accessibilityLabel": "読み込み中"
+        }
+    },
+    "item_check": {
+        "accessibilityLabelText": "チェックコントロール",
+        "texts": {
+            "text1": "太字テキスト",
+            "text2": "音声通知"
+        },
+        "active": "アクティブなコントロール",
+        "disabled": "非アクティブなコントロール"
+    },
+    "view_settings_app": {
+        "title": {
+            "accessibilityLabel": "設定メニューのタイトル",
+            "text": "設定"
+        },
+        "container_colors": {
+            "accessibilityLabel": "カラードロワー"
+        },
+        "color_select": {
+            "accessibilityLabel": "選択された色"
+        },
+        "select_font_size": {
+            "labelmain": "フォントサイズ",
+            "opcionNA": "選択......",
+            "accessibilityLabelmain": "サイズ選択フィールド",
+            "accessibilityLabelselect": "フォントサイズ",
+            "accessibilityLabeloptions": "フォントサイズ"
+        },
+        "button_reset": {
+            "text": "リセット",
+            "accessibilityLabel": "スタイルリセットボタン"
+        },
+        "button_save": {
+            "text": "保存",
+            "accessibilityLabel": "保存ボタン"
+        }
+    },
+    "notifications": {
+        "title_notifications": "通知",
+        "title_information": "情報",
+        "title_error": "エラー",
+        "messages": {
+            "load_resource": "メッセージリソースを読み込み中",
+            "error_create_group": "ユーザーの追加中にエラーが発生しました",
+            "error_get_chats": "チャットの取得中にエラー",
+            "empty_chats_user": "利用可能なチャットはありません",
+            "empty_chat": "チャットは空です",
+            "error_search_user": "ユーザー検索中にエラー",
+            "notifications_search_user": "ユーザーが見つかりません",
+            "error_search_mic": "マイクによるユーザー検索中にエラー",
+            "error_contain_chat": "チャット記録が存在しません",
+            "error_send_message": "メッセージ送信中にエラー",
+            "update_photo": "写真が正常に更新されました",
+            "error_update_photo": "写真の更新中にエラーが発生しました",
+            "new_message": "新しいメッセージが届きました",
+            "error_load_disabilities": "障害の読み込み中にエラー",
+            "error_load_languages": "言語の読み込み中にエラー",
+            "error_load_user": "ユーザーの取得中にエラー",
+            "update_user_success": "ユーザーが正常に更新されました",
+            "error_update_user": "ユーザーの更新中にエラー",
+            "load_data_profile_user": "ユーザーデータが正常に読み込まれました",
+            "error_load_data_profile_user": "ユーザーデータの読み込み中にエラー",
+            "register_user_success": "ユーザーが正常に登録されました",
+            "error_register_user_success": "ユーザーの登録中にエラー",
+            "web_socket_error": "サーバーへの接続エラー。後でもう一度お試しください。",
+            "web_socket_error_reconexion": "再接続中にWebSocket接続に失敗しました....",
+            "web_socket_connected": "接続が正常に確立されました",
+            "web_socket_message_notification_text": "テキストメッセージを正常に受信しました",
+            "web_socket_message_notification_image": "画像メッセージを正常に受信しました",
+            "web_socket_message_notification_video": "ビデオメッセージを正常に受信しました",
+            "web_socket_message_notification_audio": "オーディオメッセージを正常に受信しました",
+            "web_socket_message_notification_unknown": "未知のタイプのメッセージを受信しました",
+            "web_socket_message_notification_user": "ユーザー {{user}} からメッセージを受信",
+            "web_socket_message_notification_new_friend": "連絡先があなたを友達リストに追加しました",
+            "web_socket_message_notification_add_friend": "連絡先が正常に追加されました",
+            "command_processing": "コマンドを処理中...",
+            "command_unrecognized": "コマンドが認識されませんでした。もう一度お試しください。",
+            "command_detection_error": "コマンドの検出中にエラーが発生しました。もう一度お試しください。"
+        }
+    },
+    "data_screen_main": {
+        "0": "アプリケーション名 (AMIC)",
+        "1": "オプションメニュー",
+        "2": "検索コントロール",
+        "3": "マイク",
+        "4": "検索",
+        "5": "ユーザーコンテナ"
+    },
+    "data_screen_profile_host_user": {
+        "0": "ユーザープロフィール写真",
+        "1": "写真変更ボタン",
+        "2": "ユーザー {{user}}",
+        "3": "名 {{names}}",
+        "4": "姓 {{surnames}}",
+        "5": "電話 {{phone_number}}",
+        "6": "メール {{email}}",
+        "7": "説明 {{descripcion}}",
+        "8": "障害 {{disability}}",
+        "9": "アプリケーション言語 {{language}}",
+        "10": "データ保存ボタン"
+    },
+    "data_screen_configuration": {
+        "0": "カラーパレット",
+        "1": "太字テキスト {{active_bold}}",
+        "2": "音声通知 {{voice_notifications}}",
+        "3": "フォントサイズ {{source_number}}",
+        "4": "設定リセットボタン",
+        "5": "保存ボタン"
+    },
+    "data_screen_message_user": {
+        "0": "ユーザープロフィール写真",
+        "1": "ユーザー名 {{name_user}}",
+        "2": "メッセージコンテナ",
+        "3": "メッセージを書くテキストボックス",
+        "4": "写真またはビデオを添付",
+        "5": "写真を撮る",
+        "6": "音声を録音"
+    },
+    "data_screen_photo_user": {
+        "0": "ウィンドウを閉じるボタン",
+        "1": "ユーザー名 {{name_user}}",
+        "2": "写真の送信日時： {{datetime_photo}}",
+        "3": "写真コンテナボックス"
+    },
+    "data_screen_photo_user_current": {
+        "0": "ウィンドウを閉じるボタン",
+        "1": "写真コンテナ",
+        "2": "写真を送信"
+    },
+    "data_screen_video_user": {
+        "0": "ウィンドウを閉じるボタン",
+        "1": "ユーザー名 {{name_user}}",
+        "2": "ビデオの送信日時： {{datetime_photo}}",
+        "3": "ビデオコンテナボックス",
+        "4": "タイムライン",
+        "5": "ビデオの長さ {{time}}",
+        "6": "現在のビデオ時間 {{current_time}}",
+        "7": "音 {{sound}}",
+        "8": "字幕 {{caption}}"
+    },
+    "data_screen_video_user_current": {
+        "0": "ウィンドウを閉じるボタン",
+        "1": "ビデオを送信",
+        "2": "ビデオコンテナボックス",
+        "3": "タイムバー",
+        "4": "ビデオの長さ {{time}}",
+        "5": "現在のビデオ時間 {{current_time}}",
+        "6": "音 {{sound}}"
+    },
+    "data_screen_camera_and_video": {
+        "0": "ウィンドウを閉じるボタン",
+        "1": "フラッシュボタン {{flash}}",
+        "2": "写真撮影またはビデオ録画ボタン",
+        "3": "カメラ {{camera}}",
+        "4": "{{video_or_photo}}"
+    },
+    "data_screen_profile_friend_user": {
+        "0": "ユーザープロフィール写真",
+        "1": "名前 {{names}}",
+        "2": "姓 {{surnames}}",
+        "3": "ユーザー名 {{name_user}}",
+        "4": "障害 {{disability}}",
+        "5": "電話番号 {{phone_number}}",
+        "6": "メール {{email}}",
+        "7": "説明 {{description}}"
+    }
+}
