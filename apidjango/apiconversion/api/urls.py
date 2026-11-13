@@ -9,5 +9,7 @@ urlpatterns = [
     path('descripcion_imagen/', descripcion_imagen),
     path('transcribe_audio/', transcribeAudio),
     path('corrector_phrase/', Corrector),
-    path('translate_message/',text_translator)
+    path('translate_message/',text_translator),
+    path('test_path/',test_path)
+
 ]

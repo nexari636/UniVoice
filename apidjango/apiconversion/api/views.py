@@ -6,6 +6,7 @@ from rest_framework.response import Response
 from rest_framework import status
 from api.conversion.MessageTranslation import MessageTranslation
 from apiconversion.settings import DEBUG
+from api.conversion.PiperTTS import PiperTTS
 
 
 __ERROR_SISTEMA='Ha ocurrido un error en el sistema'
@@ -219,6 +220,7 @@ def text_translator(request):
         tanslater_msg=MessageTranslation(
             text_message=message,
             target_language=target_lng,
+            multiple_translation_model=loadmodels.multiple_translation_model
         )
 
         json_data=""
@@ -227,3 +229,20 @@ def text_translator(request):
     else:
         data["error"]=__ERROR_SISTEMA
         data=json.dumps(data) #convierte en cadena json
+
+
+
+@api_view(['POST'])
+def test_path(request):
+
+    if request.method == 'POST':
+        print(request.data)
+        datajson=request.data
+
+        ptts=PiperTTS(0,"")
+        ptts.print_path()
+        
+        json_data={
+            "sucess":"true"
+        }
+        return Response(json_data, status=status.HTTP_200_OK)

@@ -4,6 +4,9 @@ import requests
 import edge_tts
 import uuid
 import os
+from api.conversion.DataStatic import AUDIO_FOLDER_NAME
+from api.conversion.PiperTTS import PiperTTS
+import platform
 
 class ManagedTTS:
 
@@ -14,7 +17,9 @@ class ManagedTTS:
         asyncio.run(self.TTS())
 
     async def TTS(self):
-        if(CheckInternetConnection() and True): #si desea utilizar la api del sistema operativo cambia de True a False
+        connection_state=CheckInternetConnection() 
+        print("coneccion a internet: ",connection_state)
+        if(connection_state and True): #si desea utilizar la api del sistema operativo cambia de True a False
             result=await self.edge_tts()
 
             if(result[0]):
@@ -23,24 +28,49 @@ class ManagedTTS:
             else:
                 print("An error in communication with Edge TTS has occurred. Operating system services will be used")
         
-        print("utilizando tts del sistema")
-        data_name=[]
-        for index,data_text in enumerate(self.vector_traduccion):
-            URL = "http://127.0.0.1:5000/tts_os"
-            DATA = {
-                "language": "en" if index==0 else "es",
-                "data": data_text,
-            }
-            response = requests.post(URL, json=DATA)
-
-            if response.status_code == 200:
-                data = response.json()
-                print('Post creado de forma exitosa')
-                print('Respuesta:', data)
-                data_name.append(data["data"])
-            else:
-                print('Error en la solicitud, detalles:', response.text)
         
+        name_system = platform.system().lower()
+        data_name=[]
+
+        error=False
+
+        if(name_system=="windows"):
+            print("utilizando tts del sistema windows")
+            for index,data_text in enumerate(self.vector_traduccion):
+                URL = "http://127.0.0.1:5000/tts_os"
+                DATA = {
+                    "language": "en" if index==0 else "es",
+                    "data": data_text,
+                }
+                try:
+                    response = requests.post(URL, json=DATA)
+
+                    if response.status_code == 200:
+                        data = response.json()
+                        print('Post creado de forma exitosa')
+                        print('Respuesta:', data)
+                        data_name.append(data["data"])
+                    else:
+                        print('Error en la solicitud, detalles:', response.text)
+                        error=True
+                        break
+                except:
+                    print("Error al conectar al servicio de tts del sistema operativo")
+                    error=True
+
+            if(not error):
+                self.names_files=data_name
+                return
+            
+        
+        print("utilizando proceso stt para linux o mac")
+        for index,data_text in enumerate(self.vector_traduccion):
+            name_resource='{0}.mp3'.format(uuid.uuid4())
+            ptts=PiperTTS(index,self.vector_traduccion[index],name_resource)
+            state=ptts.stt()
+            if(state):
+                print("todo se realizo correctamente")
+                data_name.append(name_resource)
         self.names_files=data_name
 
 
@@ -60,7 +90,7 @@ class ManagedTTS:
                 comunicadorespanol = edge_tts.Communicate(data_text, voice=(voz_ingles if index==0 else voz_espanol))
                 
                 # Guardamos el audio en MP3
-                await comunicadorespanol.save(os.path.join(self.path_file,nombre_recurso))
+                await comunicadorespanol.save(os.path.join(self.path_file,AUDIO_FOLDER_NAME,nombre_recurso))
                 print("Audio generado correctamente: {0}".format(nombre_recurso))
                 data.append(nombre_recurso)
             return [True,data]

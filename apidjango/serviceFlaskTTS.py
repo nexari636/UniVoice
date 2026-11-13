@@ -15,6 +15,9 @@ from flask import Flask,jsonify,request
 app = Flask(__name__)
 port = 5000
 
+PATH_SCRIPT = os.path.dirname(os.path.abspath(__file__))
+RESOURCE_ROUTE=os.path.join(PATH_SCRIPT,"apiconversion/api/recursos/")
+print(RESOURCE_ROUTE)
 KEY_LANGUAGE="language"
 KEY_DATA="data"
 
@@ -38,7 +41,7 @@ def tts():
 
 def TTS_operating_system(language,text):
 
-    path_file="D:/recurso/proyectoChatMovilAmic/proyectov1/apidjango/apiconversion/api/recursos/"
+    path_file=os.path.join(RESOURCE_ROUTE,"audios/")
     engine = pyttsx3.init()
     rate = engine.getProperty('rate')   
     print ("Velocidad de voz: "+str(rate))  

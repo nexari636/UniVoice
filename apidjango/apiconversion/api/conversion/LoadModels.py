@@ -18,4 +18,5 @@ class LoadModels:
         self.tokenizer_es_to_en = AutoTokenizer.from_pretrained('Helsinki-NLP/opus-mt-es-en')
         self.model_es_to_en = MarianMTModel.from_pretrained('Helsinki-NLP/opus-mt-es-en')
         self.model_ollama_1b=pipeline("text-generation",model="meta-llama/Llama-3.2-1B-Instruct", torch_dtype=torch.float32, device_map="auto",)
+        self.multiple_translation_model = pipeline("translation",model="facebook/nllb-200-distilled-600M", device=-1)
         print("carga finalizada.......")

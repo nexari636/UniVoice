@@ -21,14 +21,16 @@ dict_languages={
 
 class MessageTranslation:
 
-    def __init__(self,text_message,target_language):
+    def __init__(self,text_message,target_language,multiple_translation_model):
         self.text_message=text_message
         self.target_language=target_language
+        self.multiple_translation_model=multiple_translation_model
 
     def translator_model(self):
         lang_detect=self.detect_language(self.text_message)
-        model_id = "facebook/nllb-200-distilled-600M"
-        pipe = pipeline("translation",model=model_id, device=-1)
+        #model_id = "facebook/nllb-200-distilled-600M"
+        #pipe = pipeline("translation",model=model_id, device=-1)
+        pipe=self.multiple_translation_model
         inicio = time.time()
         data = pipe(
             self.text_message,

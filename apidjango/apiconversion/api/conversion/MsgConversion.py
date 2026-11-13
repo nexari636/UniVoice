@@ -7,6 +7,7 @@ import json
 from langdetect import detect
 import uuid
 from api.conversion.ManagedTTS import ManagedTTS
+from api.conversion.DataStatic import *
 from apiconversion.settings import STATICFILES_DIRS
 from api.conversion.Utils import Converter_Base64,Converter_Base64_to_file,CheckInternetConnection,DeleteFile
 import whisper
@@ -21,10 +22,6 @@ import re
 import unicodedata
 from spellchecker import SpellChecker
 
-INGLES="en"
-ESPANOL="es"
-PATH_RECURSOS=os.path.join(STATICFILES_DIRS[0],"recursos")
-SUCCESS="todo realizado con exito"
 
 class MsgConversion:
 
@@ -44,7 +41,7 @@ class MsgConversion:
         if(mensaje_file_base64!=None):
             self.mensaje_file_base64=mensaje_file_base64
             self.name_file="{0}.{1}".format(uuid.uuid4(),extencion) 
-            self.ruta_absoluta=os.path.join(PATH_RECURSOS,self.name_file)
+            self.ruta_absoluta=os.path.join(PATH_RECURSOS,OTHERS_FOLDER_NAME,self.name_file)
             Converter_Base64_to_file(mensaje_file_base64,self.ruta_absoluta)
             print("escrito terminadoooo")
         else:
@@ -84,7 +81,6 @@ class MsgConversion:
             vector_traduccion=self.translation_detection(textoresultado)
             print("Resultado: {}".format(vector_traduccion))
 
-           
             jsonresultado["namefile"]=self.name_file
             jsonresultado["audiobase64"]=self.mensaje_file_base64
             jsonresultado["messageingles"]=vector_traduccion[0]
@@ -133,14 +129,20 @@ class MsgConversion:
             print("**EL TEXTO NO TIENE EMOJINS**")
 
         managed_tts=ManagedTTS(textoresultemoji if bandemoji else vector_traduccion, self.ruta)
-        jsonresultado["dataaudioingles"]=dict(name_file=managed_tts.names_files[0],audiobase64ingles=Converter_Base64(os.path.join(self.ruta,managed_tts.names_files[0])))
-        jsonresultado["dataaudioespanol"]=dict(name_file=managed_tts.names_files[1],audiobase64espanol=Converter_Base64(os.path.join(self.ruta,managed_tts.names_files[1])))
+        state_na="n/a"
+        if len(managed_tts.names_files)>0:
+            jsonresultado["dataaudioingles"]=dict(name_file=managed_tts.names_files[0],audiobase64ingles=Converter_Base64(os.path.join(self.ruta,AUDIO_FOLDER_NAME,managed_tts.names_files[0])))
+            jsonresultado["dataaudioespanol"]=dict(name_file=managed_tts.names_files[1],audiobase64espanol=Converter_Base64(os.path.join(self.ruta,AUDIO_FOLDER_NAME,managed_tts.names_files[1])))
+        else:
+            jsonresultado["dataaudioingles"]=dict(name_file=state_na,audiobase64ingles=state_na)
+            jsonresultado["dataaudioespanol"]=dict(name_file=state_na,audiobase64espanol=state_na)
         jsonresultado["messageingles"]=vector_traduccion[0]
         jsonresultado["messageespanol"]=vector_traduccion[1]
         jsonresultado["success"]=SUCCESS
 
-        DeleteFile(os.path.join(self.ruta,managed_tts.names_files[0]))
-        DeleteFile(os.path.join(self.ruta,managed_tts.names_files[1]))
+        if len(managed_tts.names_files)>1000:
+            DeleteFile(os.path.join(self.ruta,AUDIO_FOLDER_NAME,managed_tts.names_files[0]))
+            DeleteFile(os.path.join(self.ruta,AUDIO_FOLDER_NAME,managed_tts.names_files[1]))
 
         return jsonresultado
 
@@ -201,12 +203,12 @@ class MsgConversion:
                 nombre_recurso='{0}.mp3'.format(uuid.uuid4())
                 engine.setProperty('voice', voices[index].id) 
                 print("data es: "+data)
-                engine.save_to_file(data,os.path.join(self.ruta,nombre_recurso))
+                engine.save_to_file(data,os.path.join(self.ruta,AUDIO_FOLDER_NAME,nombre_recurso))
                 engine.runAndWait()
                 names_files.append(nombre_recurso)
 
-            jsonresultado["dataaudioingles"]=dict(name_file=names_files[0],audiobase64ingles=Converter_Base64(os.path.join(self.ruta,names_files[0])))
-            jsonresultado["dataaudioespanol"]=dict(name_file=names_files[1],audiobase64espanol=Converter_Base64(os.path.join(self.ruta,names_files[1])))
+            jsonresultado["dataaudioingles"]=dict(name_file=names_files[0],audiobase64ingles=Converter_Base64(os.path.join(self.ruta,AUDIO_FOLDER_NAME,names_files[0])))
+            jsonresultado["dataaudioespanol"]=dict(name_file=names_files[1],audiobase64espanol=Converter_Base64(os.path.join(self.ruta,AUDIO_FOLDER_NAME,names_files[1])))
             
             jsonresultado["messageingles"]=vector_traduccion[0]
             jsonresultado["messageespanol"]=vector_traduccion[1]
@@ -223,14 +225,14 @@ class MsgConversion:
     def video_subtitle(self):
         try:
             ooidtextnamefile="{0}.mp3".format(uuid.uuid4())
-            ffmpeg.input(self.ruta_absoluta).output(os.path.join(self.ruta,"{0}".format(ooidtextnamefile))).run()
+            ffmpeg.input(self.ruta_absoluta).output(os.path.join(self.ruta,VIDEOS_FOLDER_NAME,"{0}".format(ooidtextnamefile))).run()
             model = self.model_whisper
-            result = model.transcribe(os.path.join(PATH_RECURSOS,ooidtextnamefile) , fp16=False)
+            result = model.transcribe(os.path.join(self.ruta,VIDEOS_FOLDER_NAME,ooidtextnamefile) , fp16=False)
             text_complete=result["text"]
             text_segments=result["segments"]
             #print(text_complete)
             #print(text_segments)
-            os.remove(os.path.join(PATH_RECURSOS,ooidtextnamefile))
+            os.remove(os.path.join(self.ruta,VIDEOS_FOLDER_NAME,ooidtextnamefile))
 
             jsonarraydata=[]
 
@@ -422,7 +424,6 @@ class MsgConversion:
         return [texto_ingles,texto_espanol]
 
 
-
     #Funcion para traducir el texto
     def translation(self,texto_traducir,idioma):
         try:
@@ -446,5 +447,3 @@ class MsgConversion:
             return result
         except:
             print("Error en la traduccion")
-
-
