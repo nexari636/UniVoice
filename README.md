@@ -1,12 +1,12 @@
 <div align="center">
 
-<img src="images/logo001.png" alt="Logotipo de UniVoice" width="130" />
+<img src="images/logo002.png" alt="UniVoice logo" width="130" />
 
 # UniVoice
 
-**Mensajería móvil que se adapta a cada persona.**
+**Mobile messaging that adapts to every person.**
 
-UniVoice es una aplicación de chat inclusiva que combina inteligencia artificial, voz y accesibilidad para que nadie se quede fuera de la conversación.
+UniVoice is an inclusive chat application that combines artificial intelligence, voice and accessibility so that no one is left out of the conversation.
 
 <br />
 
@@ -17,151 +17,151 @@ UniVoice es una aplicación de chat inclusiva que combina inteligencia artificia
 ![Django](https://img.shields.io/badge/Django-4.2-092E20?style=for-the-badge&logo=django&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![WCAG 2.1](https://img.shields.io/badge/Accesibilidad-WCAG_2.1-8A2BE2?style=for-the-badge)
+![WCAG 2.1](https://img.shields.io/badge/Accessibility-WCAG_2.1-8A2BE2?style=for-the-badge)
 
 </div>
 
 ---
 
-## Índice
+## Table of contents
 
-- [¿Qué es UniVoice?](#qué-es-univoice)
-- [Cómo funciona](#cómo-funciona)
-- [Arquitectura](#arquitectura)
-- [Funcionalidades](#funcionalidades)
-- [Idiomas](#idiomas)
-- [Tecnologías](#tecnologías)
-- [Estructura del proyecto](#estructura-del-proyecto)
-- [Puesta en marcha](#puesta-en-marcha)
-- [Pruebas y calidad](#pruebas-y-calidad)
-- [Despliegue](#despliegue)
-- [Próximas mejoras](#próximas-mejoras)
-
----
-
-## ¿Qué es UniVoice?
-
-Hablar con otras personas debería ser sencillo para todo el mundo. Sin embargo, quienes tienen una discapacidad visual, auditiva o del habla se encuentran a diario con aplicaciones que no están pensadas para ellas. UniVoice nace para cambiar eso.
-
-La plataforma adapta la conversación a la forma en que cada persona se comunica. Si alguien no puede leer con facilidad, el mensaje se convierte en voz. Si alguien no puede oír, la voz se transforma en texto. Si prefiere escribir en otro idioma, la traducción ocurre de forma casi instantánea. Todo sucede dentro del mismo chat, sin configuraciones complicadas y sin pedirle a la persona que se adapte a la tecnología: es la tecnología la que se adapta a ella.
-
-El proyecto reúne una aplicación móvil, un servidor de mensajería y un servicio de inteligencia artificial que trabajan juntos. Cada pieza puede evolucionar por su cuenta, lo que facilita el mantenimiento y abre la puerta a nuevas funciones sin romper lo que ya existe.
+- [What is UniVoice?](#what-is-univoice)
+- [How it works](#how-it-works)
+- [Architecture](#architecture)
+- [Features](#features)
+- [Languages](#languages)
+- [Technologies](#technologies)
+- [Project structure](#project-structure)
+- [Getting started](#getting-started)
+- [Testing and quality](#testing-and-quality)
+- [Deployment](#deployment)
+- [Upcoming improvements](#upcoming-improvements)
 
 ---
 
-## Cómo funciona
+## What is UniVoice?
 
-El recorrido de un mensaje es bastante directo:
+Talking to other people should be simple for everyone. However, people with visual, hearing or speech disabilities come across applications every day that were not designed with them in mind. UniVoice was born to change that.
 
-1. **La persona habla o escribe.** La aplicación recoge el audio o el texto desde el móvil.
-2. **El servicio de IA interpreta.** Whisper transcribe el audio, se detecta el idioma y, si hace falta, se traduce o se corrige la ortografía.
-3. **El servidor organiza la conversación.** Spring Boot guarda los mensajes, gestiona las cuentas y distribuye los eventos en tiempo real.
-4. **La respuesta se adapta.** Edge-TTS o Piper convierten el texto en una voz natural, y el mensaje llega a la otra persona en el formato que mejor le funcione.
+The platform adapts the conversation to the way each person communicates. If someone cannot read easily, the message is turned into voice. If someone cannot hear, the voice is turned into text. If they prefer to write in another language, the translation happens almost instantly. Everything takes place inside the same chat, without complicated settings and without asking the person to adapt to the technology: it is the technology that adapts to them.
 
-Nada de esto requiere pasos extra por parte de quien usa la app. La accesibilidad está integrada en el flujo normal de la conversación.
+The project brings together a mobile application, a messaging server and an artificial intelligence service that work side by side. Each piece can evolve on its own, which makes maintenance easier and opens the door to new features without breaking what already exists.
 
 ---
 
-## Arquitectura
+## How it works
 
-El sistema sigue un modelo modular: la app móvil se comunica con la API principal, la API conversa con el servicio de IA y la mensajería en tiempo real se apoya en RabbitMQ.
+The journey of a message is quite straightforward:
+
+1. **The person speaks or writes.** The application captures the audio or the text from the mobile device.
+2. **The AI service interprets it.** Whisper transcribes the audio, the language is detected and, if needed, the text is translated or its spelling is corrected.
+3. **The server organises the conversation.** Spring Boot stores the messages, manages the accounts and distributes the events in real time.
+4. **The response adapts.** Edge-TTS or Piper turn the text into a natural voice, and the message reaches the other person in the format that works best for them.
+
+None of this requires extra steps from the person using the app. Accessibility is built into the normal flow of the conversation.
+
+---
+
+## Architecture
+
+The system follows a modular model: the mobile app communicates with the main API, the API talks to the AI service and real-time messaging relies on RabbitMQ.
 
 ```mermaid
 flowchart LR
-    U(("👤 Persona usuaria"))
+    U(("👤 End user"))
 
-    APP["📱 App móvil<br/>React Native + Expo"]
-    API["☕ API principal<br/>Spring Boot"]
-    IA["🧠 Servicio de IA<br/>Django + Flask"]
-    MQ["🐇 Tiempo real<br/>RabbitMQ + STOMP"]
+    APP["📱 Mobile app<br/>React Native + Expo"]
+    API["☕ Main API<br/>Spring Boot"]
+    IA["🧠 AI service<br/>Django + Flask"]
+    MQ["🐇 Real time<br/>RabbitMQ + STOMP"]
     DB[("🗄️ PostgreSQL")]
-    VOZ["🔊 Voz<br/>Piper · Edge-TTS"]
+    VOZ["🔊 Voice<br/>Piper · Edge-TTS"]
 
     U --> APP
-    APP <-->|REST y WebSocket| API
+    APP <-->|REST and WebSocket| API
     APP <-->|STOMP| MQ
-    API <-->|Datos y sesiones| DB
-    API <-->|Texto, audio y traducción| IA
+    API <-->|Data and sessions| DB
+    API <-->|Text, audio and translation| IA
     IA --> VOZ
 ```
 
-| Módulo | Rol dentro del sistema |
+| Module | Role within the system |
 | :--- | :--- |
-| **`appchatmovil`** | La cara visible del proyecto. Ofrece el chat, la grabación de audio, la reproducción de voz y los ajustes de accesibilidad desde el móvil. |
-| **`apiapplication`** | El núcleo de la plataforma. Gestiona usuarios, autenticación, historial de mensajes, archivos y la comunicación en tiempo real. |
-| **`apidjango`** | El motor de inteligencia artificial. Transcribe audio, detecta idiomas, traduce textos y genera voz con distintos motores. |
-| **`deploysprojects`** | Recursos para llevar el sistema a un entorno real: Docker, Nginx, RabbitMQ y scripts de despliegue. |
-| **`encrypted`** | Espacio de trabajo para el módulo de cifrado y protección de la información. |
+| **`appchatmovil`** | The visible face of the project. It provides the chat, audio recording, voice playback and accessibility settings from the mobile device. |
+| **`apiapplication`** | The core of the platform. It manages users, authentication, message history, files and real-time communication. |
+| **`apidjango`** | The artificial intelligence engine. It transcribes audio, detects languages, translates texts and generates voice with different engines. |
+| **`deploysprojects`** | Resources for taking the system to a real environment: Docker, Nginx, RabbitMQ and deployment scripts. |
+| **`encrypted`** | Workspace for the encryption and information protection module. |
 
 ---
 
-## Funcionalidades
+## Features
 
-| Función | Qué aporta |
+| Feature | What it brings |
 | :--- | :--- |
-| **Texto que se escucha** | Los mensajes se convierten en audio para quienes tienen discapacidad visual o prefieren escuchar en lugar de leer. |
-| **Voz que se lee** | La transcripción convierte las notas de audio en texto para personas con discapacidad auditiva. |
-| **Voz natural** | Piper funciona en local y Edge-TTS aprovecha la nube, de modo que siempre hay una opción disponible para generar voz. |
-| **Traducción integrada** | Los modelos de Transformers traducen los mensajes y reducen la barrera del idioma dentro del chat. |
-| **Corrección ortográfica** | Los textos se revisan antes de enviarse para que el mensaje llegue claro y bien escrito. |
-| **Control por voz** | Las personas pueden navegar y enviar mensajes sin usar las manos. |
-| **Diseño accesible** | La interfaz sigue criterios de contraste, tamaño de letra y legibilidad alineados con WCAG 2.1. |
-| **Interfaz multilingüe** | La app está preparada para cambiar de idioma sin salir de la conversación. |
+| **Text you can hear** | Messages are turned into audio for people with visual disabilities or for those who prefer listening to reading. |
+| **Voice you can read** | Transcription turns voice notes into text for people with hearing disabilities. |
+| **Natural voice** | Piper runs locally and Edge-TTS takes advantage of the cloud, so there is always an available option for generating voice. |
+| **Built-in translation** | Transformer models translate the messages and lower the language barrier inside the chat. |
+| **Spelling correction** | Texts are checked before being sent so that the message arrives clear and well written. |
+| **Voice control** | People can navigate and send messages without using their hands. |
+| **Accessible design** | The interface follows contrast, font size and legibility criteria aligned with WCAG 2.1. |
+| **Multilingual interface** | The app is ready to switch languages without leaving the conversation. |
 
 ---
 
-## Idiomas
+## Languages
 
-La aplicación admite estos idiomas según el tipo de contenido:
+The application supports these languages depending on the type of content:
 
-**Interfaz gráfica y mensajes de texto:** disponibles en 14 idiomas: alemán, chino, coreano, español, francés, hindi, indonesio, inglés, italiano, japonés, portugués, ruso, turco y vietnamita.
+**Graphical interface and text messages:** available in 14 languages: German, Chinese, Korean, Spanish, French, Hindi, Indonesian, English, Italian, Japanese, Portuguese, Russian, Turkish and Vietnamese.
 
-**Mensajes de audio:** la transcripción y la síntesis de voz solo están disponibles en inglés y español.
+**Audio messages:** transcription and speech synthesis are only available in English and Spanish.
 
 ---
 
-## Tecnologías
+## Technologies
 
-| Capa | Herramientas | Para qué se usan |
+| Layer | Tools | What they are used for |
 | :--- | :--- | :--- |
-| **Aplicación móvil** | React Native, Expo, TypeScript, Expo Router | Interfaz multiplataforma, navegación y experiencia de chat. |
-| **Backend principal** | Java 17, Spring Boot, Maven, Spring Data JPA, Hibernate | API REST, autenticación, persistencia y WebSocket. |
-| **Servicio de IA** | Python, Django, Flask, PyTorch, Transformers | Transcripción, traducción, detección de idioma y procesamiento de audio. |
-| **Voz** | Whisper, Piper TTS, Edge-TTS, FFmpeg | Conversión entre voz y texto con respuesta natural. |
-| **Datos y mensajería** | PostgreSQL, Flyway, RabbitMQ, STOMP | Almacenamiento seguro, migraciones y comunicación en tiempo real. |
-| **Infraestructura** | Docker, Docker Compose, Nginx | Despliegue reproducible y distribución de tráfico. |
-| **Calidad** | Pytest, JUnit, JMeter | Pruebas unitarias, de integración y de carga. |
+| **Mobile application** | React Native, Expo, TypeScript, Expo Router | Cross-platform interface, navigation and chat experience. |
+| **Main backend** | Java 17, Spring Boot, Maven, Spring Data JPA, Hibernate | REST API, authentication, persistence and WebSocket. |
+| **AI service** | Python, Django, Flask, PyTorch, Transformers | Transcription, translation, language detection and audio processing. |
+| **Voice** | Whisper, Piper TTS, Edge-TTS, FFmpeg | Conversion between voice and text with natural-sounding output. |
+| **Data and messaging** | PostgreSQL, Flyway, RabbitMQ, STOMP | Secure storage, migrations and real-time communication. |
+| **Infrastructure** | Docker, Docker Compose, Nginx | Reproducible deployment and traffic distribution. |
+| **Quality** | Pytest, JUnit, JMeter | Unit, integration and load testing. |
 
 ---
 
-## Estructura del proyecto
+## Project structure
 
 ```text
-proyecto/
-├── apiapplication/       # API principal en Java con Spring Boot
-├── apidjango/            # Servicio de IA y voz en Python (Django + Flask)
-├── appchatmovil/         # Aplicación móvil en React Native / Expo
-├── deploysprojects/      # Docker, Nginx y configuración de despliegue
-├── encrypted/            # Trabajo en curso del módulo de cifrado
-└── README.md             # Este documento
+project/
+├── apiapplication/       # Main API in Java with Spring Boot
+├── apidjango/            # AI and voice service in Python (Django + Flask)
+├── appchatmovil/         # Mobile application in React Native / Expo
+├── deploysprojects/      # Docker, Nginx and deployment configuration
+├── encrypted/            # Work in progress on the encryption module
+└── README.md             # This document
 ```
 
 ---
 
-## Puesta en marcha
+## Getting started
 
-### Lo que necesitas antes de empezar
+### What you need before you start
 
-- **Node.js 18 o superior** con npm, además de Expo CLI.
-- **JDK 17 o superior** y **Maven** para el backend.
-- **Python 3.10 o superior** con pip para el servicio de IA.
-- **PostgreSQL** en ejecución con una base de datos disponible.
-- **FFmpeg**, necesario para procesar los archivos de audio.
-- **Docker** (opcional, pero recomendable) si quieres levantar RabbitMQ sin instalar nada más.
+- **Node.js 18 or higher** with npm, plus Expo CLI.
+- **JDK 17 or higher** and **Maven** for the backend.
+- **Python 3.10 or higher** with pip for the AI service.
+- **PostgreSQL** running with an available database.
+- **FFmpeg**, required to process the audio files.
+- **Docker** (optional, but recommended) if you want to run RabbitMQ without installing anything else.
 
-> La API principal escucha en el puerto **8082** y Django en el **8000**. Si cambias estos valores, recuerda actualizar la configuración de la app móvil.
+> The main API listens on port **8082** and Django on **8000**. If you change these values, remember to update the mobile app configuration.
 
-### 1. Arrancar la aplicación móvil
+### 1. Start the mobile application
 
 ```bash
 cd appchatmovil
@@ -169,11 +169,11 @@ npm install
 npx expo start
 ```
 
-Desde el menú de Expo puedes abrir la app en un emulador, en un dispositivo físico con Expo Go o en el navegador.
+From the Expo menu you can open the app in an emulator, on a physical device with Expo Go or in the browser.
 
-### 2. Arrancar la API principal
+### 2. Start the main API
 
-Antes de iniciar el servicio, revisa la conexión a PostgreSQL en `apiapplication/src/main/resources/application.properties`.
+Before starting the service, check the PostgreSQL connection in `apiapplication/src/main/resources/application.properties`.
 
 ```bash
 cd apiapplication
@@ -181,13 +181,13 @@ mvn clean install
 java -jar target/apiamic-0.0.1-SNAPSHOT.jar
 ```
 
-También puedes ejecutarlo directamente con Maven:
+You can also run it directly with Maven:
 
 ```bash
 mvn spring-boot:run
 ```
 
-### 3. Arrancar el servicio de inteligencia artificial
+### 3. Start the artificial intelligence service
 
 ```bash
 cd apidjango
@@ -195,51 +195,51 @@ venv\Scripts\activate
 python apiconversion/manage.py runserver
 ```
 
-En macOS o Linux, la activación del entorno virtual cambia ligeramente:
+On macOS or Linux, activating the virtual environment is slightly different:
 
 ```bash
 source venv/bin/activate
 ```
 
-Si necesitas el servicio de voz basado en Flask, puedes iniciarlo con `active_service_flask.bat` en Windows o ejecutando `serviceFlaskTTS.py` con Python.
+If you need the Flask-based voice service, you can start it with `active_service_flask.bat` on Windows or by running `serviceFlaskTTS.py` with Python.
 
-### 4. Levantar la mensajería en tiempo real
+### 4. Bring up real-time messaging
 
-RabbitMQ se encarga de distribuir los eventos del chat. La forma más rápida de tenerlo listo es con Docker Compose:
+RabbitMQ is in charge of distributing the chat events. The quickest way to have it ready is with Docker Compose:
 
 ```bash
 cd deploysprojects
 docker compose up -d
 ```
 
-El contenedor habilita los plugins de administración, STOMP y Web-STOMP que necesita la aplicación.
+The container enables the administration, STOMP and Web-STOMP plugins that the application needs.
 
-### ¿Prefieres configurar cada servicio a mano?
+### Would you rather configure each service by hand?
 
-- Instala PostgreSQL y crea una base de datos acorde a la URL definida en `application.properties`.
-- Verifica que las credenciales de usuario y contraseña coincidan con tu instalación local.
-- Instala las dependencias de Python desde `apidjango/apiconversion/requirements.txt` con `pip install -r requirements.txt`.
-- Descarga los modelos de voz de Piper en la carpeta `apidjango/piper` si vas a usar la síntesis local.
-- Comprueba que FFmpeg esté disponible en el `PATH` del sistema.
+- Install PostgreSQL and create a database matching the URL defined in `application.properties`.
+- Make sure the user and password credentials match your local installation.
+- Install the Python dependencies from `apidjango/apiconversion/requirements.txt` with `pip install -r requirements.txt`.
+- Download the Piper voice models into the `apidjango/piper` folder if you are going to use local synthesis.
+- Check that FFmpeg is available in the system `PATH`.
 
 ---
 
-## Pruebas y calidad
+## Testing and quality
 
-La calidad se trabaja en tres frentes:
+Quality is addressed from three angles:
 
-- **Pytest** cubre la lógica del servicio de IA: conversión de audio, traducción y generación de voz.
-- **JUnit** valida los componentes del backend de Spring Boot.
-- **JMeter** mide el comportamiento del sistema bajo carga con escenarios de prueba.
+- **Pytest** covers the logic of the AI service: audio conversion, translation and voice generation.
+- **JUnit** validates the components of the Spring Boot backend.
+- **JMeter** measures how the system behaves under load with test scenarios.
 
-Para ejecutar las pruebas del backend:
+To run the backend tests:
 
 ```bash
 cd apiapplication
 mvn test
 ```
 
-Y para las pruebas del servicio de IA:
+And for the AI service tests:
 
 ```bash
 cd apidjango
@@ -248,28 +248,28 @@ pytest
 
 ---
 
-## Despliegue
+## Deployment
 
-La carpeta `deploysprojects` contiene todo lo necesario para desplegar la plataforma en un servidor:
+The `deploysprojects` folder contains everything needed to deploy the platform on a server:
 
-- Un **Dockerfile** y un **docker-compose.yml** para RabbitMQ.
-- Una configuración de **Nginx** como punto de entrada.
-- El **JAR** de la API principal listo para ejecutarse.
-- La carpeta `completedeploy-vfV1`, que reúne los servicios en una sola composición de Docker.
+- A **Dockerfile** and a **docker-compose.yml** for RabbitMQ.
+- An **Nginx** configuration acting as the entry point.
+- The main API **JAR** ready to run.
+- The `completedeploy-vfV1` folder, which brings the services together in a single Docker composition.
 
-El flujo habitual consiste en compilar el backend con Maven, copiar el JAR a la carpeta de despliegue y levantar los servicios con Docker Compose. Nginx se encarga de redirigir las peticiones y de mantener una única puerta de entrada al sistema.
+The usual flow consists of building the backend with Maven, copying the JAR to the deployment folder and bringing the services up with Docker Compose. Nginx takes care of redirecting the requests and keeping a single entry point to the system.
 
 ---
 
-## Próximas mejoras
+## Upcoming improvements
 
-UniVoice sigue creciendo. Esto es lo que falta por construir:
+UniVoice keeps growing. This is what is still left to build:
 
-- [ ] **Chat grupal:** conversaciones con varias personas, manteniendo la transcripción y la síntesis de voz en cada mensaje.
-- [ ] **Cifrado de extremo a extremo:** Mejora de módulos de cifrado para reforzar la privacidad de las conversaciones.
-- [ ] **Interfaz más intuitiva:** revisión de pantallas y componentes para que la navegación resulte natural desde el primer uso.
-- [ ] **Traducción más precisa:** modelos actualizados que reduzcan la latencia y entiendan mejor el contexto de cada conversación.
-- [ ] **Idiomas en los audios:** ampliar la transcripción y la síntesis de voz a más idiomas, comenzando por los que ya ofrece la interfaz.
+- [ ] **Group chat:** conversations with several people, keeping transcription and speech synthesis on every message.
+- [ ] **End-to-end encryption:** improvement of the encryption modules to strengthen the privacy of the conversations.
+- [ ] **More intuitive interface:** review of screens and components so that navigation feels natural from the very first use.
+- [ ] **More accurate translation:** updated models that reduce latency and understand the context of each conversation better.
+- [ ] **More languages in audio:** extend transcription and speech synthesis to more languages, starting with those already offered by the interface.
 
 ---
 
@@ -277,8 +277,8 @@ UniVoice sigue creciendo. Esto es lo que falta por construir:
 
 <br />
 
-**Hecho con la convicción de que comunicarse es un derecho, no un privilegio.**
+**Made with the conviction that communicating is a right, not a privilege.**
 
-<sub>UniVoice · Proyecto de mensajería accesible</sub>
+<sub>UniVoice · Accessible messaging project</sub>
 
 </div>
